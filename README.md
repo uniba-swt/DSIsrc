@@ -152,5 +152,5 @@ In most cases, the aggregated strand graph for the longest running entry pointer
 2. [DSI: An evidence-based approach to identify dynamic data structures in C programs][2]
 
 
-[1]:[https://sourceforge.net/projects/cil/]
-[2]:[https://doi.org/10.1145/2931037.2931071]
+[1]:https://sourceforge.net/projects/cil/
+[2]:https://doi.org/10.1145/2931037.2931071
