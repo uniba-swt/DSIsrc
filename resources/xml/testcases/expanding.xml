@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+
+	<event id="01">
+		<operation-transition>
+			<entry>
+				<id>001</id>
+				<name>Some entry text</name>
+				<arguments>Arguments</arguments>
+				<comment>Comments</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="02">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+
+	<event id="03">
+		<block-transition>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+
+	<event id="04">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<lvalue-list>
+				<lvalue rank="1">
+					<address>0x0108</address>
+					<type>structsmall</type>
+					<codeFragment>a</codeFragment>
+				</lvalue>
+				<lvalue rank="2">
+					<address>0x0108</address>
+					<type>structA*</type>
+					<codeFragment>a.ptr</codeFragment>
+				</lvalue>
+			</lvalue-list>
+			<rvalue>
+				<content>0x0160f250</content>
+				<type>structA*</type>
+				<codeFragment>(structA*)malloc(sizeof(structA))</codeFragment>
+			</rvalue>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+
+	<event id="05">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<lvalue-list>
+				<lvalue rank="1">
+					<address>0x0100</address>
+					<type>structbig</type>
+					<codeFragment>b</codeFragment>
+				</lvalue>
+				<lvalue rank="2">
+					<address>0x0100</address>
+					<type>structA*</type>
+					<codeFragment>ptr</codeFragment>
+				</lvalue>
+			</lvalue-list>
+			<rvalue>
+				<content>0x0160f2b0</content>
+				<type>structA*</type>
+				<codeFragment>(structA*)malloc(sizeof(structA))</codeFragment>
+			</rvalue>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+</events>

@@ -1,0 +1,80 @@
+<trace name="cell-resize">
+	<subTrace id="0" absId="1" eIdxStart="3" eIdxEnd="13" fIdxStart="1" fIdxEnd="10">
+		<feature eIdx="3" fIdx="1">N</feature><!--feature: newlyCreated-->
+		<feature eIdx="4" fIdx="2">-</feature><!--feature: minusOne-->
+		<feature eIdx="5" fIdx="3">+</feature><!--feature: plusOne-->
+		<feature eIdx="6" fIdx="4">x</feature><!--feature: noChange-->
+		<feature eIdx="7" fIdx="5">x</feature><!--feature: noChange-->
+		<feature eIdx="8" fIdx="6">x</feature><!--feature: noChange-->
+		<feature eIdx="9" fIdx="7">x</feature><!--feature: noChange-->
+		<feature eIdx="10" fIdx="8">x</feature><!--feature: noChange-->
+		<feature eIdx="11" fIdx="9">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="12" fIdx="9"                feature: btExitNoChange-->
+		<feature eIdx="13" fIdx="10">v</feature><!--feature: vlsNoChange-->
+	</subTrace>
+	<subTrace id="1" absId="1" eIdxStart="5" eIdxEnd="13" fIdxStart="3" fIdxEnd="10">
+		<feature eIdx="5" fIdx="3">N</feature><!--feature: newlyCreated-->
+		<feature eIdx="6" fIdx="4">x</feature><!--feature: noChange-->
+		<feature eIdx="7" fIdx="5">x</feature><!--feature: noChange-->
+		<feature eIdx="8" fIdx="6">x</feature><!--feature: noChange-->
+		<feature eIdx="9" fIdx="7">x</feature><!--feature: noChange-->
+		<feature eIdx="10" fIdx="8">x</feature><!--feature: noChange-->
+		<feature eIdx="11" fIdx="9">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="12" fIdx="9"                feature: btExitNoChange-->
+		<feature eIdx="13" fIdx="10">v</feature><!--feature: vlsNoChange-->
+	</subTrace>
+	<subTrace id="2" absId="2" eIdxStart="6" eIdxEnd="13" fIdxStart="4" fIdxEnd="10">
+		<feature eIdx="6" fIdx="4">N</feature><!--feature: newlyCreated-->
+		<feature eIdx="7" fIdx="5">-</feature><!--feature: minusOne-->
+		<feature eIdx="8" fIdx="6">x</feature><!--feature: noChange-->
+		<feature eIdx="9" fIdx="7">x</feature><!--feature: noChange-->
+		<feature eIdx="10" fIdx="8">x</feature><!--feature: noChange-->
+		<feature eIdx="11" fIdx="9">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="12" fIdx="9"                feature: btExitNoChange-->
+		<feature eIdx="13" fIdx="10">v</feature><!--feature: vlsNoChange-->
+	</subTrace>
+	<subTrace id="3" absId="3" eIdxStart="9" eIdxEnd="16" fIdxStart="7" fIdxEnd="11">
+		<feature eIdx="9" fIdx="7">N</feature><!--feature: newlyCreated-->
+		<feature eIdx="10" fIdx="8">x</feature><!--feature: noChange-->
+		<feature eIdx="11" fIdx="9">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="12" fIdx="9"                feature: btExitNoChange-->
+		<feature eIdx="13" fIdx="10">v</feature><!--feature: vlsNoChange-->
+		<feature eIdx="14" fIdx="11">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="15" fIdx="11"                feature: noChange-->
+		<!--s  : eIdx="16" fIdx="11"                feature: noChange-->
+	</subTrace>
+	<subTrace id="4" absId="4" eIdxStart="10" eIdxEnd="16" fIdxStart="8" fIdxEnd="11">
+		<feature eIdx="10" fIdx="8">N</feature><!--feature: newlyCreated-->
+		<feature eIdx="11" fIdx="9">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="12" fIdx="9"                feature: btExitNoChange-->
+		<feature eIdx="13" fIdx="10">v</feature><!--feature: vlsNoChange-->
+		<feature eIdx="14" fIdx="11">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="15" fIdx="11"                feature: noChange-->
+		<!--s  : eIdx="16" fIdx="11"                feature: noChange-->
+	</subTrace>
+	<subTrace id="5" absId="3" eIdxStart="11" eIdxEnd="16" fIdxStart="9" fIdxEnd="11">
+		<feature eIdx="11" fIdx="9">N</feature><!--feature: newlyCreated-->
+		<!--s  : eIdx="12" fIdx="9"                feature: btExitNoChange-->
+		<feature eIdx="13" fIdx="10">v</feature><!--feature: vlsNoChange-->
+		<feature eIdx="14" fIdx="11">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="15" fIdx="11"                feature: noChange-->
+		<!--s  : eIdx="16" fIdx="11"                feature: noChange-->
+	</subTrace>
+	<subTrace id="6" absId="5" eIdxStart="11" eIdxEnd="16" fIdxStart="9" fIdxEnd="11">
+		<feature eIdx="11" fIdx="9">N</feature><!--feature: newlyCreated-->
+		<!--s  : eIdx="12" fIdx="9"                feature: btExitNoChange-->
+		<feature eIdx="13" fIdx="10">v</feature><!--feature: vlsNoChange-->
+		<feature eIdx="14" fIdx="11">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="15" fIdx="11"                feature: noChange-->
+		<!--s  : eIdx="16" fIdx="11"                feature: noChange-->
+	</subTrace>
+	<subTrace id="7" absId="6" eIdxStart="11" eIdxEnd="16" fIdxStart="9" fIdxEnd="11">
+		<feature eIdx="11" fIdx="9">N</feature><!--feature: newlyCreated-->
+		<!--s  : eIdx="12" fIdx="9"                feature: btExitNoChange-->
+		<feature eIdx="13" fIdx="10">v</feature><!--feature: vlsNoChange-->
+		<feature eIdx="14" fIdx="11">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="15" fIdx="11"                feature: noChange-->
+		<!--s  : eIdx="16" fIdx="11"                feature: noChange-->
+	</subTrace>
+</trace>
+

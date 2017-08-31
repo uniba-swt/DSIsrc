@@ -1,0 +1,49 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>ElementType</sugaredType>
+		<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="weiss-stack-cut1.c" line="7" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>PtrToNode</sugaredType>
+		<desugaredType>struct Weiss_SLL_Node *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="weiss-stack-cut1.c" line="8" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>Stack</sugaredType>
+		<desugaredType>struct Weiss_SLL_Node *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="weiss-stack-cut1.c" line="9" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>Weiss_SLL_Node</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="weiss-stack-cut1.c" line="11" col="0"/>
+		<fields>
+			<field index="0">
+				<name>Element</name>
+				<sugaredType>ElementType</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="weiss-stack-cut1.c" line="12" col="0"/>
+			</field>
+			<field index="1">
+				<name>Next</name>
+				<sugaredType>PtrToNode</sugaredType>
+				<desugaredType>struct Weiss_SLL_Node *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="weiss-stack-cut1.c" line="13" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

@@ -1,0 +1,112 @@
+    <strand-connection id="1580" beginEventTimeStep="73" ceaseEventTimeStep="73">
+      <kind>
+(1)        <overlay leftStrandID=11 paramX=/>
+      </kind>
+(2) (deleted content)
+      <epochs>
+        <epoch beginEventTimeStep="73" ceaseEventTimeStep="73">
+          <cell-pairs leftStrandId="11" rightStrandId="13">
+            <cell-pair leftCellId="1" rightCellId="1"/>
+            <cell-pair leftCellId="2" rightCellId="2"/>
+            <cell-pair leftCellId="6" rightCellId="6"/>
+            <cell-pair leftCellId="10" rightCellId="10"/>
+          </cell-pairs>
+			<local-label>
+  .            <dll evidence="12">
+  .              <fwd strandId="11"/>
+  .              <rev strandId="13"/>
+  .            </dll>
+			</local-label>
+
+        </epoch>
+      </epochs>
+    </strand-connection>
+
+
+----------------------
+
+    <folded-strand-connection-set id="1580" beginEventTimeStep="73" ceaseEventTimeStep="73">
+      <kind>
+(1)        <overlay/>
+      </kind>
+      <strand-connections>
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id>1580</strand-connection-id>
+(2)          <id>1959</id>
+(mapping info)
+      </strand-connections>
+      <labels>
+        <dll evidence="12">
+          <fwd fsgStrandSetId="15"/>
+          <rev fsgStrandSetId="17"/>
+        </dll>
+        (3) (write out all folded labels: )
+        <!-- ccNoClassification -->
+      </labels>
+    </folded-strand-connection-set>
+
+----------------------
+
+    <agg-strand-connection-set id="7" entry-point-id="0">
+      <kind>
+(1)        <overlay/>
+      </kind>
+
+      <strand-connections>
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id>415</strand-connection-id>
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id>2090</strand-connection-id>
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id mapping = {2:11, 3:13}>1580</strand-connection-id>
+        <!-- source: ,11 target: ,13-->
+        <!-- skipping edge.id: 445 because this one is not used in strand-connections. -->
+        <!-- source: ,11 target: ,13-->
+        <!-- just example: <strand-connection id="2226" agg-strand-set-id1="2" strand-id1="11" ></strand-connection-id> -->
+        <strand-connection>
+(2)          <id>1959</id>
+(mapping info)
+			 <mappings>
+			 	<mapping>
+			 	<agg-strand-set-id>x</agg-strand-set-id>
+			 	<strand-id>y</strand-id>
+			 	<mapping>
+
+			 	<mapping>
+			 	<agg-strand-set-id>u</agg-strand-set-id>
+			 	<strand-id>v</strand-id>
+			 	<mapping>
+
+			 </mappings>
+          </strand-connection>
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id>379</strand-connection-id>
+        <!-- skipping edge.id: 863 because this one is not used in strand-connections. -->
+        <!-- skipping edge.id: 1024 because this one is not used in strand-connections. -->
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id>938</strand-connection-id>
+        <!-- skipping edge.id: 643 because this one is not used in strand-connections. -->
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id>1104</strand-connection-id>
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id>702</strand-connection-id>
+        <!-- skipping edge.id: 1685 because this one is not used in strand-connections. -->
+        <!-- skipping edge.id: 473 because this one is not used in strand-connections. -->
+        <!-- skipping edge.id: 1504 because this one is not used in strand-connections. -->
+        <!-- skipping edge.id: 611 because this one is not used in strand-connections. -->
+        <!-- source: ,11 target: ,13-->
+        <strand-connection-id>2357</strand-connection-id>
+      </strand-connections>
+      <labels>
+        <dll evidence="216">
+          <fwd aggStrandSetId="2"/>
+          <rev aggStrandSetId="3"/>
+        </dll>
+(3)        <dll evidence="216">
+          <rev aggStrandSetId="2"/>
+          <fwd aggStrandSetId="3"/>
+                  (3) (write out all agg labels)
+        </dll>
+        <!-- ccNoClassification -->
+      </labels>
+    </agg-strand-connection-set>

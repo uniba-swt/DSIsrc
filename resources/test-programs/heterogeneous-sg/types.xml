@@ -1,0 +1,608 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>type_1</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="5" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="6" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_2</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="8" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="9" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_3</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="11" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="12" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_4</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="14" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="15" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_5</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="17" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="18" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_6</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="20" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="21" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_7</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="23" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="24" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_8</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="26" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="27" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_9</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="29" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="30" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_10</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="32" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="33" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_11</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="35" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="36" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_12</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="38" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="39" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_13</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="41" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="42" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_14</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="44" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="45" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_15</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="47" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="48" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_16</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="50" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="51" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_17</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="53" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="54" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_18</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="56" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="57" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_19</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="59" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="60" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_20</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="62" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="63" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_21</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="65" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="66" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_22</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="68" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="69" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_23</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="71" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="72" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_24</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="74" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="75" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_25</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="77" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="78" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_26</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="80" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="81" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_27</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="83" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="84" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_28</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="86" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="87" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_29</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="89" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="90" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_30</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="92" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="93" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_31</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="95" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="96" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_32</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="98" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="99" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_33</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="101" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="102" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_34</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="104" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="105" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_35</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="107" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="108" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_36</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="110" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="111" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_37</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="113" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="114" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_38</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="116" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="117" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_39</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="119" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="120" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>type_40</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="heterogeneous-sg.c" line="122" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="heterogeneous-sg.c" line="123" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

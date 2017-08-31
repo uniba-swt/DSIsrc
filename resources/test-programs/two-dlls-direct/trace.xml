@@ -1,0 +1,3946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="1">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="2">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>x</name>
+      <type>struct T *</type>
+      <address>0x7ffc293bb710</address>
+    </variable-enter-scope>
+  </event>
+  <event id="3">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>y</name>
+      <type>struct T *</type>
+      <address>0x7ffc293bb718</address>
+    </variable-enter-scope>
+  </event>
+  <event id="4">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp</name>
+      <type>void *</type>
+      <address>0x7ffc293bb720</address>
+    </variable-enter-scope>
+  </event>
+  <event id="5">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp___0</name>
+      <type>void *</type>
+      <address>0x7ffc293bb728</address>
+    </variable-enter-scope>
+  </event>
+  <event id="6">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="7">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="8">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>24</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="9">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>26</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb720</address>
+        <type>void *</type>
+        <codeFragment>tmp</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73250</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="10">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>26</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73250</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="11">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>27</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73250</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73250</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="12">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>28</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73250</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73258</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="13">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73250</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73260</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="14">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73250</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73268</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="15">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="16">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="17">
+    <block-transition>
+      <sourceLocation>
+        <file>verifier-builtins.h</file>
+        <line>115</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="18">
+    <block-transition>
+      <sourceLocation>
+        <file>verifier-builtins.h</file>
+        <line>116</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="19">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="20">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="21">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="22">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="23">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="24">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="25">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="26">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="27">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="28">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="29">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="30">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73280</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73280</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73250</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="31">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73280</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73288</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73250</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="32">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73250</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73260</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="33">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73250</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73268</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="34">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73280</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73290</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="35">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73280</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73298</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="36">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="37">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="38">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="39">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="40">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="41">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="42">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="43">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="44">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="45">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="46">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="47">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="48">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="49">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732b0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732b0</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="50">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732b0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732b8</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="51">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73280</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73290</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="52">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73280</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73298</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="53">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732b0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732c0</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="54">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732b0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732c8</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="55">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="56">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="57">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="58">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="59">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="60">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="61">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="62">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="63">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="64">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="65">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="66">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="67">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="68">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732e0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732e0</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="69">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732e0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732e8</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="70">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732b0</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732c0</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="71">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732b0</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732c8</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="72">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732e0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732f0</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="73">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732e0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732f8</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="74">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="75">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="76">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="77">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="78">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="79">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="80">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="81">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="82">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="83">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="84">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="85">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="86">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="87">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73310</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73310</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="88">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73310</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73318</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="89">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732e0</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732f0</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="90">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa732e0</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa732f8</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="91">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73310</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73320</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="92">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73310</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73328</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="93">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="94">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="95">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="96">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="97">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="98">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="99">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="100">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="101">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="102">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="103">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="104">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="105">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="106">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73340</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73340</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="107">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73340</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73348</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="108">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73310</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73320</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="109">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73310</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73328</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="110">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73340</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73350</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="111">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73340</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73358</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="112">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="113">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="114">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="115">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="116">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="117">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="118">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="119">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="120">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="121">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="122">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="123">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="124">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="125">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73370</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73370</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="126">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73370</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73378</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="127">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73340</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73350</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="128">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73340</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73358</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="129">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73370</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73380</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="130">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73370</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73388</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="131">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="132">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="133">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="134">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="135">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="136">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="137">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="138">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="139">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="140">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="141">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="142">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="143">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="144">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733a0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733a0</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="145">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733a0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733a8</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="146">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73370</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73380</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="147">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73370</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73388</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="148">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733a0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733b0</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="149">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733a0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733b8</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="150">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="151">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="152">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="153">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="154">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="155">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="156">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="157">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="158">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="159">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="160">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="161">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="162">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="163">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733d0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733d0</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="164">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733d0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733d8</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="165">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733a0</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733b0</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="166">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733a0</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733b8</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="167">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733d0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733e0</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="168">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733d0</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733e8</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="169">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="170">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="171">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="172">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="173">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="174">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="175">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="176">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="177">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="178">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="179">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="180">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="181">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="182">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73400</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73400</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="183">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73400</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73408</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="184">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733d0</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733e0</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="185">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa733d0</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa733e8</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="186">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73400</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73410</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="187">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73400</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73418</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="188">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="189">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="190">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="191">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="192">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="193">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="194">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="195">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="196">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="197">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="198">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="199">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb728</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73430</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(struct T )</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="200">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73430</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="201">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73430</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73430</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="202">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73430</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73438</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;next2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="203">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73400</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73410</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73430</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="204">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73400</address>
+        <type>struct T</type>
+        <codeFragment>*x</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73418</address>
+        <type>struct T *</type>
+        <codeFragment>x-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73430</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="205">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73430</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73440</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev1</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="206">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>39</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0xa73430</address>
+        <type>struct T</type>
+        <codeFragment>*y</codeFragment>
+      </context>
+      <lval>
+        <address>0xa73448</address>
+        <type>struct T *</type>
+        <codeFragment>y-&gt;prev2</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>(struct T *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="207">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73430</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="208">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="209">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="210">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="211">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="212">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="213">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="214">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="215">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="216">
+    <comment>Loop-iteration-start_two-dlls-direct.c_32</comment>
+  </event>
+  <event id="217">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="218">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="219">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="220">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="221">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa73430</argValue>
+    </free>
+  </event>
+  <event id="222">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73400</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="223">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="224">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="225">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="226">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="227">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="228">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa73400</argValue>
+    </free>
+  </event>
+  <event id="229">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733d0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="230">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="231">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="232">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="233">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="234">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="235">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa733d0</argValue>
+    </free>
+  </event>
+  <event id="236">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa733a0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="237">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="238">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="239">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="240">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="241">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="242">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa733a0</argValue>
+    </free>
+  </event>
+  <event id="243">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73370</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="244">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="245">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="246">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="247">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="248">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="249">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa73370</argValue>
+    </free>
+  </event>
+  <event id="250">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73340</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="251">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="252">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="253">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="254">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="255">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="256">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa73340</argValue>
+    </free>
+  </event>
+  <event id="257">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73310</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="258">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="259">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="260">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="261">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="262">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="263">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa73310</argValue>
+    </free>
+  </event>
+  <event id="264">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732e0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="265">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="266">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="267">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="268">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="269">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="270">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa732e0</argValue>
+    </free>
+  </event>
+  <event id="271">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa732b0</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="272">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="273">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="274">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="275">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="276">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="277">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa732b0</argValue>
+    </free>
+  </event>
+  <event id="278">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73280</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="279">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="280">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="281">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="282">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="283">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73250</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="284">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa73280</argValue>
+    </free>
+  </event>
+  <event id="285">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>0xa73250</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="286">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="287">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="288">
+    <comment>Loop-iteration-start_two-dlls-direct.c_43</comment>
+  </event>
+  <event id="289">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="290">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb718</address>
+        <type>struct T *</type>
+        <codeFragment>y</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>x-&gt;next1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="291">
+    <free>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <argCodeFragment>(void *)x</argCodeFragment>
+      <argValue>0xa73250</argValue>
+    </free>
+  </event>
+  <event id="292">
+    <memory-write>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffc293bb710</address>
+        <type>struct T *</type>
+        <codeFragment>x</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct T</lvalDerefType>
+        <rhsCodeFragment>y</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="293">
+    <block-transition>
+      <sourceLocation>
+        <file>two-dlls-direct.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="294">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="295">
+    <comment>Function Exited</comment>
+  </event>
+</events>

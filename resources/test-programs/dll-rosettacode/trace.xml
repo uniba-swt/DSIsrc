@@ -1,0 +1,2927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>lista</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f930</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>m</name>
+			<type>struct IntNode *</type>
+			<address>0x7ffc6cb3f938</address>
+		</variable-enter-scope>
+	</event>
+	<event id="4">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffc6cb3f940</address>
+		</variable-enter-scope>
+	</event>
+	<event id="5">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___1</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f948</address>
+		</variable-enter-scope>
+	</event>
+	<event id="6">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="7">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tl</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="8">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="9">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="10">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f8e8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct List )</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="11">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f8e0</address>
+				<type>struct List *</type>
+				<codeFragment>tl</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19250</content>
+				<lvalDerefType>struct List</lvalDerefType>
+				<rhsCodeFragment>(LIST )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="12">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="13">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>86</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="14">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>86</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*tl</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>tl->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19250</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; tl->head)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="15">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>87</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*tl</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19258</address>
+				<type>struct MNode *</type>
+				<codeFragment>tl->tail</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(struct MNode *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="16">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>88</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*tl</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19250</address>
+				<type>struct MNode *</type>
+				<codeFragment>tl->head</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; tl->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="17">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>88</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="18">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="19">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>174</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="20">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>174</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f930</address>
+				<type>struct List *</type>
+				<codeFragment>lista</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19250</content>
+				<lvalDerefType>struct List</lvalDerefType>
+				<rhsCodeFragment>newList</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="21">
+		<variable-left-scope>
+			<name>tl</name>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="22">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="23">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="24">
+		<comment>Loop-iteration-start_dll-rosettacode.c_177</comment>
+	</event>
+	<event id="25">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="26">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f940</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct IntNode )</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="27">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="28">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="29">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="30">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>183</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="31">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="32">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="33">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>n</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="34">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="35">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19270</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19270</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="36">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19270</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19278</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19250</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="37">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19250</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="38">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="39">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="40">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="41">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="42">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="43">
+		<variable-left-scope>
+			<name>n</name>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="44">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="45">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="46">
+		<comment>Loop-iteration-start_dll-rosettacode.c_177</comment>
+	</event>
+	<event id="47">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="48">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f940</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct IntNode )</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="49">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="50">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="51">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="52">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>183</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="53">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="54">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="55">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>n</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="56">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="57">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19290</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19290</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="58">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19290</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19298</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="59">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19270</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19270</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="60">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="61">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="62">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="63">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="64">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="65">
+		<variable-left-scope>
+			<name>n</name>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="66">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="67">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="68">
+		<comment>Loop-iteration-start_dll-rosettacode.c_177</comment>
+	</event>
+	<event id="69">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="70">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f940</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct IntNode )</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="71">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="72">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="73">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="74">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>183</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="75">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="76">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="77">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>n</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="78">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="79">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192b0</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192b0</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="80">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192b0</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192b8</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="81">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19290</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19290</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="82">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="83">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="84">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="85">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="86">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="87">
+		<variable-left-scope>
+			<name>n</name>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="88">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="89">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="90">
+		<comment>Loop-iteration-start_dll-rosettacode.c_177</comment>
+	</event>
+	<event id="91">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="92">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f940</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct IntNode )</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="93">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="94">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="95">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="96">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>183</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="97">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="98">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="99">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>n</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="100">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="101">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192d0</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192d0</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="102">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192d0</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192d8</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="103">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192b0</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192b0</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="104">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="105">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="106">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="107">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="108">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="109">
+		<variable-left-scope>
+			<name>n</name>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="110">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="111">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="112">
+		<comment>Loop-iteration-start_dll-rosettacode.c_177</comment>
+	</event>
+	<event id="113">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="114">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f940</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct IntNode )</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="115">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192f0</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="116">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>179</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="117">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="118">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>183</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="119">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="120">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="121">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>n</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="122">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="123">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>112</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192f0</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192f0</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="124">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192f0</address>
+				<type>struct MNode</type>
+				<codeFragment>*n</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192f8</address>
+				<type>struct MNode *</type>
+				<codeFragment>n->pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="125">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192d0</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192d0</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192f0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="126">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192f0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>n</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="127">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="128">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="129">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="130">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="131">
+		<variable-left-scope>
+			<name>n</name>
+			<address>0x7ffc6cb3f8e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="132">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="133">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="134">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="135">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="136">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="137">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="138">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="139">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="140">
+		<comment>Loop-iteration-start_dll-rosettacode.c_186</comment>
+	</event>
+	<event id="141">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="142">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="143">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>t</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="144">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="145">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f8e8</address>
+				<type>struct MNode *</type>
+				<codeFragment>t</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192f0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="146">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(l->tail_pred)->pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="147">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192d0</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192d0</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="148">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="149">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="150">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="151">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f948</address>
+				<type>struct MNode *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192f0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>remTail</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="152">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="153">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="154">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192f0</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="155">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>189</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="156">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="157">
+		<free>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)m</argCodeFragment>
+			<argValue>0x1d192f0</argValue>
+		</free>
+	</event>
+	<event id="158">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="159">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="160">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="161">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="162">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="163">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="164">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="165">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="166">
+		<comment>Loop-iteration-start_dll-rosettacode.c_186</comment>
+	</event>
+	<event id="167">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="168">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="169">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>t</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="170">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="171">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f8e8</address>
+				<type>struct MNode *</type>
+				<codeFragment>t</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="172">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(l->tail_pred)->pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="173">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d192b0</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d192b0</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="174">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="175">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="176">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="177">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f948</address>
+				<type>struct MNode *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>remTail</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="178">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="179">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="180">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192d0</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="181">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>189</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="182">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="183">
+		<free>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)m</argCodeFragment>
+			<argValue>0x1d192d0</argValue>
+		</free>
+	</event>
+	<event id="184">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="185">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="186">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="187">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="188">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="189">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="190">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="191">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="192">
+		<comment>Loop-iteration-start_dll-rosettacode.c_186</comment>
+	</event>
+	<event id="193">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="194">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="195">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>t</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="196">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="197">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f8e8</address>
+				<type>struct MNode *</type>
+				<codeFragment>t</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="198">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(l->tail_pred)->pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="199">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19290</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19290</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="200">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="201">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="202">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="203">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f948</address>
+				<type>struct MNode *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>remTail</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="204">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="205">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="206">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d192b0</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="207">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>189</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="208">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="209">
+		<free>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)m</argCodeFragment>
+			<argValue>0x1d192b0</argValue>
+		</free>
+	</event>
+	<event id="210">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="211">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="212">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="213">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="214">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="215">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="216">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="217">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="218">
+		<comment>Loop-iteration-start_dll-rosettacode.c_186</comment>
+	</event>
+	<event id="219">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="220">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="221">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>t</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="222">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="223">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f8e8</address>
+				<type>struct MNode *</type>
+				<codeFragment>t</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="224">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(l->tail_pred)->pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="225">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19270</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19270</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="226">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="227">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="228">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="229">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f948</address>
+				<type>struct MNode *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>remTail</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="230">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="231">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="232">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19290</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="233">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>189</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="234">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="235">
+		<free>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)m</argCodeFragment>
+			<argValue>0x1d19290</argValue>
+		</free>
+	</event>
+	<event id="236">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="237">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="238">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="239">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="240">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="241">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="242">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="243">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="244">
+		<comment>Loop-iteration-start_dll-rosettacode.c_186</comment>
+	</event>
+	<event id="245">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="246">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="247">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>t</name>
+			<type>NODE</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="248">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="249">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f8e8</address>
+				<type>struct MNode *</type>
+				<codeFragment>t</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>l->tail_pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="250">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct List</type>
+				<codeFragment>*l</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19260</address>
+				<type>struct MNode *</type>
+				<codeFragment>l->tail_pred</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19250</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(l->tail_pred)->pred</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="251">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1d19250</address>
+				<type>struct MNode</type>
+				<codeFragment>*(l->tail_pred)</codeFragment>
+			</context>
+			<lval>
+				<address>0x1d19250</address>
+				<type>struct MNode *</type>
+				<codeFragment>(l->tail_pred)->succ</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19258</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>(NODE )(&amp; l->tail)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="252">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="253">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="254">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="255">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f948</address>
+				<type>struct MNode *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>struct MNode</lvalDerefType>
+				<rhsCodeFragment>remTail</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="256">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="257">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="258">
+		<memory-write>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>188</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffc6cb3f938</address>
+				<type>struct IntNode *</type>
+				<codeFragment>m</codeFragment>
+			</lval>
+			<content>
+				<content>0x1d19270</content>
+				<lvalDerefType>struct IntNode</lvalDerefType>
+				<rhsCodeFragment>(struct IntNode *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="259">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>189</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="260">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="261">
+		<free>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)m</argCodeFragment>
+			<argValue>0x1d19270</argValue>
+		</free>
+	</event>
+	<event id="262">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>190</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="263">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="264">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="265">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>l</name>
+			<type>LIST</type>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="266">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="267">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="268">
+		<variable-left-scope>
+			<name>l</name>
+			<address>0x7ffc6cb3f8e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="269">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="270">
+		<comment>Loop-iteration-start_dll-rosettacode.c_186</comment>
+	</event>
+	<event id="271">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="272">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="273">
+		<free>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>192</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)lista</argCodeFragment>
+			<argValue>0x1d19250</argValue>
+		</free>
+	</event>
+	<event id="274">
+		<block-transition>
+			<sourceLocation>
+				<file>dll-rosettacode.c</file>
+				<line>192</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="275">
+		<comment>Function Exited</comment>
+	</event>
+</events>

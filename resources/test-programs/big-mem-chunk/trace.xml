@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>argv</name>
+			<type>char **</type>
+			<address>0x7ffedca6ad40</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>mem</name>
+			<type>struct big_mem_chunk</type>
+			<address>0x7ffedca6ad60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="4">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>iter</name>
+			<type>struct sll *</type>
+			<address>0x7ffedca6ad58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="5">
+		<block-transition>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>29</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="6">
+		<memory-write>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>29</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7ffedca6ad60</address>
+				<type>struct big_mem_chunk</type>
+				<codeFragment>mem</codeFragment>
+			</context>
+			<lval>
+				<address>0x7ffedca6ad60</address>
+				<type>struct sll *</type>
+				<codeFragment>mem.sll_elem_01.next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7ffedca6ad80</content>
+				<lvalDerefType>struct sll</lvalDerefType>
+				<rhsCodeFragment>&amp; mem.sll_elem_02</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="7">
+		<memory-write>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>32</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7ffedca6ad60</address>
+				<type>struct big_mem_chunk</type>
+				<codeFragment>mem</codeFragment>
+			</context>
+			<lval>
+				<address>0x7ffedca6ad68</address>
+				<type>struct child *</type>
+				<codeFragment>mem.sll_elem_01.child</codeFragment>
+			</lval>
+			<content>
+				<content>0x7ffedca6ad70</content>
+				<lvalDerefType>struct child</lvalDerefType>
+				<rhsCodeFragment>&amp; mem.first_child_01</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="8">
+		<memory-write>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>34</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7ffedca6ad60</address>
+				<type>struct big_mem_chunk</type>
+				<codeFragment>mem</codeFragment>
+			</context>
+			<lval>
+				<address>0x7ffedca6ad70</address>
+				<type>struct child *</type>
+				<codeFragment>mem.first_child_01.next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7ffedca6ad78</content>
+				<lvalDerefType>struct child</lvalDerefType>
+				<rhsCodeFragment>&amp; mem.first_child_02</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="9">
+		<memory-write>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>37</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7ffedca6ad60</address>
+				<type>struct big_mem_chunk</type>
+				<codeFragment>mem</codeFragment>
+			</context>
+			<lval>
+				<address>0x7ffedca6ad88</address>
+				<type>struct child *</type>
+				<codeFragment>mem.sll_elem_02.child</codeFragment>
+			</lval>
+			<content>
+				<content>0x7ffedca6ad90</content>
+				<lvalDerefType>struct child</lvalDerefType>
+				<rhsCodeFragment>&amp; mem.second_child_01</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="10">
+		<memory-write>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7ffedca6ad60</address>
+				<type>struct big_mem_chunk</type>
+				<codeFragment>mem</codeFragment>
+			</context>
+			<lval>
+				<address>0x7ffedca6ad90</address>
+				<type>struct child *</type>
+				<codeFragment>mem.second_child_01.next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7ffedca6ad98</content>
+				<lvalDerefType>struct child</lvalDerefType>
+				<rhsCodeFragment>&amp; mem.second_child_02</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="11">
+		<memory-write>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>42</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffedca6ad58</address>
+				<type>struct sll *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x7ffedca6ad60</content>
+				<lvalDerefType>struct sll</lvalDerefType>
+				<rhsCodeFragment>&amp; mem.sll_elem_01</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="12">
+		<memory-write>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffedca6ad58</address>
+				<type>struct sll *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x7ffedca6ad80</content>
+				<lvalDerefType>struct sll</lvalDerefType>
+				<rhsCodeFragment>iter->next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="13">
+		<block-transition>
+			<sourceLocation>
+				<file>big-mem-chunk.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="14">
+		<comment>Function Exited</comment>
+	</event>
+</events>

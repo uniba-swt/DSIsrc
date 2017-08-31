@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<types arch="64">
+  <alias>
+    <sugaredType>size_t</sugaredType>
+    <desugaredType>unsigned long</desugaredType>
+    <sizeInBits>64</sizeInBits>
+    <location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+  </alias>
+  <compound mode="struct">
+    <tagName>child</tagName>
+    <sizeInBytes>16</sizeInBytes>
+    <location file="sll-with-slls.c" line="6" col="0"/>
+    <fields>
+      <field index="0">
+        <name>payload</name>
+        <sugaredType>int</sugaredType>
+        <desugaredType>int</desugaredType>
+        <sizeInBits>32</sizeInBits>
+        <offsetInBytes>0</offsetInBytes>
+        <location file="sll-with-slls.c" line="7" col="0"/>
+      </field>
+      <field index="1">
+        <name>next</name>
+        <sugaredType>struct child *</sugaredType>
+        <desugaredType>struct child *</desugaredType>
+        <sizeInBits>64</sizeInBits>
+        <offsetInBytes>8</offsetInBytes>
+        <location file="sll-with-slls.c" line="8" col="0"/>
+      </field>
+    </fields>
+  </compound>
+  <compound mode="struct">
+    <tagName>parent</tagName>
+    <sizeInBytes>24</sizeInBytes>
+    <location file="sll-with-slls.c" line="11" col="0"/>
+    <fields>
+      <field index="0">
+        <name>next</name>
+        <sugaredType>struct parent *</sugaredType>
+        <desugaredType>struct parent *</desugaredType>
+        <sizeInBits>64</sizeInBits>
+        <offsetInBytes>0</offsetInBytes>
+        <location file="sll-with-slls.c" line="12" col="0"/>
+      </field>
+      <field index="1">
+        <name>child</name>
+        <sugaredType>struct child</sugaredType>
+        <desugaredType>struct child</desugaredType>
+        <sizeInBits>128</sizeInBits>
+        <offsetInBytes>8</offsetInBytes>
+        <location file="sll-with-slls.c" line="13" col="0"/>
+      </field>
+    </fields>
+  </compound>
+</types>

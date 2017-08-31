@@ -1,0 +1,85 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>list_head</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="dll-with-two-dll-children.c" line="8" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct list_head *</sugaredType>
+				<desugaredType>struct list_head *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="dll-with-two-dll-children.c" line="9" col="0"/>
+			</field>
+			<field index="1">
+				<name>prev</name>
+				<sugaredType>struct list_head *</sugaredType>
+				<desugaredType>struct list_head *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="dll-with-two-dll-children.c" line="9" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>top_list</tagName>
+		<sizeInBytes>48</sizeInBytes>
+		<location file="dll-with-two-dll-children.c" line="59" col="0"/>
+		<fields>
+			<field index="0">
+				<name>link</name>
+				<sugaredType>struct list_head</sugaredType>
+				<desugaredType>struct list_head</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="dll-with-two-dll-children.c" line="60" col="0"/>
+			</field>
+			<field index="1">
+				<name>sub1</name>
+				<sugaredType>struct list_head</sugaredType>
+				<desugaredType>struct list_head</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="dll-with-two-dll-children.c" line="61" col="0"/>
+			</field>
+			<field index="2">
+				<name>sub2</name>
+				<sugaredType>struct list_head</sugaredType>
+				<desugaredType>struct list_head</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>32</offsetInBytes>
+				<location file="dll-with-two-dll-children.c" line="62" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>sub_list</tagName>
+		<sizeInBytes>24</sizeInBytes>
+		<location file="dll-with-two-dll-children.c" line="65" col="0"/>
+		<fields>
+			<field index="0">
+				<name>number</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="dll-with-two-dll-children.c" line="66" col="0"/>
+			</field>
+			<field index="1">
+				<name>link</name>
+				<sugaredType>struct list_head</sugaredType>
+				<desugaredType>struct list_head</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="dll-with-two-dll-children.c" line="67" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

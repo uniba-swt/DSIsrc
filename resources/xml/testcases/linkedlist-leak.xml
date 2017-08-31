@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+
+	<event id="01">
+		<operation-transition>
+			<entry>
+				<id>001</id>
+				<name>Some entry text</name>
+				<arguments>Arguments</arguments>
+				<comment>Comments</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="02">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+
+	<event id="03">
+		<block-transition>
+			<sourceLocation>
+				<sourceFile>/path/source.c</sourceFile>
+				<sourceLine>13</sourceLine>
+				<sourceLineColumn>37</sourceLineColumn>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+
+	<event id="04">
+		<memory-write>
+			<sourceLocation>
+				<sourceFile>/path/source.c</sourceFile>
+				<sourceLine>13</sourceLine>
+				<sourceLineColumn>37</sourceLineColumn>
+			</sourceLocation>
+			<lvalue-list>
+				<lvalue rank="1">
+					<address>7fff97659f90</address>
+					<type>structA*</type>
+					<codeFragment>a</codeFragment>
+				</lvalue>
+			</lvalue-list>
+			<rvalue>
+				<content>0160f250</content>
+				<type>structA*</type>
+				<codeFragment>(structA*)malloc(sizeof(structA))</codeFragment>
+			</rvalue>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+
+	<event id="05">
+		<memory-write>
+			<sourceLocation>
+				<sourceFile>/path/source.c</sourceFile>
+				<sourceLine>13</sourceLine>
+				<sourceLineColumn>37</sourceLineColumn>
+			</sourceLocation>
+			<lvalue-list>
+				<lvalue rank="1">
+					<address>0160f250</address>
+					<type>structA</type>
+					<codeFragment>a</codeFragment>
+				</lvalue>
+				<lvalue rank="2">
+					<address>0160f258</address>
+					<type>structA*</type>
+					<codeFragment>next</codeFragment>
+				</lvalue>
+			</lvalue-list>
+			<rvalue>
+				<content>0160f2b0</content>
+				<type>structA*</type>
+				<codeFragment>(structA*)malloc(sizeof(structA))</codeFragment>
+			</rvalue>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+
+	<event id="06">
+		<memory-write>
+			<sourceLocation>
+				<sourceFile>/path/source.c</sourceFile>
+				<sourceLine>13</sourceLine>
+				<sourceLineColumn>37</sourceLineColumn>
+			</sourceLocation>
+			<lvalue-list>
+				<lvalue rank="1">
+					<address>0160f250</address>
+					<type>structA</type>
+					<codeFragment>a</codeFragment>
+				</lvalue>
+				<lvalue rank="2">
+					<address>0160f258</address>
+					<type>structA*</type>
+					<codeFragment>next</codeFragment>
+				</lvalue>
+			</lvalue-list>
+			<rvalue>
+				<content>0160f290</content>
+				<type>structA*</type>
+				<codeFragment>(structA*)malloc(sizeof(structA))</codeFragment>
+			</rvalue>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+
+</events>

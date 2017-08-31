@@ -1,0 +1,47 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>reservierung</tagName>
+		<sizeInBytes>56</sizeInBytes>
+		<location file="wolf-queue-cut1.c" line="10" col="0"/>
+		<fields>
+			<field index="0">
+				<name>name</name>
+				<sugaredType>char [20]</sugaredType>
+				<desugaredType>char [20]</desugaredType>
+				<sizeInBits>160</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="wolf-queue-cut1.c" line="11" col="0"/>
+			</field>
+			<field index="1">
+				<name>vorname</name>
+				<sugaredType>char [20]</sugaredType>
+				<desugaredType>char [20]</desugaredType>
+				<sizeInBits>160</sizeInBits>
+				<offsetInBytes>20</offsetInBytes>
+				<location file="wolf-queue-cut1.c" line="12" col="0"/>
+			</field>
+			<field index="2">
+				<name>rnummer</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>40</offsetInBytes>
+				<location file="wolf-queue-cut1.c" line="13" col="0"/>
+			</field>
+			<field index="3">
+				<name>previous</name>
+				<sugaredType>struct reservierung *</sugaredType>
+				<desugaredType>struct reservierung *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>48</offsetInBytes>
+				<location file="wolf-queue-cut1.c" line="14" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

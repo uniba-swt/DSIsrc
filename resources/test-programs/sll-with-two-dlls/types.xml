@@ -1,0 +1,85 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>list_head</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="sll-with-two-dlls.c" line="11" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct list_head *</sugaredType>
+				<desugaredType>struct list_head *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="sll-with-two-dlls.c" line="12" col="0"/>
+			</field>
+			<field index="1">
+				<name>prev</name>
+				<sugaredType>struct list_head *</sugaredType>
+				<desugaredType>struct list_head *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="sll-with-two-dlls.c" line="12" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>my_item</tagName>
+		<sizeInBytes>24</sizeInBytes>
+		<location file="sll-with-two-dlls.c" line="48" col="0"/>
+		<fields>
+			<field index="0">
+				<name>link</name>
+				<sugaredType>struct list_head</sugaredType>
+				<desugaredType>struct list_head</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="sll-with-two-dlls.c" line="49" col="0"/>
+			</field>
+			<field index="1">
+				<name>data</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="sll-with-two-dlls.c" line="50" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>master_item</tagName>
+		<sizeInBytes>40</sizeInBytes>
+		<location file="sll-with-two-dlls.c" line="94" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct master_item *</sugaredType>
+				<desugaredType>struct master_item *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="sll-with-two-dlls.c" line="95" col="0"/>
+			</field>
+			<field index="1">
+				<name>nested1</name>
+				<sugaredType>struct list_head</sugaredType>
+				<desugaredType>struct list_head</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="sll-with-two-dlls.c" line="96" col="0"/>
+			</field>
+			<field index="2">
+				<name>nested2</name>
+				<sugaredType>struct list_head</sugaredType>
+				<desugaredType>struct list_head</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="sll-with-two-dlls.c" line="97" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

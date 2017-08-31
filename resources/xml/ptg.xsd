@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xs:element name="ptg">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="vertices" />
+				<xs:element ref="edges" />
+				<xs:element ref="cells" />
+				<xs:element ref="strands" />
+				<!--<xs:element ref="boxConnections" /> -->
+				<xs:element ref="strand-connections" />
+				<xs:element ref="entry-points" />
+				<xs:element ref="entry-point-connections" />
+				<xs:element ref="folded-strand-sets" />
+				<xs:element ref="folded-strand-connection-sets" />
+				<xs:element ref="agg-strand-sets" />
+				<xs:element ref="agg-strand-connection-sets"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="vertices">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="vertex" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- chunk of memory -->
+	<xs:element name="vertex">
+		<xs:complexType>
+			<xs:sequence>
+				<!-- addresses are in hex -->
+				<xs:element name="bAddr" type="CpointerHex" />
+				<xs:element name="eAddr" type="CpointerHex" />
+				<!-- size is in byte -->
+				<xs:element name="size" type="xs:int" />
+				<xs:element name="type" type="xs:string" />
+				<!--<xs:choice> <xs:element ref="simple" /> <xs:element ref="array" /> 
+					<xs:element ref="struct" /> </xs:choice> -->
+			</xs:sequence>
+			<!-- unique over program lifetime (in contrast to edge ids, which are 
+				unique per time step) -->
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required"
+				type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required"
+				type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<!-- simple data type (no struct) -->
+	<xs:element name="simple">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="type" type="xs:string" />
+				<xs:element name="bAddr" type="CpointerHex" />
+				<xs:element name="eAddr" type="CpointerHex" />
+				<xs:element name="size" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- array of either: simple, struct or an array -->
+	<!-- the elements of the array will be uniform e.g. always of the same type -->
+	<xs:element name="array">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="type" type="xs:string" />
+				<xs:element name="bAddr" type="CpointerHex" />
+				<xs:element name="eAddr" type="CpointerHex" />
+				<xs:element name="size" type="xs:int" />
+				<xs:element name="numElems" type="xs:int" />
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="simple" />
+					<xs:element ref="array" />
+					<xs:element ref="struct" />
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="struct">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="type" type="xs:string" />
+				<xs:element name="bAddr" type="CpointerHex" />
+				<xs:element name="eAddr" type="CpointerHex" />
+				<xs:element name="size" type="xs:int" />
+				<xs:element ref="fields" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="fields">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="field" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="field">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice minOccurs="1" maxOccurs="unbounded">
+					<xs:element ref="simple" />
+					<xs:element ref="array" />
+					<xs:element ref="struct" />
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="edges">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="edge" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="edge">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="source">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="addrAsVertex" />
+							<xs:element name="addr" type="CpointerHex" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="target">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="addrAsVertex" />
+							<xs:element name="addr" type="CpointerHex" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<!-- unique per time step (in contrast to vertex ids, which are unique 
+				over program lifetime) -->
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required"
+				type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required"
+				type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="addrAsVertex">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="vertexId" type="xs:int" />
+				<xs:element name="offset" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="strands">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cycles" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="strand" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="cells">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cell" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="strand">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cellType" type="xs:string" />
+				<xs:element name="linkageOffset" type="xs:int" />
+				<xs:element name="cycleId" type="xs:int" minOccurs="0"
+					maxOccurs="1" />
+				<xs:element name="cellSequences" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="cellSequence" minOccurs="1"
+								maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="linearSequence">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="cellRef" type="cellRefType"
+														minOccurs="0" maxOccurs="unbounded" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="cyclicSequence">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="cellRef" type="cellRefType"
+														minOccurs="0" maxOccurs="unbounded" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="beginEventTimeStep" use="required"
+										type="xs:int" />
+									<xs:attribute name="ceaseEventTimeStep" use="required"
+										type="xs:int" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required"
+				type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required"
+				type="xs:int" />
+
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="cellRefType">
+		<xs:attribute name="position" use="required" type="xs:int" />
+		<xs:attribute name="cellId" use="required" type="xs:int" />
+	</xs:complexType>
+
+	<xs:element name="cycles">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cycle" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="cycle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="type" type="xs:string" />
+				<xs:element name="linkageOffset" type="xs:int" />
+				<xs:element name="cells">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="cell" minOccurs="2" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="cell">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="type" type="xs:string" />
+				<xs:element name="bAddr" type="CpointerHex" />
+				<xs:element name="eAddr" type="CpointerHex" />
+				<xs:element name="size" type="xs:int" />
+				<xs:element name="vertexId" type="xs:int" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required"
+				type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required"
+				type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="boxConnections">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="boxConnection" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="boxConnection">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice>
+					<xs:element name="dll">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="boxId1" type="xs:int" />
+								<xs:element name="boxId2" type="xs:int" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="parentChild">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="boxId1" type="xs:int" />
+								<xs:element ref="cell" />
+								<xs:element name="boxId2" type="xs:int" />
+								<xs:element ref="cell" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:simpleType name="CpointerHex">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\(nil\)|0x[0-9a-f]+" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- connection between strands -->
+
+	<xs:element name="strand-connections">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="strand-connection" minOccurs="0"
+					maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="strand-connection">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="kind" />
+				<xs:element name="global-label" type="label" />
+				<xs:element ref="epochs" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required" type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="kind">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="overlay" />
+				<xs:element ref="indirect" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="overlay">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="indirect">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="label">
+		<xs:choice>
+			<xs:element name="nesting-indirect" type="nestingType" />
+			<xs:element name="nesting-overlay" type="nestingType" />
+			<xs:element ref="dll" />
+			<xs:element name="intersecting-1node-indirect" type="strandIds" />
+			<xs:element name="intersecting-1node-overlay" type="strandIds" />
+			<xs:element name="intersecting-2node-overlay" type="strandIds" />
+			<xs:element name="unclassified" />
+		</xs:choice>
+		<xs:attribute name="evidence" use="required" type="xs:int" />
+	</xs:complexType>
+
+	<xs:complexType name="nestingType">
+		<xs:sequence>
+			<xs:element name="parent" type="strandIdType" />
+			<xs:element name="child" type="strandIdType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="strandIds">
+		<xs:sequence>
+			<xs:element name="list1" type="strandIdType" />
+			<xs:element name="list2" type="strandIdType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="strandIdType">
+		<xs:attribute name="strandId" use="required" type="xs:int" />
+	</xs:complexType>
+
+	<xs:element name="dll">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="fwd">
+					<xs:complexType>
+						<xs:attribute name="strandId" use="required" type="xs:int" />
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="rev">
+					<xs:complexType>
+						<xs:attribute name="strandId" use="required" type="xs:int" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:element name="epochs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="epoch" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="epoch">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cell-pairs" />
+				<xs:element name="local-label" type="label" />
+			</xs:sequence>
+			<xs:attribute name="beginEventTimeStep" use="required"
+				type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required"
+				type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="cell-pairs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cell-pair" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="cell-pair">
+		<xs:complexType>
+			<xs:attribute name="leftCellId" use="required" type="xs:int" />
+			<xs:attribute name="rightCellId" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="entry-points">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="entry-point"  minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="entry-point">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="points-to-vertex-id" type="xs:int" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required" type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="entry-point-connections">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="entry-point-connection"  minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="entry-point-connection">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="source-entry-point-id" type="xs:int"/>
+				<xs:element name="type">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:choice>
+								<xs:element name="stack">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="param-x" type="xs:int"/>
+											<xs:element name="param-y" type="xs:int"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="pointer">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="param-z" type="xs:int"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="target-strand-id" type="xs:int"/>
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required" type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="folded-strand-sets">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="strand-ids"/>
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required" type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="agg-strand-sets">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="strand-ids"/>
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="entry-point-id" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="strand-ids" >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="strand-id" type="xs:int" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="folded-strand-connection-sets">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="folded-strand-connection-set" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="agg-strand-connection-sets">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="agg-strand-connection-set" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+
+	<xs:element name="folded-strand-connection-set">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="strand-connection-set" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="beginEventTimeStep" use="required" type="xs:int" />
+			<xs:attribute name="ceaseEventTimeStep" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="agg-strand-connection-set">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="strand-connection-set" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+			<xs:attribute name="entry-point-id" use="required" type="xs:int" />
+		</xs:complexType>
+
+	</xs:element>
+
+	<xs:element name="strand-connection-set">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice minOccurs="1" maxOccurs="1">
+					<xs:element name="unidirectional-edge">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="source-strand-set-id" type="xs:int"/>
+								<xs:element name="target-strand-set-id" type="xs:int"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="bidirectional-edge">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="strand-set-id1" type="xs:int"/>
+								<xs:element name="strand-set-id2" type="xs:int"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+				<xs:element ref="strand-connections"/>
+				<xs:element name="global-label" type="label" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="strand-connections">
+		<xs:sequence>
+			<xs:element name="strand-connection-id" type="xs:int" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

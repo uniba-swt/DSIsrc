@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>argv</name>
+			<type>char **</type>
+			<address>0x7ffd96933c50</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>pointer</name>
+			<type>char *</type>
+			<address>0x7ffd96933c70</address>
+		</variable-enter-scope>
+	</event>
+	<event id="4">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd96933c78</address>
+		</variable-enter-scope>
+	</event>
+	<event id="5">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>11</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="6">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>12</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="7">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="8">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="9">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="10">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="11">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713250</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="12">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="13">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="14">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="15">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="16">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713360</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="17">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713360</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="18">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="19">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="20">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="21">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="22">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713470</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="23">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713470</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="24">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="25">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="26">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="27">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="28">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713580</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="29">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713580</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="30">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="31">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="32">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="33">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="34">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713690</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="35">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713690</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="36">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="37">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="38">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="39">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="40">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x17137a0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="41">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x17137a0</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="42">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="43">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="44">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="45">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="46">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x17138b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="47">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x17138b0</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="48">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="49">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="50">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="51">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="52">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x17139c0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="53">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x17139c0</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="54">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="55">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="56">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="57">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="58">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713ad0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="59">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713ad0</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="60">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="61">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="62">
+		<comment>Loop-iteration-start_leak-7-ptr-no-ds.c_14</comment>
+	</event>
+	<event id="63">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="64">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c78</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713be0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(char ) * 256UL</argCodeFragment>
+					<argValue>256</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="65">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>15</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd96933c70</address>
+				<type>char *</type>
+				<codeFragment>pointer</codeFragment>
+			</lval>
+			<content>
+				<content>0x1713be0</content>
+				<lvalDerefType>char</lvalDerefType>
+				<rhsCodeFragment>(char *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="66">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>14</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="67">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="68">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="69">
+		<free>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>18</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)pointer</argCodeFragment>
+			<argValue>0x1713be0</argValue>
+		</free>
+	</event>
+	<event id="70">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-7-ptr-no-ds.c</file>
+				<line>18</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="71">
+		<comment>Function Exited</comment>
+	</event>
+</events>

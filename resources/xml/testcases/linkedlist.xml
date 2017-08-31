@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+
+	<event id="01">
+		<operation-transition>
+			<entry>
+				<id>001</id>
+				<name>Some entry text</name>
+				<arguments>Arguments</arguments>
+				<comment>Comments</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="02">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+
+	<event id="03">
+		<block-transition>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+
+	<event id="04">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff97659f90</address>
+				<type>structA*</type>
+				<codeFragment>a</codeFragment>
+			</lval>
+			<content>
+				<content>0x0160f250</content>
+				<lvalDerefType>structA</lvalDerefType>
+				<rhsCodeFragment>(structA*)malloc(sizeof(structA))</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+
+	<event id="05">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<context>
+				<address>0x0160f250</address>
+				<type>structA</type>
+				<codeFragment>a</codeFragment>
+			</context>
+			<lval>
+				<address>0x0160f258</address>
+				<type>structA*</type>
+				<codeFragment>next</codeFragment>
+			</lval>
+			<content>
+				<content>0x0160f2b0</content>
+				<lvalDerefType>structA</lvalDerefType>
+				<rhsCodeFragment>(structA*)malloc(sizeof(structA))</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+
+	<event id="06">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<context>
+				<address>0x0160f2b0</address>
+				<type>structA</type>
+				<codeFragment>a</codeFragment>
+			</context>
+			<lval>
+				<address>0x0160f2b8</address>
+				<type>structA*</type>
+				<codeFragment>next</codeFragment>
+			</lval>
+			<content>
+				<content>0x0160f290</content>
+				<lvalDerefType>structA</lvalDerefType>
+				<rhsCodeFragment>(structA*)malloc(sizeof(structA))</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+
+	<event id="07">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<lval>
+				<address>0x0160f2f0</address>
+				<type>structA*</type>
+				<codeFragment>ptr</codeFragment>
+			</lval>
+			<content>
+				<content>0x00</content>
+				<lvalDerefType>structA</lvalDerefType>
+				<rhsCodeFragment>NULL</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+
+	<event id="08">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<lval>
+				<address>0x0160f270</address>
+				<type>structA*</type>
+				<codeFragment>ptr</codeFragment>
+			</lval>
+			<content>
+				<content>0x00</content>
+				<lvalDerefType>structA</lvalDerefType>
+				<rhsCodeFragment>NULL</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+
+
+	<event id="09">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<lval>
+				<address>0x0160f310</address>
+				<type>structA*</type>
+				<codeFragment>ptr</codeFragment>
+			</lval>
+			<content>
+				<content>0x00</content>
+				<lvalDerefType>structA</lvalDerefType>
+				<rhsCodeFragment>NULL</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+
+	<event id="10">
+		<memory-write>
+			<sourceLocation>
+				<file>/path/source.c</file>
+				<line>13</line>
+				<column>37</column>
+			</sourceLocation>
+			<context>
+				<address>0x0160f290</address>
+				<type>structA</type>
+				<codeFragment>a</codeFragment>
+			</context>
+			<lval>
+				<address>0x0160f298</address>
+				<type>structA*</type>
+				<codeFragment>next</codeFragment>
+			</lval>
+			<content>
+				<content>0x00</content>
+				<lvalDerefType>structA</lvalDerefType>
+				<rhsCodeFragment>NULL</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+</events>

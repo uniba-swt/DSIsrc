@@ -1,0 +1,4960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>argv</name>
+			<type>char **</type>
+			<address>0x7ffd30bbd420</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="4">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>166</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="5">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="6">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>167</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="7">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="8">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="9">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3a0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="10">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3a8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="11">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>38</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="12">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>38</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3a8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="13">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>38</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3a0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57250</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(Stack )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="14">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>38</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="15">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="16">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="17">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="18">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="19">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd348</address>
+		</variable-enter-scope>
+	</event>
+	<event id="20">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="21">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd328</address>
+		</variable-enter-scope>
+	</event>
+	<event id="22">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="23">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="24">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd328</address>
+		</variable-left-scope>
+	</event>
+	<event id="25">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="26">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="27">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="28">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd348</address>
+		</variable-left-scope>
+	</event>
+	<event id="29">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="30">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="31">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>124</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="32">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>124</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x604168</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57250</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>CreateStack</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="33">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3a0</address>
+		</variable-left-scope>
+	</event>
+	<event id="34">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3a8</address>
+		</variable-left-scope>
+	</event>
+	<event id="35">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="36">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="37">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="38">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="39">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="40">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="41">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="42">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="43">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="44">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="45">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="46">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="47">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="48">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="49">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="50">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="51">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="52">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="53">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="54">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="55">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57270</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57278</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="56">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="57">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="58">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="59">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="60">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="61">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="62">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="63">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="64">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="65">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="66">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="67">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="68">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="69">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="70">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="71">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="72">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="73">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="74">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="75">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="76">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="77">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57290</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57298</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="78">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="79">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="80">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="81">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="82">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="83">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="84">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="85">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="86">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="87">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="88">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="89">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="90">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="91">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="92">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="93">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="94">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="95">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="96">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="97">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="98">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="99">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="100">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="101">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="102">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="103">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="104">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="105">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="106">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="107">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="108">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="109">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="110">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="111">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b572b0</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b572b8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="112">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="113">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="114">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="115">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="116">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="117">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="118">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="119">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="120">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="121">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="122">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="123">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="124">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="125">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="126">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="127">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="128">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="129">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="130">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="131">
+		<operation-transition>
+			<entry>
+				<id>14</id>
+				<name>sllRemoveFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="132">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="133">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="134">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>FirstCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="135">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="136">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd378</address>
+		</variable-enter-scope>
+	</event>
+	<event id="137">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="138">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="139">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd378</address>
+		</variable-left-scope>
+	</event>
+	<event id="140">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="141">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="142">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>FirstCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="143">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(S->Next)->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="144">
+		<free>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)FirstCell</argCodeFragment>
+			<argValue>0x1b572b0</argValue>
+		</free>
+	</event>
+	<event id="145">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="146">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="147">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="148">
+		<variable-left-scope>
+			<name>FirstCell</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="149">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="150">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="151">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="152">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="153">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="154">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="155">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="156">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="157">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="158">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="159">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="160">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="161">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="162">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="163">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="164">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="165">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="166">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="167">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="168">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b572b0</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b572b8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="169">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="170">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="171">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="172">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="173">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="174">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="175">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="176">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="177">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="178">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="179">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="180">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="181">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="182">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="183">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="184">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="185">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="186">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="187">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="188">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="189">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="190">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="191">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="192">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="193">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="194">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="195">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="196">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="197">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="198">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="199">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="200">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="201">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="202">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="203">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="204">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="205">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="206">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b572d0</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b572d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="207">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="208">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="209">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="210">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="211">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="212">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="213">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="214">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="215">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="216">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="217">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="218">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="219">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="220">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="221">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="222">
+		<operation-transition>
+			<entry>
+				<id>14</id>
+				<name>sllRemoveFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="223">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="224">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="225">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>FirstCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="226">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="227">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd378</address>
+		</variable-enter-scope>
+	</event>
+	<event id="228">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="229">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="230">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd378</address>
+		</variable-left-scope>
+	</event>
+	<event id="231">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="232">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="233">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>FirstCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="234">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(S->Next)->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="235">
+		<free>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)FirstCell</argCodeFragment>
+			<argValue>0x1b572d0</argValue>
+		</free>
+	</event>
+	<event id="236">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="237">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="238">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="239">
+		<variable-left-scope>
+			<name>FirstCell</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="240">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="241">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="242">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="243">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="244">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="245">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="246">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="247">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="248">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="249">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="250">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="251">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="252">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="253">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="254">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="255">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b572d0</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b572d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="256">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="257">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="258">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="259">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="260">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="261">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="262">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="263">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="264">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="265">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="266">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="267">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="268">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="269">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="270">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="271">
+		<operation-transition>
+			<entry>
+				<id>14</id>
+				<name>sllRemoveFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="272">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="273">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="274">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>FirstCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="275">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="276">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd378</address>
+		</variable-enter-scope>
+	</event>
+	<event id="277">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="278">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="279">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd378</address>
+		</variable-left-scope>
+	</event>
+	<event id="280">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="281">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="282">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>FirstCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="283">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(S->Next)->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="284">
+		<free>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)FirstCell</argCodeFragment>
+			<argValue>0x1b572d0</argValue>
+		</free>
+	</event>
+	<event id="285">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="286">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="287">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="288">
+		<variable-left-scope>
+			<name>FirstCell</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="289">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="290">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="291">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="292">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="293">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="294">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="295">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="296">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="297">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="298">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="299">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="300">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="301">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="302">
+		<operation-transition>
+			<entry>
+				<id>14</id>
+				<name>sllRemoveFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="303">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="304">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="305">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>FirstCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="306">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="307">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd378</address>
+		</variable-enter-scope>
+	</event>
+	<event id="308">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="309">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="310">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd378</address>
+		</variable-left-scope>
+	</event>
+	<event id="311">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="312">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="313">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>FirstCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="314">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(S->Next)->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="315">
+		<free>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)FirstCell</argCodeFragment>
+			<argValue>0x1b572b0</argValue>
+		</free>
+	</event>
+	<event id="316">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="317">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="318">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="319">
+		<variable-left-scope>
+			<name>FirstCell</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="320">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="321">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="322">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="323">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="324">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="325">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="326">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="327">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="328">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="329">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="330">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="331">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="332">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="333">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="334">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="335">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="336">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="337">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="338">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="339">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b572b0</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b572b8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="340">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="341">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="342">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="343">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="344">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="345">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="346">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="347">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="348">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="349">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="350">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="351">
+		<operation-transition>
+			<entry>
+				<id>14</id>
+				<name>sllRemoveFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="352">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="353">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="354">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>FirstCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="355">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="356">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd378</address>
+		</variable-enter-scope>
+	</event>
+	<event id="357">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="358">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="359">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd378</address>
+		</variable-left-scope>
+	</event>
+	<event id="360">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="361">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="362">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>FirstCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="363">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(S->Next)->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="364">
+		<free>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)FirstCell</argCodeFragment>
+			<argValue>0x1b572b0</argValue>
+		</free>
+	</event>
+	<event id="365">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="366">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="367">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="368">
+		<variable-left-scope>
+			<name>FirstCell</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="369">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="370">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="371">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="372">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="373">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="374">
+		<operation-transition>
+			<entry>
+				<id>14</id>
+				<name>sllRemoveFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="375">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="376">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="377">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>FirstCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="378">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="379">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd378</address>
+		</variable-enter-scope>
+	</event>
+	<event id="380">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="381">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="382">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd378</address>
+		</variable-left-scope>
+	</event>
+	<event id="383">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="384">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="385">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>FirstCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="386">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(S->Next)->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="387">
+		<free>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)FirstCell</argCodeFragment>
+			<argValue>0x1b57290</argValue>
+		</free>
+	</event>
+	<event id="388">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="389">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="390">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="391">
+		<variable-left-scope>
+			<name>FirstCell</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="392">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="393">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="394">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="395">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="396">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="397">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="398">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="399">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="400">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="401">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="402">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="403">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="404">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="405">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="406">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="407">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="408">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="409">
+		<operation-transition>
+			<entry>
+				<id>14</id>
+				<name>sllRemoveFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="410">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="411">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="412">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>FirstCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="413">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="414">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd378</address>
+		</variable-enter-scope>
+	</event>
+	<event id="415">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="416">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="417">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd378</address>
+		</variable-left-scope>
+	</event>
+	<event id="418">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="419">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="420">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>113</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>FirstCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="421">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>114</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(S->Next)->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="422">
+		<free>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)FirstCell</argCodeFragment>
+			<argValue>0x1b57270</argValue>
+		</free>
+	</event>
+	<event id="423">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>115</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="424">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="425">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="426">
+		<variable-left-scope>
+			<name>FirstCell</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="427">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="428">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="429">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="430">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="431">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="432">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="433">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="434">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="435">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="436">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="437">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="438">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="439">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="440">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="441">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="442">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57270</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57278</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="443">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="444">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="445">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="446">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="447">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="448">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="449">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="450">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="451">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="452">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="453">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="454">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="455">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="456">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="457">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="458">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="459">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="460">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="461">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="462">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="463">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="464">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57290</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57298</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57270</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="465">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="466">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="467">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="468">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="469">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="470">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="471">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="472">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="473">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="474">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="475">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="476">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="477">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="478">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="479">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="480">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="481">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="482">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="483">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="484">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="485">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="486">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b572b0</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b572b8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57290</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="487">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="488">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="489">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="490">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="491">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="492">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="493">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="494">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="495">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="496">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="497">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="498">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="499">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="500">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="501">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="502">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="503">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="504">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="505">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="506">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="507">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="508">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="509">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="510">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="511">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="512">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b572d0</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b572d8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572b0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="513">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="514">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="515">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="516">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="517">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="518">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="519">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="520">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="521">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="522">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="523">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="524">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="525">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="526">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="527">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="528">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="529">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="530">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="531">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="532">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="533">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="534">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="535">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="536">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="537">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="538">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="539">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="540">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="541">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="542">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="543">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572f0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="544">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="545">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="546">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b572f0</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b572f8</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572d0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="547">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572f0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="548">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="549">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="550">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="551">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="552">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="553">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="554">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="555">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="556">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="557">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="558">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="559">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="560">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="561">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="562">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="563">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="564">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="565">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="566">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="567">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="568">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="569">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="570">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="571">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="572">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="573">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="574">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="575">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="576">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="577">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="578">
+		<operation-transition>
+			<entry>
+				<id>4</id>
+				<name>sllInsertFrontDH</name>
+				<arguments>1</arguments>
+				<comment>TBD</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="579">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="580">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>S</name>
+			<type>Stack</type>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="581">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>TmpCell</name>
+			<type>PtrToNode</type>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="582">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="583">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="584">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d8</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57310</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct Weiss_SLL_Node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="585">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd30bbd3d0</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57310</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>(PtrToNode )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="586">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>76</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="587">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>82</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="588">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>83</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57310</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*TmpCell</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57318</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>TmpCell->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b572f0</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>S->Next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="589">
+		<memory-write>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x1b57250</address>
+				<type>struct Weiss_SLL_Node</type>
+				<codeFragment>*S</codeFragment>
+			</context>
+			<lval>
+				<address>0x1b57258</address>
+				<type>struct Weiss_SLL_Node *</type>
+				<codeFragment>S->Next</codeFragment>
+			</lval>
+			<content>
+				<content>0x1b57310</content>
+				<lvalDerefType>struct Weiss_SLL_Node</lvalDerefType>
+				<rhsCodeFragment>TmpCell</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="590">
+		<block-transition>
+			<sourceLocation>
+				<file>weiss-stack-cut1.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="591">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="592">
+		<variable-left-scope>
+			<name>S</name>
+			<address>0x7ffd30bbd3c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="593">
+		<variable-left-scope>
+			<name>TmpCell</name>
+			<address>0x7ffd30bbd3d0</address>
+		</variable-left-scope>
+	</event>
+	<event id="594">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7ffd30bbd3d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="595">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+	<event id="596">
+		<comment>Function Exited</comment>
+	</event>
+</events>

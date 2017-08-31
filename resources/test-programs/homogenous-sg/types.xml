@@ -1,0 +1,23 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>type_1</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="homogenous-sg.c" line="6" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="homogenous-sg.c" line="7" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

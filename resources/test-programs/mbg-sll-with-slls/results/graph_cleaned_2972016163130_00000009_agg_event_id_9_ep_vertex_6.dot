@@ -1,0 +1,10 @@
+digraph G {
+	"dsnaming.DsOliMetaBoxGraphVertexBoxes@24d9d889" -> "dsnaming.DsOliMetaBoxGraphVertexBoxes@6996c9b6" [color = "#9999FF", label = <<TABLE BORDER="0" ALIGN="left" COLOR="black" CELLBORDER="0"  CELLPADDING="0" CELLSPACING="0"><TR><TD COLSPAN="2">t: 47 tag: ptr off: 8:8</TD></TR><TR><TD ALIGN="left" BGCOLOR="#9999FF">Ni</TD><TD ALIGN="left" BGCOLOR="#9999FF">21 (21)</TD></TR><TR><TD ALIGN="left" BGCOLOR="#99FF00">I1i</TD><TD ALIGN="left" BGCOLOR="#99FF00">6 (6)</TD></TR><TR><TD ALIGN="left" BGCOLOR="#CC9900">ccNoClassification</TD><TD ALIGN="left" BGCOLOR="#CC9900">0 (27)</TD></TR></TABLE>>]
+	"dsnaming.DsOliMetaBoxGraphVertexEP@76d7a0b8" -> "dsnaming.DsOliMetaBoxGraphVertexBoxes@24d9d889" [color = "#CC9900", label = <<TABLE BORDER="0" ALIGN="left" COLOR="black" CELLBORDER="0"  CELLPADDING="0" CELLSPACING="0"><TR><TD COLSPAN="2">t: 18 tag: ptr off: 0:0</TD></TR><TR><TD ALIGN="left" BGCOLOR="#CC9900">ccNoClassification</TD><TD ALIGN="left" BGCOLOR="#CC9900">0 (30)</TD></TR></TABLE>>]
+	subgraph connected_vertices {
+		rankdir = LR
+		"dsnaming.DsOliMetaBoxGraphVertexEP@76d7a0b8"  [label = <<TABLE><TR><TD COLSPAN="2">dsnaming.DsOliMetaBoxGraphVertexEP@76d7a0b8</TD></TR><TR><TD COLSPAN="2">ep: 6 start: 18 end: 73 aggCnt: 30</TD></TR></TABLE>>, shape = none]
+		"dsnaming.DsOliMetaBoxGraphVertexBoxes@6996c9b6"  [label = <<TABLE><TR><TD COLSPAN="2">dsnaming.DsOliMetaBoxGraphVertexBoxes@6996c9b6</TD></TR><TR><TD COLSPAN="2">struct Child_SLL: field(@8): next: Set(9, 12, 15) </TD></TR></TABLE>>, shape = none]
+		"dsnaming.DsOliMetaBoxGraphVertexBoxes@24d9d889"  [label = <<TABLE><TR><TD COLSPAN="2">dsnaming.DsOliMetaBoxGraphVertexBoxes@24d9d889</TD></TR><TR><TD COLSPAN="2">struct SLL: field(@0): next: Set(2, 4, 6) </TD></TR></TABLE>>, shape = none]
+	}
+}

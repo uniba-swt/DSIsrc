@@ -1,0 +1,8 @@
+{
+	"dsi-root": "/usr/src/test-programs/mbg-sll-with-slls/",
+	"trace-xml": "trace.xml",
+	"c-sources": ["mbg-sll-with-slls.c"],
+	"dsi-output-xml": "dsi-mbg-sll-with-slls-artifacts.xml",
+	"dsi-db": "dsi-mbg-sll-with-slls-artifacts.sqlite3",
+	"regen-db": false
+}

@@ -1,0 +1,37 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>node</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="sll_3.c" line="4" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct node *</sugaredType>
+				<desugaredType>struct node *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="sll_3.c" line="5" col="0"/>
+			</field>
+			<field index="1">
+				<name>value</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="sll_3.c" line="6" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>node</sugaredType>
+		<desugaredType>struct node</desugaredType>
+				<sizeInBits>128</sizeInBits>
+		<location file="sll_3.c" line="8" col="0"/>
+	</alias>
+</types>

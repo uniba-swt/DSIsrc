@@ -1,0 +1,725 @@
+<types arch="64">
+	<compound mode="struct">
+		<tagName>option</tagName>
+		<sizeInBytes>32</sizeInBytes>
+		<location file="/usr/include/getopt.h" line="104" col="0"/>
+		<fields>
+			<field index="0">
+				<name>name</name>
+				<sugaredType>char const   *</sugaredType>
+				<desugaredType>char const   *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="/usr/include/getopt.h" line="106" col="0"/>
+			</field>
+			<field index="1">
+				<name>has_arg</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="/usr/include/getopt.h" line="109" col="0"/>
+			</field>
+			<field index="2">
+				<name>flag</name>
+				<sugaredType>int *</sugaredType>
+				<desugaredType>int *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="/usr/include/getopt.h" line="110" col="0"/>
+			</field>
+			<field index="3">
+				<name>val</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="/usr/include/getopt.h" line="111" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>__dev_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="124" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__uid_t</sugaredType>
+		<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="125" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__gid_t</sugaredType>
+		<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="126" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__ino_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="127" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__mode_t</sugaredType>
+		<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="129" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__nlink_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="130" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__off_t</sugaredType>
+		<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="131" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__off64_t</sugaredType>
+		<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="132" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__time_t</sugaredType>
+		<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="139" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__blksize_t</sugaredType>
+		<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="153" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__blkcnt_t</sugaredType>
+		<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="158" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>__syscall_slong_t</sugaredType>
+		<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/bits/types.h" line="175" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>gid_t</sugaredType>
+		<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/sys/types.h" line="65" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>mode_t</sugaredType>
+		<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/sys/types.h" line="70" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>uid_t</sugaredType>
+		<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/sys/types.h" line="80" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>time_t</sugaredType>
+		<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/include/time.h" line="75" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>timespec</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="/usr/include/time.h" line="120" col="0"/>
+		<fields>
+			<field index="0">
+				<name>tv_sec</name>
+				<sugaredType>__time_t</sugaredType>
+				<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="/usr/include/time.h" line="122" col="0"/>
+			</field>
+			<field index="1">
+				<name>tv_nsec</name>
+				<sugaredType>__syscall_slong_t</sugaredType>
+				<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="/usr/include/time.h" line="123" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>ptrdiff_t</sugaredType>
+		<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="147" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>stat</tagName>
+		<sizeInBytes>144</sizeInBytes>
+		<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="46" col="0"/>
+		<fields>
+			<field index="0">
+				<name>st_dev</name>
+				<sugaredType>__dev_t</sugaredType>
+				<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="48" col="0"/>
+			</field>
+			<field index="1">
+				<name>st_ino</name>
+				<sugaredType>__ino_t</sugaredType>
+				<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="53" col="0"/>
+			</field>
+			<field index="2">
+				<name>st_nlink</name>
+				<sugaredType>__nlink_t</sugaredType>
+				<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="61" col="0"/>
+			</field>
+			<field index="3">
+				<name>st_mode</name>
+				<sugaredType>__mode_t</sugaredType>
+				<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="62" col="0"/>
+			</field>
+			<field index="4">
+				<name>st_uid</name>
+				<sugaredType>__uid_t</sugaredType>
+				<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>28</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="64" col="0"/>
+			</field>
+			<field index="5">
+				<name>st_gid</name>
+				<sugaredType>__gid_t</sugaredType>
+				<desugaredType>unsigned int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>32</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="65" col="0"/>
+			</field>
+			<field index="6">
+				<name>__pad0</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>36</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="67" col="0"/>
+			</field>
+			<field index="7">
+				<name>st_rdev</name>
+				<sugaredType>__dev_t</sugaredType>
+				<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>40</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="69" col="0"/>
+			</field>
+			<field index="8">
+				<name>st_size</name>
+				<sugaredType>__off_t</sugaredType>
+				<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>48</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="74" col="0"/>
+			</field>
+			<field index="9">
+				<name>st_blksize</name>
+				<sugaredType>__blksize_t</sugaredType>
+				<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>56</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="78" col="0"/>
+			</field>
+			<field index="10">
+				<name>st_blocks</name>
+				<sugaredType>__blkcnt_t</sugaredType>
+				<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>64</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="80" col="0"/>
+			</field>
+			<field index="11">
+				<name>st_atim</name>
+				<sugaredType>struct timespec</sugaredType>
+				<desugaredType>struct timespec</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>72</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="91" col="0"/>
+			</field>
+			<field index="12">
+				<name>st_mtim</name>
+				<sugaredType>struct timespec</sugaredType>
+				<desugaredType>struct timespec</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>88</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="92" col="0"/>
+			</field>
+			<field index="13">
+				<name>st_ctim</name>
+				<sugaredType>struct timespec</sugaredType>
+				<desugaredType>struct timespec</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>104</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="93" col="0"/>
+			</field>
+			<field index="14">
+				<name>__glibc_reserved</name>
+				<sugaredType>__syscall_slong_t [3]</sugaredType>
+				<desugaredType>__syscall_slong_t [3]</desugaredType>
+				<sizeInBits>192</sizeInBits>
+				<offsetInBytes>120</offsetInBytes>
+				<location file="/usr/include/x86_64-linux-gnu/bits/stat.h" line="106" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>FILE</sugaredType>
+		<desugaredType>struct _IO_FILE</desugaredType>
+				<sizeInBits>1728</sizeInBits>
+		<location file="/usr/include/stdio.h" line="48" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>_IO_lock_t</sugaredType>
+		<desugaredType>void</desugaredType>
+				<sizeInBits>8</sizeInBits>
+		<location file="/usr/include/libio.h" line="154" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>_IO_marker</tagName>
+		<sizeInBytes>24</sizeInBytes>
+		<location file="/usr/include/libio.h" line="160" col="0"/>
+		<fields>
+			<field index="0">
+				<name>_next</name>
+				<sugaredType>struct _IO_marker *</sugaredType>
+				<desugaredType>struct _IO_marker *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="/usr/include/libio.h" line="161" col="0"/>
+			</field>
+			<field index="1">
+				<name>_sbuf</name>
+				<sugaredType>struct _IO_FILE *</sugaredType>
+				<desugaredType>struct _IO_FILE *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="/usr/include/libio.h" line="162" col="0"/>
+			</field>
+			<field index="2">
+				<name>_pos</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="/usr/include/libio.h" line="166" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>_IO_FILE</tagName>
+		<sizeInBytes>216</sizeInBytes>
+		<location file="/usr/include/libio.h" line="245" col="0"/>
+		<fields>
+			<field index="0">
+				<name>_flags</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="/usr/include/libio.h" line="246" col="0"/>
+			</field>
+			<field index="1">
+				<name>_IO_read_ptr</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="/usr/include/libio.h" line="251" col="0"/>
+			</field>
+			<field index="2">
+				<name>_IO_read_end</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="/usr/include/libio.h" line="252" col="0"/>
+			</field>
+			<field index="3">
+				<name>_IO_read_base</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="/usr/include/libio.h" line="253" col="0"/>
+			</field>
+			<field index="4">
+				<name>_IO_write_base</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>32</offsetInBytes>
+				<location file="/usr/include/libio.h" line="254" col="0"/>
+			</field>
+			<field index="5">
+				<name>_IO_write_ptr</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>40</offsetInBytes>
+				<location file="/usr/include/libio.h" line="255" col="0"/>
+			</field>
+			<field index="6">
+				<name>_IO_write_end</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>48</offsetInBytes>
+				<location file="/usr/include/libio.h" line="256" col="0"/>
+			</field>
+			<field index="7">
+				<name>_IO_buf_base</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>56</offsetInBytes>
+				<location file="/usr/include/libio.h" line="257" col="0"/>
+			</field>
+			<field index="8">
+				<name>_IO_buf_end</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>64</offsetInBytes>
+				<location file="/usr/include/libio.h" line="258" col="0"/>
+			</field>
+			<field index="9">
+				<name>_IO_save_base</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>72</offsetInBytes>
+				<location file="/usr/include/libio.h" line="260" col="0"/>
+			</field>
+			<field index="10">
+				<name>_IO_backup_base</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>80</offsetInBytes>
+				<location file="/usr/include/libio.h" line="261" col="0"/>
+			</field>
+			<field index="11">
+				<name>_IO_save_end</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>88</offsetInBytes>
+				<location file="/usr/include/libio.h" line="262" col="0"/>
+			</field>
+			<field index="12">
+				<name>_markers</name>
+				<sugaredType>struct _IO_marker *</sugaredType>
+				<desugaredType>struct _IO_marker *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>96</offsetInBytes>
+				<location file="/usr/include/libio.h" line="264" col="0"/>
+			</field>
+			<field index="13">
+				<name>_chain</name>
+				<sugaredType>struct _IO_FILE *</sugaredType>
+				<desugaredType>struct _IO_FILE *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>104</offsetInBytes>
+				<location file="/usr/include/libio.h" line="266" col="0"/>
+			</field>
+			<field index="14">
+				<name>_fileno</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>112</offsetInBytes>
+				<location file="/usr/include/libio.h" line="268" col="0"/>
+			</field>
+			<field index="15">
+				<name>_flags2</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>116</offsetInBytes>
+				<location file="/usr/include/libio.h" line="272" col="0"/>
+			</field>
+			<field index="16">
+				<name>_old_offset</name>
+				<sugaredType>__off_t</sugaredType>
+				<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>120</offsetInBytes>
+				<location file="/usr/include/libio.h" line="274" col="0"/>
+			</field>
+			<field index="17">
+				<name>_cur_column</name>
+				<sugaredType>unsigned short</sugaredType>
+				<desugaredType>unsigned short</desugaredType>
+				<sizeInBits>16</sizeInBits>
+				<offsetInBytes>128</offsetInBytes>
+				<location file="/usr/include/libio.h" line="278" col="0"/>
+			</field>
+			<field index="18">
+				<name>_vtable_offset</name>
+				<sugaredType>signed char</sugaredType>
+				<desugaredType>signed char</desugaredType>
+				<sizeInBits>8</sizeInBits>
+				<offsetInBytes>130</offsetInBytes>
+				<location file="/usr/include/libio.h" line="279" col="0"/>
+			</field>
+			<field index="19">
+				<name>_shortbuf</name>
+				<sugaredType>char [1]</sugaredType>
+				<desugaredType>char [1]</desugaredType>
+				<sizeInBits>8</sizeInBits>
+				<offsetInBytes>131</offsetInBytes>
+				<location file="/usr/include/libio.h" line="280" col="0"/>
+			</field>
+			<field index="20">
+				<name>_lock</name>
+				<sugaredType>_IO_lock_t *</sugaredType>
+				<desugaredType>_IO_lock_t *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>136</offsetInBytes>
+				<location file="/usr/include/libio.h" line="284" col="0"/>
+			</field>
+			<field index="21">
+				<name>_offset</name>
+				<sugaredType>__off64_t</sugaredType>
+				<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>144</offsetInBytes>
+				<location file="/usr/include/libio.h" line="293" col="0"/>
+			</field>
+			<field index="22">
+				<name>__pad1</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>152</offsetInBytes>
+				<location file="/usr/include/libio.h" line="302" col="0"/>
+			</field>
+			<field index="23">
+				<name>__pad2</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>160</offsetInBytes>
+				<location file="/usr/include/libio.h" line="303" col="0"/>
+			</field>
+			<field index="24">
+				<name>__pad3</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>168</offsetInBytes>
+				<location file="/usr/include/libio.h" line="304" col="0"/>
+			</field>
+			<field index="25">
+				<name>__pad4</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>176</offsetInBytes>
+				<location file="/usr/include/libio.h" line="305" col="0"/>
+			</field>
+			<field index="26">
+				<name>__pad5</name>
+				<sugaredType>size_t</sugaredType>
+				<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>184</offsetInBytes>
+				<location file="/usr/include/libio.h" line="306" col="0"/>
+			</field>
+			<field index="27">
+				<name>_mode</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>192</offsetInBytes>
+				<location file="/usr/include/libio.h" line="308" col="0"/>
+			</field>
+			<field index="28">
+				<name>_unused2</name>
+				<sugaredType>char [(15UL * sizeof(int ) - 4UL * sizeof(void *)) - sizeof(size_t )]</sugaredType>
+				<desugaredType>char [(15UL * sizeof(int ) - 4UL * sizeof(void *)) - sizeof(size_t )]</desugaredType>
+				<sizeInBits>160</sizeInBits>
+				<offsetInBytes>196</offsetInBytes>
+				<location file="/usr/include/libio.h" line="310" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>infomap</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="src/system.h" line="571" col="0"/>
+		<fields>
+			<field index="0">
+				<name>program</name>
+				<sugaredType>char const   *</sugaredType>
+				<desugaredType>char const   *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="src/system.h" line="571" col="0"/>
+			</field>
+			<field index="1">
+				<name>node</name>
+				<sugaredType>char const   *</sugaredType>
+				<desugaredType>char const   *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="src/system.h" line="571" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>fadvice_t</sugaredType>
+		<desugaredType>enum __anonenum_fadvice_t_65</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="./lib/fadvise.h" line="45" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>tokenbuffer</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="./lib/readtokens.h" line="26" col="0"/>
+		<fields>
+			<field index="0">
+				<name>size</name>
+				<sugaredType>size_t</sugaredType>
+				<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="./lib/readtokens.h" line="28" col="0"/>
+			</field>
+			<field index="1">
+				<name>buffer</name>
+				<sugaredType>char *</sugaredType>
+				<desugaredType>char *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="./lib/readtokens.h" line="29" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>token_buffer</sugaredType>
+		<desugaredType>struct tokenbuffer</desugaredType>
+				<sizeInBits>128</sizeInBits>
+		<location file="./lib/readtokens.h" line="31" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>successor</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="src/tsort.c" line="47" col="0"/>
+		<fields>
+			<field index="0">
+				<name>suc</name>
+				<sugaredType>struct item *</sugaredType>
+				<desugaredType>struct item *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="src/tsort.c" line="49" col="0"/>
+			</field>
+			<field index="1">
+				<name>next</name>
+				<sugaredType>struct successor *</sugaredType>
+				<desugaredType>struct successor *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="src/tsort.c" line="50" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>item</tagName>
+		<sizeInBytes>56</sizeInBytes>
+		<location file="src/tsort.c" line="54" col="0"/>
+		<fields>
+			<field index="0">
+				<name>str</name>
+				<sugaredType>char const   *</sugaredType>
+				<desugaredType>char const   *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="src/tsort.c" line="56" col="0"/>
+			</field>
+			<field index="1">
+				<name>left</name>
+				<sugaredType>struct item *</sugaredType>
+				<desugaredType>struct item *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="src/tsort.c" line="57" col="0"/>
+			</field>
+			<field index="2">
+				<name>right</name>
+				<sugaredType>struct item *</sugaredType>
+				<desugaredType>struct item *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="src/tsort.c" line="57" col="0"/>
+			</field>
+			<field index="3">
+				<name>balance</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="src/tsort.c" line="58" col="0"/>
+			</field>
+			<field index="4">
+				<name>count</name>
+				<sugaredType>size_t</sugaredType>
+				<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>32</offsetInBytes>
+				<location file="src/tsort.c" line="59" col="0"/>
+			</field>
+			<field index="5">
+				<name>qlink</name>
+				<sugaredType>struct item *</sugaredType>
+				<desugaredType>struct item *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>40</offsetInBytes>
+				<location file="src/tsort.c" line="60" col="0"/>
+			</field>
+			<field index="6">
+				<name>top</name>
+				<sugaredType>struct successor *</sugaredType>
+				<desugaredType>struct successor *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>48</offsetInBytes>
+				<location file="src/tsort.c" line="61" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

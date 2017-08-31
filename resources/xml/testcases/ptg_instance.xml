@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ptg>
+	<vertices>
+		<!-- simple vertex -->
+		<vertex id="1">
+			<bAddr>0xabc120</bAddr>
+			<eAddr>0xabc128</eAddr>
+			<size>8</size>
+			<simple>
+				<name>pointer</name>
+				<type>struct mystruct*</type>
+				<bAddr>0xabc120</bAddr>
+				<eAddr>0xabc128</eAddr>
+				<size>8</size>
+			</simple>
+		</vertex>
+
+
+		<!-- struct vertex -->
+		<vertex id="2">
+			<bAddr>0xabc120</bAddr>
+			<eAddr>0xabc128</eAddr>
+			<size>32</size>
+			<struct>
+				<name>pointer</name>
+				<type>struct mystruct*</type>
+				<bAddr>0xabc120</bAddr>
+				<eAddr>0xabc128</eAddr>
+				<size>32</size>
+				<fields>
+					<field>
+						<simple>
+							<name>pointer1</name>
+							<type>struct mystruct*</type>
+							<bAddr>0xabc120</bAddr>
+							<eAddr>0xabc128</eAddr>
+							<size>8</size>
+						</simple>
+					</field>
+					<field>
+						<simple>
+							<name>pointer2</name>
+							<type>struct mystruct*</type>
+							<bAddr>0xabc128</bAddr>
+							<eAddr>0xabc130</eAddr>
+							<size>8</size>
+						</simple>
+					</field>
+					<field>
+						<struct>
+							<name>pointer</name>
+							<type>struct mystruct*</type>
+							<bAddr>0xabc120</bAddr>
+							<eAddr>0xabc128</eAddr>
+							<size>32</size>
+							<fields>
+								<field>
+									<simple>
+										<name>pointer1</name>
+										<type>struct mystruct*</type>
+										<bAddr>0xabc120</bAddr>
+										<eAddr>0xabc128</eAddr>
+										<size>8</size>
+									</simple>
+								</field>
+								<field>
+									<simple>
+										<name>pointer2</name>
+										<type>struct mystruct*</type>
+										<bAddr>0xabc128</bAddr>
+										<eAddr>0xabc130</eAddr>
+										<size>8</size>
+									</simple>
+								</field>
+							</fields>
+						</struct>
+					</field>
+				</fields>
+			</struct>
+		</vertex>
+
+
+		<!-- struct + array vertex -->
+		<vertex id="3">
+			<bAddr>0xabc120</bAddr>
+			<eAddr>0xabc128</eAddr>
+			<size>32</size>
+			<struct>
+				<name>pointer</name>
+				<type>struct mystruct*</type>
+				<bAddr>0xabc120</bAddr>
+				<eAddr>0xabc128</eAddr>
+				<size>32</size>
+				<fields>
+					<field>
+						<simple>
+							<name>pointer1</name>
+							<type>struct mystruct*</type>
+							<bAddr>0xabc120</bAddr>
+							<eAddr>0xabc128</eAddr>
+							<size>8</size>
+						</simple>
+					</field>
+					<field>
+						<simple>
+							<name>pointer2</name>
+							<type>struct mystruct*</type>
+							<bAddr>0xabc128</bAddr>
+							<eAddr>0xabc130</eAddr>
+							<size>8</size>
+						</simple>
+					</field>
+					<field>
+						<array>
+							<type>struct mystruct*</type>
+							<bAddr>0xabc128</bAddr>
+							<eAddr>0xabc130</eAddr>
+							<size>8</size>
+							<numElems>8</numElems>
+							<!-- Be careful, mixing of types works in array -->
+							<!-- <simple> <name>pointer2</name> <type>struct mystruct*</type> 
+								<bAddr>0xabc128</bAddr> <eAddr>0xabc130</eAddr> <size>8</size> </simple> -->
+							<struct>
+								<name>pointer</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc120</bAddr>
+								<eAddr>0xabc128</eAddr>
+								<size>32</size>
+								<fields>
+									<field>
+										<simple>
+											<name>pointer1</name>
+											<type>struct mystruct*</type>
+											<bAddr>0xabc120</bAddr>
+											<eAddr>0xabc128</eAddr>
+											<size>8</size>
+										</simple>
+									</field>
+									<field>
+										<simple>
+											<name>pointer2</name>
+											<type>struct mystruct*</type>
+											<bAddr>0xabc128</bAddr>
+											<eAddr>0xabc130</eAddr>
+											<size>8</size>
+										</simple>
+									</field>
+								</fields>
+							</struct>
+							<struct>
+								<name>pointer</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc120</bAddr>
+								<eAddr>0xabc128</eAddr>
+								<size>32</size>
+								<fields>
+									<field>
+										<simple>
+											<name>pointer1</name>
+											<type>struct mystruct*</type>
+											<bAddr>0xabc120</bAddr>
+											<eAddr>0xabc128</eAddr>
+											<size>8</size>
+										</simple>
+									</field>
+									<field>
+										<simple>
+											<name>pointer2</name>
+											<type>struct mystruct*</type>
+											<bAddr>0xabc128</bAddr>
+											<eAddr>0xabc130</eAddr>
+											<size>8</size>
+										</simple>
+									</field>
+								</fields>
+							</struct>
+							<struct>
+								<name>pointer</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc120</bAddr>
+								<eAddr>0xabc128</eAddr>
+								<size>32</size>
+								<fields>
+									<field>
+										<simple>
+											<name>pointer1</name>
+											<type>struct mystruct*</type>
+											<bAddr>0xabc120</bAddr>
+											<eAddr>0xabc128</eAddr>
+											<size>8</size>
+										</simple>
+									</field>
+									<field>
+										<simple>
+											<name>pointer2</name>
+											<type>struct mystruct*</type>
+											<bAddr>0xabc128</bAddr>
+											<eAddr>0xabc130</eAddr>
+											<size>8</size>
+										</simple>
+									</field>
+								</fields>
+							</struct>
+						</array>
+
+					</field>
+				</fields>
+			</struct>
+		</vertex>
+
+		<!-- array of structs vertex -->
+		<vertex id="4">
+			<bAddr>0xabc120</bAddr>
+			<eAddr>0xabc128</eAddr>
+			<size>32</size>
+			<array>
+				<!-- Be careful, mixing of types works in array -->
+				<!-- <simple> <name>pointer2</name> <type>struct mystruct*</type> <bAddr>0xabc128</bAddr> 
+					<eAddr>0xabc130</eAddr> <size>8</size> </simple> -->
+
+				<type>struct mystruct*</type>
+				<bAddr>0xabc128</bAddr>
+				<eAddr>0xabc130</eAddr>
+				<size>8</size>
+				<numElems>8</numElems>
+				<struct>
+					<name>pointer</name>
+					<type>struct mystruct*</type>
+					<bAddr>0xabc120</bAddr>
+					<eAddr>0xabc128</eAddr>
+					<size>32</size>
+					<fields>
+						<field>
+							<simple>
+								<name>pointer1</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc120</bAddr>
+								<eAddr>0xabc128</eAddr>
+								<size>8</size>
+							</simple>
+						</field>
+						<field>
+							<simple>
+								<name>pointer2</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc128</bAddr>
+								<eAddr>0xabc130</eAddr>
+								<size>8</size>
+							</simple>
+						</field>
+					</fields>
+				</struct>
+				<struct>
+					<name>pointer</name>
+					<type>struct mystruct*</type>
+					<bAddr>0xabc120</bAddr>
+					<eAddr>0xabc128</eAddr>
+					<size>32</size>
+					<fields>
+						<field>
+							<simple>
+								<name>pointer1</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc120</bAddr>
+								<eAddr>0xabc128</eAddr>
+								<size>8</size>
+							</simple>
+						</field>
+						<field>
+							<simple>
+								<name>pointer2</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc128</bAddr>
+								<eAddr>0xabc130</eAddr>
+								<size>8</size>
+							</simple>
+						</field>
+					</fields>
+				</struct>
+				<struct>
+					<name>pointer</name>
+					<type>struct mystruct*</type>
+					<bAddr>0xabc120</bAddr>
+					<eAddr>0xabc128</eAddr>
+					<size>32</size>
+					<fields>
+						<field>
+							<simple>
+								<name>pointer1</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc120</bAddr>
+								<eAddr>0xabc128</eAddr>
+								<size>8</size>
+							</simple>
+						</field>
+						<field>
+							<simple>
+								<name>pointer2</name>
+								<type>struct mystruct*</type>
+								<bAddr>0xabc128</bAddr>
+								<eAddr>0xabc130</eAddr>
+								<size>8</size>
+							</simple>
+						</field>
+					</fields>
+				</struct>
+			</array>
+		</vertex>
+
+		<!-- array of array structs vertex -->
+		<vertex id="5">
+			<bAddr>0xabc120</bAddr>
+			<eAddr>0xabc128</eAddr>
+			<size>32</size>
+			<array>
+				<type>struct mystruct*</type>
+				<bAddr>0xabc128</bAddr>
+				<eAddr>0xabc130</eAddr>
+				<size>8</size>
+				<numElems>8</numElems>
+				<array>
+					<!-- Be careful, mixing of types works in array -->
+					<!-- <simple> <name>pointer2</name> <type>struct mystruct*</type> <bAddr>0xabc128</bAddr> 
+						<eAddr>0xabc130</eAddr> <size>8</size> </simple> -->
+					<type>struct mystruct*</type>
+					<bAddr>0xabc128</bAddr>
+					<eAddr>0xabc130</eAddr>
+					<size>8</size>
+					<numElems>8</numElems>
+					<struct>
+						<name>pointer</name>
+						<type>struct mystruct*</type>
+						<bAddr>0xabc120</bAddr>
+						<eAddr>0xabc128</eAddr>
+						<size>32</size>
+						<fields>
+							<field>
+								<simple>
+									<name>pointer1</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc120</bAddr>
+									<eAddr>0xabc128</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+							<field>
+								<simple>
+									<name>pointer2</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc128</bAddr>
+									<eAddr>0xabc130</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+						</fields>
+					</struct>
+					<struct>
+						<name>pointer</name>
+						<type>struct mystruct*</type>
+						<bAddr>0xabc120</bAddr>
+						<eAddr>0xabc128</eAddr>
+						<size>32</size>
+						<fields>
+							<field>
+								<simple>
+									<name>pointer1</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc120</bAddr>
+									<eAddr>0xabc128</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+							<field>
+								<simple>
+									<name>pointer2</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc128</bAddr>
+									<eAddr>0xabc130</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+						</fields>
+					</struct>
+					<struct>
+						<name>pointer</name>
+						<type>struct mystruct*</type>
+						<bAddr>0xabc120</bAddr>
+						<eAddr>0xabc128</eAddr>
+						<size>32</size>
+						<fields>
+							<field>
+								<simple>
+									<name>pointer1</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc120</bAddr>
+									<eAddr>0xabc128</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+							<field>
+								<simple>
+									<name>pointer2</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc128</bAddr>
+									<eAddr>0xabc130</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+						</fields>
+					</struct>
+				</array>
+				<array>
+					<!-- Be careful, mixing of types works in array -->
+					<!-- <simple> <name>pointer2</name> <type>struct mystruct*</type> <bAddr>0xabc128</bAddr> 
+						<eAddr>0xabc130</eAddr> <size>8</size> </simple> -->
+					<type>struct mystruct*</type>
+					<bAddr>0xabc128</bAddr>
+					<eAddr>0xabc130</eAddr>
+					<size>8</size>
+					<numElems>8</numElems>
+					<struct>
+						<name>pointer</name>
+						<type>struct mystruct*</type>
+						<bAddr>0xabc120</bAddr>
+						<eAddr>0xabc128</eAddr>
+						<size>32</size>
+						<fields>
+							<field>
+								<simple>
+									<name>pointer1</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc120</bAddr>
+									<eAddr>0xabc128</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+							<field>
+								<simple>
+									<name>pointer2</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc128</bAddr>
+									<eAddr>0xabc130</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+						</fields>
+					</struct>
+					<struct>
+						<name>pointer</name>
+						<type>struct mystruct*</type>
+						<bAddr>0xabc120</bAddr>
+						<eAddr>0xabc128</eAddr>
+						<size>32</size>
+						<fields>
+							<field>
+								<simple>
+									<name>pointer1</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc120</bAddr>
+									<eAddr>0xabc128</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+							<field>
+								<simple>
+									<name>pointer2</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc128</bAddr>
+									<eAddr>0xabc130</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+						</fields>
+					</struct>
+					<struct>
+						<name>pointer</name>
+						<type>struct mystruct*</type>
+						<bAddr>0xabc120</bAddr>
+						<eAddr>0xabc128</eAddr>
+						<size>32</size>
+						<fields>
+							<field>
+								<simple>
+									<name>pointer1</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc120</bAddr>
+									<eAddr>0xabc128</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+							<field>
+								<simple>
+									<name>pointer2</name>
+									<type>struct mystruct*</type>
+									<bAddr>0xabc128</bAddr>
+									<eAddr>0xabc130</eAddr>
+									<size>8</size>
+								</simple>
+							</field>
+						</fields>
+					</struct>
+				</array>
+			</array>
+		</vertex>
+	</vertices>
+
+	<edges>
+
+		<edge id="1">
+			<source>
+				<vertexId>1</vertexId>
+				<bAddr>0xabc123</bAddr>
+				<offset>8</offset>
+			</source>
+			<target>
+				<vertexId>2</vertexId>
+				<bAddr>0x123abc</bAddr>
+				<offset>8</offset>
+			</target>
+		</edge>
+
+		<edge id="1">
+			<source>
+				<vertexId>1</vertexId>
+				<bAddr>0xabc123</bAddr>
+				<offset>8</offset>
+			</source>
+			<target>
+				<vertexId>2</vertexId>
+				<bAddr>0x123abc</bAddr>
+				<offset>8</offset>
+			</target>
+		</edge>
+
+		<edge id="1">
+			<source>
+				<vertexId>1</vertexId>
+				<bAddr>0xabc123</bAddr>
+				<offset>8</offset>
+			</source>
+			<target>
+				<vertexId>2</vertexId>
+				<bAddr>0x123abc</bAddr>
+				<offset>8</offset>
+			</target>
+		</edge>
+
+		<edge id="1">
+			<source>
+				<vertexId>1</vertexId>
+				<bAddr>0xabc123</bAddr>
+				<offset>8</offset>
+			</source>
+			<target>
+				<vertexId>2</vertexId>
+				<bAddr>0x123abc</bAddr>
+				<offset>8</offset>
+			</target>
+		</edge>
+
+	</edges>
+	<boxes>
+		<cycles>
+			<cycle id="1">
+				<type>struct abc</type>
+				<linkageOffset>8</linkageOffset>
+				<cells>
+					<cell>
+						<name>linkage</name>
+						<type>struct sub</type>
+						<bAddr>0x789ef0</bAddr>
+						<eAddr>0x789ef8</eAddr>
+						<size>8</size>
+						<vertexId>1</vertexId>
+					</cell>
+					<cell>
+						<name>linkage</name>
+						<type>struct sub</type>
+						<bAddr>0x789ef0</bAddr>
+						<eAddr>0x789ef8</eAddr>
+						<size>8</size>
+						<vertexId>1</vertexId>
+					</cell>
+				</cells>
+			</cycle>
+		</cycles>
+		<box id="1">
+			<type>struct abc</type>
+			<linkageOffset>8</linkageOffset>
+			<cells>
+				<cell>
+					<name>linkage</name>
+					<type>struct sub</type>
+					<bAddr>0x789ef0</bAddr>
+					<eAddr>0x789ef8</eAddr>
+					<size>8</size>
+					<vertexId>1</vertexId>
+				</cell>
+				<cell>
+					<name>linkage</name>
+					<type>struct sub</type>
+					<bAddr>0x789ef0</bAddr>
+					<eAddr>0x789ef8</eAddr>
+					<size>8</size>
+					<vertexId>1</vertexId>
+				</cell>
+			</cells>
+		</box>
+		<box id="2">
+			<type>struct abc</type>
+			<linkageOffset>8</linkageOffset>
+			<cycleId>1</cycleId>
+		</box>
+	</boxes>
+	<boxConnections>
+		<boxConnection>
+			<dll>
+				<boxId1>1</boxId1>
+				<boxId2>2</boxId2>
+			</dll>
+		</boxConnection>
+		<boxConnection>
+			<parentChild>
+				<boxId1>1</boxId1>
+				<cell>
+					<name>linkage</name>
+					<type>struct sub</type>
+					<bAddr>0x789ef0</bAddr>
+					<eAddr>0x789ef8</eAddr>
+					<size>8</size>
+					<vertexId>1</vertexId>
+				</cell>
+				<boxId2>2</boxId2>
+				<cell>
+					<name>linkage</name>
+					<type>struct sub</type>
+					<bAddr>0x789ef0</bAddr>
+					<eAddr>0x789ef8</eAddr>
+					<size>8</size>
+					<vertexId>1</vertexId>
+				</cell>
+			</parentChild>
+		</boxConnection>
+	</boxConnections>
+</ptg>

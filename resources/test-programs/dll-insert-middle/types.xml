@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<types arch="64">
+  <alias>
+    <sugaredType>size_t</sugaredType>
+    <desugaredType>unsigned long</desugaredType>
+    <sizeInBits>64</sizeInBits>
+    <location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+  </alias>
+  <compound mode="struct">
+    <tagName>DLL</tagName>
+    <sizeInBytes>16</sizeInBytes>
+    <location file="dll-insert-middle.c" line="11" col="0"/>
+    <fields>
+      <field index="0">
+        <name>next</name>
+        <sugaredType>struct DLL *</sugaredType>
+        <desugaredType>struct DLL *</desugaredType>
+        <sizeInBits>64</sizeInBits>
+        <offsetInBytes>0</offsetInBytes>
+        <location file="dll-insert-middle.c" line="12" col="0"/>
+      </field>
+      <field index="1">
+        <name>prev</name>
+        <sugaredType>struct DLL *</sugaredType>
+        <desugaredType>struct DLL *</desugaredType>
+        <sizeInBits>64</sizeInBits>
+        <offsetInBytes>8</offsetInBytes>
+        <location file="dll-insert-middle.c" line="13" col="0"/>
+      </field>
+    </fields>
+  </compound>
+</types>

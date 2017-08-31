@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>xyz</name>
+			<type>sample</type>
+			<address>0x7fff349832a0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>sample</type>
+			<address>0x7fff349832a8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="4">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="5">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>ABC</name>
+			<type>sample</type>
+			<address>0x7fff34983228</address>
+		</variable-enter-scope>
+	</event>
+	<event id="6">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>XYZ</name>
+			<type>sample</type>
+			<address>0x7fff34983230</address>
+		</variable-enter-scope>
+	</event>
+	<event id="7">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>kanchi</name>
+			<type>sample</type>
+			<address>0x7fff34983238</address>
+		</variable-enter-scope>
+	</event>
+	<event id="8">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7fff34983240</address>
+		</variable-enter-scope>
+	</event>
+	<event id="9">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___0</name>
+			<type>void *</type>
+			<address>0x7fff34983248</address>
+		</variable-enter-scope>
+	</event>
+	<event id="10">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___1</name>
+			<type>void *</type>
+			<address>0x7fff34983250</address>
+		</variable-enter-scope>
+	</event>
+	<event id="11">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___2</name>
+			<type>void *</type>
+			<address>0x7fff34983258</address>
+		</variable-enter-scope>
+	</event>
+	<event id="12">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___3</name>
+			<type>void *</type>
+			<address>0x7fff34983260</address>
+		</variable-enter-scope>
+	</event>
+	<event id="13">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___4</name>
+			<type>void *</type>
+			<address>0x7fff34983268</address>
+		</variable-enter-scope>
+	</event>
+	<event id="14">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>18</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="15">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>18</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983228</address>
+				<type>struct sample_help *</type>
+				<codeFragment>ABC</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct sample_help</lvalDerefType>
+				<rhsCodeFragment>(sample )((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="16">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>19</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983230</address>
+				<type>struct sample_help *</type>
+				<codeFragment>XYZ</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct sample_help</lvalDerefType>
+				<rhsCodeFragment>(sample )((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="17">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>20</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983238</address>
+				<type>struct sample_help *</type>
+				<codeFragment>kanchi</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct sample_help</lvalDerefType>
+				<rhsCodeFragment>(sample )((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="18">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>22</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983240</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(sample_node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="19">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>22</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983228</address>
+				<type>struct sample_help *</type>
+				<codeFragment>ABC</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc250</content>
+				<lvalDerefType>struct sample_help</lvalDerefType>
+				<rhsCodeFragment>(sample )tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="20">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983248</address>
+				<type>void *</type>
+				<codeFragment>tmp___0</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(sample_node )</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="21">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983230</address>
+				<type>struct sample_help *</type>
+				<codeFragment>XYZ</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc270</content>
+				<lvalDerefType>struct sample_help</lvalDerefType>
+				<rhsCodeFragment>(sample )tmp___0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="22">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>24</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983250</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>5UL * sizeof(void *)</argCodeFragment>
+					<argValue>40</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="23">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>24</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x10bc250</address>
+				<type>struct sample_help</type>
+				<codeFragment>*ABC</codeFragment>
+			</context>
+			<lval>
+				<address>0x10bc258</address>
+				<type>void **</type>
+				<codeFragment>ABC->pointers</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc290</content>
+				<lvalDerefType>void *</lvalDerefType>
+				<rhsCodeFragment>(void **)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="24">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>25</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983258</address>
+				<type>void *</type>
+				<codeFragment>tmp___2</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc2c0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>5UL * sizeof(void *)</argCodeFragment>
+					<argValue>40</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="25">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>25</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x10bc270</address>
+				<type>struct sample_help</type>
+				<codeFragment>*XYZ</codeFragment>
+			</context>
+			<lval>
+				<address>0x10bc278</address>
+				<type>void **</type>
+				<codeFragment>XYZ->pointers</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc2c0</content>
+				<lvalDerefType>void *</lvalDerefType>
+				<rhsCodeFragment>(void **)tmp___2</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="26">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>26</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983260</address>
+				<type>void *</type>
+				<codeFragment>tmp___3</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc2f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>5UL * sizeof(int )</argCodeFragment>
+					<argValue>20</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="27">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>26</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x10bc250</address>
+				<type>struct sample_help</type>
+				<codeFragment>*ABC</codeFragment>
+			</context>
+			<lval>
+				<address>0x10bc250</address>
+				<type>int *</type>
+				<codeFragment>ABC->value</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc2f0</content>
+				<lvalDerefType>int</lvalDerefType>
+				<rhsCodeFragment>(int *)tmp___3</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="28">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>27</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983268</address>
+				<type>void *</type>
+				<codeFragment>tmp___4</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc310</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>5UL * sizeof(int )</argCodeFragment>
+					<argValue>20</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="29">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>27</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x10bc270</address>
+				<type>struct sample_help</type>
+				<codeFragment>*XYZ</codeFragment>
+			</context>
+			<lval>
+				<address>0x10bc270</address>
+				<type>int *</type>
+				<codeFragment>XYZ->value</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc310</content>
+				<lvalDerefType>int</lvalDerefType>
+				<rhsCodeFragment>(int *)tmp___4</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="30">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>32</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x10bc2c0</address>
+				<type>void *</type>
+				<codeFragment>*(XYZ->pointers + 0)</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)ABC</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="31">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>33</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff34983238</address>
+				<type>struct sample_help *</type>
+				<codeFragment>kanchi</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc250</content>
+				<lvalDerefType>struct sample_help</lvalDerefType>
+				<rhsCodeFragment>(sample )*(XYZ->pointers + 0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="32">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="33">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="34">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="35">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff349832a8</address>
+				<type>struct sample_help *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc270</content>
+				<lvalDerefType>struct sample_help</lvalDerefType>
+				<rhsCodeFragment>foo</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="36">
+		<variable-left-scope>
+			<name>ABC</name>
+			<address>0x7fff34983228</address>
+		</variable-left-scope>
+	</event>
+	<event id="37">
+		<variable-left-scope>
+			<name>XYZ</name>
+			<address>0x7fff34983230</address>
+		</variable-left-scope>
+	</event>
+	<event id="38">
+		<variable-left-scope>
+			<name>kanchi</name>
+			<address>0x7fff34983238</address>
+		</variable-left-scope>
+	</event>
+	<event id="39">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7fff34983240</address>
+		</variable-left-scope>
+	</event>
+	<event id="40">
+		<variable-left-scope>
+			<name>tmp___0</name>
+			<address>0x7fff34983248</address>
+		</variable-left-scope>
+	</event>
+	<event id="41">
+		<variable-left-scope>
+			<name>tmp___1</name>
+			<address>0x7fff34983250</address>
+		</variable-left-scope>
+	</event>
+	<event id="42">
+		<variable-left-scope>
+			<name>tmp___2</name>
+			<address>0x7fff34983258</address>
+		</variable-left-scope>
+	</event>
+	<event id="43">
+		<variable-left-scope>
+			<name>tmp___3</name>
+			<address>0x7fff34983260</address>
+		</variable-left-scope>
+	</event>
+	<event id="44">
+		<variable-left-scope>
+			<name>tmp___4</name>
+			<address>0x7fff34983268</address>
+		</variable-left-scope>
+	</event>
+	<event id="45">
+		<memory-write>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff349832a0</address>
+				<type>struct sample_help *</type>
+				<codeFragment>xyz</codeFragment>
+			</lval>
+			<content>
+				<content>0x10bc270</content>
+				<lvalDerefType>struct sample_help</lvalDerefType>
+				<rhsCodeFragment>tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="46">
+		<free>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>56</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)xyz</argCodeFragment>
+			<argValue>0x10bc270</argValue>
+		</free>
+	</event>
+	<event id="47">
+		<block-transition>
+			<sourceLocation>
+				<file>leak-8-ptr-no-ds.c</file>
+				<line>56</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="48">
+		<comment>Function Exited</comment>
+	</event>
+</events>

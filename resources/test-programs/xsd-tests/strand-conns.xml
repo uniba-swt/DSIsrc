@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strand-connections>
+
+	<strand-connection id="1">
+		<kind>
+			<indirect />
+		</kind>
+		<global-label>
+			<nesting>
+				<parent>1</parent>
+				<child>2</child>
+			</nesting>
+		</global-label>
+		<epochs>
+			<epoch beginEventTimeStep="1" ceaseEventTimeStep="1">
+				<cell-pair leftCellId="10" rightCellId="20" />
+				<local-label>
+					<intersecting-1node-overlay>
+						<list1>1</list1>
+						<list2>2</list2>
+					</intersecting-1node-overlay>
+				</local-label>
+			</epoch>
+		</epochs>
+	</strand-connection>
+
+	<strand-connection id="2">
+		<kind>
+			<overlay />
+		</kind>
+		<global-label>
+			<dll>
+				<fwd>3</fwd>
+				<rev>4</rev>
+			</dll>
+		</global-label>
+		<epochs>
+			<epoch beginEventTimeStep="1" ceaseEventTimeStep="1">
+				<cell-pair leftCellId="30" rightCellId="40" />
+				<cell-pair leftCellId="30" rightCellId="40" />
+				<local-label>
+					<intersecting-1node-indirect>
+						<list1>1</list1>
+						<list2>2</list2>
+					</intersecting-1node-indirect>
+				</local-label>
+			</epoch>
+		</epochs>
+	</strand-connection>
+
+	<strand-connection id="3">
+		<kind>
+			<overlay />
+		</kind>
+		<global-label>
+			<dll>
+				<fwd>3</fwd>
+				<rev>4</rev>
+			</dll>
+		</global-label>
+		<epochs>
+			<epoch beginEventTimeStep="1" ceaseEventTimeStep="1">
+				<cell-pair leftCellId="30" rightCellId="40" />
+				<cell-pair leftCellId="30" rightCellId="40" />
+				<local-label>
+					<unclassified/>
+				</local-label>
+			</epoch>
+		</epochs>
+	</strand-connection>
+</strand-connections>

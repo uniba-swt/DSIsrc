@@ -1,0 +1,17 @@
+*.aux
+*.swp
+.*.sw*
+*.aux
+*.log
+*.nav
+*.snm
+*.toc
+*.out
+*.o
+xx*
+THANKS*
+ChangeLog*
+NEWS*
+INSTALL*
+AUTHORS*
+COPYING*

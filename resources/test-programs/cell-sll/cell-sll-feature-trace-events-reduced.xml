@@ -1,0 +1,11 @@
+<trace name="cell-sll">
+	<subTrace id="0" absId="1" eIdxStart="4" eIdxEnd="9" fIdxStart="1" fIdxEnd="4">
+		<feature eIdx="4" fIdx="1">N</feature><!--feature: newlyCreated-->
+		<feature eIdx="5" fIdx="2">+</feature><!--feature: plusOne-->
+		<!--s  : eIdx="6" fIdx="2"                feature: plusOne-->
+		<feature eIdx="7" fIdx="3">x</feature><!--feature: noChange-->
+		<!--s  : eIdx="8" fIdx="3"                feature: btExitNoChange-->
+		<feature eIdx="9" fIdx="4">v</feature><!--feature: vlsNoChange-->
+	</subTrace>
+</trace>
+

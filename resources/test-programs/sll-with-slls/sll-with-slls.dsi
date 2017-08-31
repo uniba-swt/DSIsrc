@@ -1,0 +1,8 @@
+{
+	"dsi-root": "/usr/src/test-programs/sll-with-slls/",
+	"trace-xml": "trace.xml",
+	"c-sources": ["sll-with-slls.c"],
+	"dsi-output-xml": "dsi-sll-with-slls-artifacts.xml",
+	"dsi-db": "dsi-sll-with-slls-artifacts.sqlite3",
+	"regen-db": false
+}

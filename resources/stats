@@ -1,0 +1,19 @@
+     100 files     200 files     300 files     400 files     500 files     600 files     700 files     800 files     900 files    1000 files    1100 files    1200 files    1238 text files.
+classified 1236 filesDuplicate file check 1236 files (812 known unique)Unique:      100 files                                          Unique:      200 files                                          Unique:      300 files                                          Unique:      400 files                                          Unique:      500 files                                          Unique:      600 files                                          Unique:      700 files                                          Unique:      800 files                                               992 unique files.                              
+Counting:  100Counting:  200Counting:  300Counting:  400Counting:  500Counting:  600Counting:  700Counting:  800Counting:  900    4130 files ignored.
+
+http://cloc.sourceforge.net v 1.60  T=32.92 s (11.4 files/s, 158807.9 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+XML                            237          20619        1017571        4168621
+C                               33            642            205           7723
+Scala                           80           1058           1510           6029
+OCaml                            1            221            231            877
+C/C++ Header                     6            219            384            774
+make                            12            108              0            260
+Bourne Shell                     5             29              8            221
+XSD                              2             13              1            176
+-------------------------------------------------------------------------------
+SUM:                           376          22909        1019910        4184681
+-------------------------------------------------------------------------------

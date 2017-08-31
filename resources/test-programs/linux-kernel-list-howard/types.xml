@@ -1,0 +1,126 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>list_head</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="list.h" line="30" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct list_head *</sugaredType>
+				<desugaredType>struct list_head *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="list.h" line="31" col="0"/>
+			</field>
+			<field index="1">
+				<name>prev</name>
+				<sugaredType>struct list_head *</sugaredType>
+				<desugaredType>struct list_head *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="list.h" line="31" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>__anonstruct_inner1_t_29</tagName>
+		<sizeInBytes>24</sizeInBytes>
+		<location file="linux-kernel-list-howard.c" line="21" col="0"/>
+		<fields>
+			<field index="0">
+				<name>yy</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="linux-kernel-list-howard.c" line="22" col="0"/>
+			</field>
+			<field index="1">
+				<name>zz</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>4</offsetInBytes>
+				<location file="linux-kernel-list-howard.c" line="23" col="0"/>
+			</field>
+			<field index="2">
+				<name>list</name>
+				<sugaredType>struct list_head</sugaredType>
+				<desugaredType>struct list_head</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="linux-kernel-list-howard.c" line="24" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>inner1_t</sugaredType>
+		<desugaredType>struct __anonstruct_inner1_t_29</desugaredType>
+				<sizeInBits>192</sizeInBits>
+		<location file="linux-kernel-list-howard.c" line="21" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>__anonstruct_inner2_t_30</tagName>
+		<sizeInBytes>32</sizeInBytes>
+		<location file="linux-kernel-list-howard.c" line="26" col="0"/>
+		<fields>
+			<field index="0">
+				<name>xx</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="linux-kernel-list-howard.c" line="27" col="0"/>
+			</field>
+			<field index="1">
+				<name>inner1</name>
+				<sugaredType>inner1_t</sugaredType>
+				<desugaredType>struct __anonstruct_inner1_t_29</desugaredType>
+				<sizeInBits>192</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="linux-kernel-list-howard.c" line="28" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>inner2_t</sugaredType>
+		<desugaredType>struct __anonstruct_inner2_t_30</desugaredType>
+				<sizeInBits>256</sizeInBits>
+		<location file="linux-kernel-list-howard.c" line="26" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>__anonstruct_list_element_31</tagName>
+		<sizeInBytes>40</sizeInBytes>
+		<location file="linux-kernel-list-howard.c" line="32" col="0"/>
+		<fields>
+			<field index="0">
+				<name>payload</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="linux-kernel-list-howard.c" line="34" col="0"/>
+			</field>
+			<field index="1">
+				<name>inner2</name>
+				<sugaredType>inner2_t</sugaredType>
+				<desugaredType>struct __anonstruct_inner2_t_30</desugaredType>
+				<sizeInBits>256</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="linux-kernel-list-howard.c" line="35" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>list_element</sugaredType>
+		<desugaredType>struct __anonstruct_list_element_31</desugaredType>
+				<sizeInBits>320</sizeInBits>
+		<location file="linux-kernel-list-howard.c" line="32" col="0"/>
+	</alias>
+</types>

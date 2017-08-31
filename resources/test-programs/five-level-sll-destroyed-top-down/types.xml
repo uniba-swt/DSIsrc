@@ -1,0 +1,138 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>L5</tagName>
+		<sizeInBytes>4</sizeInBytes>
+		<location file="five-level-sll-destroyed-top-down.c" line="7" col="0"/>
+		<fields>
+			<field index="0">
+				<name>payload</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="8" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>L4</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="five-level-sll-destroyed-top-down.c" line="11" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct L4 *</sugaredType>
+				<desugaredType>struct L4 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="12" col="0"/>
+			</field>
+			<field index="1">
+				<name>down</name>
+				<sugaredType>struct L5 *</sugaredType>
+				<desugaredType>struct L5 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="13" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>L3</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="five-level-sll-destroyed-top-down.c" line="16" col="0"/>
+		<fields>
+			<field index="0">
+				<name>down</name>
+				<sugaredType>struct L4 *</sugaredType>
+				<desugaredType>struct L4 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="17" col="0"/>
+			</field>
+			<field index="1">
+				<name>next</name>
+				<sugaredType>struct L3 *</sugaredType>
+				<desugaredType>struct L3 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="18" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>L2</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="five-level-sll-destroyed-top-down.c" line="21" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct L2 *</sugaredType>
+				<desugaredType>struct L2 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="22" col="0"/>
+			</field>
+			<field index="1">
+				<name>down</name>
+				<sugaredType>struct L3 *</sugaredType>
+				<desugaredType>struct L3 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="23" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>L1</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="five-level-sll-destroyed-top-down.c" line="26" col="0"/>
+		<fields>
+			<field index="0">
+				<name>down</name>
+				<sugaredType>struct L2 *</sugaredType>
+				<desugaredType>struct L2 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="27" col="0"/>
+			</field>
+			<field index="1">
+				<name>next</name>
+				<sugaredType>struct L1 *</sugaredType>
+				<desugaredType>struct L1 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="28" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>L0</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="five-level-sll-destroyed-top-down.c" line="31" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct L0 *</sugaredType>
+				<desugaredType>struct L0 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="32" col="0"/>
+			</field>
+			<field index="1">
+				<name>down</name>
+				<sugaredType>struct L1 *</sugaredType>
+				<desugaredType>struct L1 *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="five-level-sll-destroyed-top-down.c" line="33" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

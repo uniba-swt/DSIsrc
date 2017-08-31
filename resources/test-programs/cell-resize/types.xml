@@ -1,0 +1,97 @@
+<types arch="64">
+	<compound mode="struct">
+		<tagName>voidlink</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="cell-resize.c" line="5" col="0"/>
+		<fields>
+			<field index="0">
+				<name>data</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="cell-resize.c" line="6" col="0"/>
+			</field>
+			<field index="1">
+				<name>next</name>
+				<sugaredType>void *</sugaredType>
+				<desugaredType>void *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="cell-resize.c" line="7" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>voidlink___0</sugaredType>
+		<desugaredType>struct voidlink</desugaredType>
+				<sizeInBits>128</sizeInBits>
+		<location file="cell-resize.c" line="9" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>link</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="cell-resize.c" line="11" col="0"/>
+		<fields>
+			<field index="0">
+				<name>data</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="cell-resize.c" line="12" col="0"/>
+			</field>
+			<field index="1">
+				<name>next</name>
+				<sugaredType>struct link *</sugaredType>
+				<desugaredType>struct link *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="cell-resize.c" line="13" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>link</sugaredType>
+		<desugaredType>struct link</desugaredType>
+				<sizeInBits>128</sizeInBits>
+		<location file="cell-resize.c" line="15" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>list_element</tagName>
+		<sizeInBytes>40</sizeInBytes>
+		<location file="cell-resize.c" line="17" col="0"/>
+		<fields>
+			<field index="0">
+				<name>payload</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="cell-resize.c" line="18" col="0"/>
+			</field>
+			<field index="1">
+				<name>voidlinkage</name>
+				<sugaredType>voidlink___0</sugaredType>
+				<desugaredType>struct voidlink</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="cell-resize.c" line="19" col="0"/>
+			</field>
+			<field index="2">
+				<name>linkage</name>
+				<sugaredType>link</sugaredType>
+				<desugaredType>struct link</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="cell-resize.c" line="20" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>list_element</sugaredType>
+		<desugaredType>struct list_element</desugaredType>
+				<sizeInBits>320</sizeInBits>
+		<location file="cell-resize.c" line="22" col="0"/>
+	</alias>
+</types>

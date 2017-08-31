@@ -1,0 +1,8 @@
+{
+	"dsi-root": "/usr/src/test-programs/dll-insert-middle/",
+	"trace-xml": "trace.xml",
+	"c-sources": ["dll-insert-middle.c"],
+	"dsi-output-xml": "dsi-dll-insert-middle-artifacts.xml",
+	"dsi-db": "dsi-dll-insert-middle-artifacts.sqlite3",
+	"regen-db": true
+}

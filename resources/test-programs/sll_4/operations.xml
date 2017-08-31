@@ -1,0 +1,37 @@
+<operations>
+	<operation id="0" beginEventTimeStep="114" ceaseEventTimeStep="124">
+		<start>
+			<sourceLocation>
+				<file>sll_4.c</file>
+				<line>84</line>
+				<column>0</column>
+			</sourceLocation>
+		</start>
+		<end>
+			<sourceLocation>
+				<file>sll_4.c</file>
+				<line>100</line>
+				<column>0</column>
+			</sourceLocation>
+		</end>
+		<dataStructure>SLL</dataStructure>
+		<operationDetails>
+			<insert>
+				<location>end</location>
+				<cells>
+					<cell id="4"/>
+				</cells>
+			</insert>
+		</operationDetails>
+		<entryPoints>
+			<entry-point id="1"/>
+			<entry-point id="2"/>
+			<entry-point id="4"/>
+			<entry-point id="5"/>
+			<entry-point id="7"/>
+			<entry-point id="8"/>
+			<entry-point id="9"/>
+			<entry-point id="11"/>
+		</entryPoints>
+	</operation>
+</operations>

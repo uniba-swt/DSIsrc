@@ -1,0 +1,7420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>argv</name>
+			<type>char **</type>
+			<address>0x7ffd0d3eb870</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>root</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb888</address>
+		</variable-enter-scope>
+	</event>
+	<event id="4">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="5">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>argv</name>
+			<type>char **</type>
+			<address>0x7ffd0d3eb820</address>
+		</variable-enter-scope>
+	</event>
+	<event id="6">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="7">
+		<comment>Loop-iteration-start_args.c_22</comment>
+	</event>
+	<event id="8">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="9">
+		<comment>Loop-iteration-start_args.c_22</comment>
+	</event>
+	<event id="10">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="11">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="12">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="13">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="14">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="15">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="16">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="17">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="18">
+		<variable-left-scope>
+			<name>argv</name>
+			<address>0x7ffd0d3eb820</address>
+		</variable-left-scope>
+	</event>
+	<event id="19">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>46</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="20">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="21">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>fmt</name>
+			<type>char *</type>
+			<address>0x7ffd0d3eb718</address>
+		</variable-enter-scope>
+	</event>
+	<event id="22">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="23">
+		<block-transition>
+			<sourceLocation>
+				<file>plain.c</file>
+				<line>48</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="24">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="25">
+		<block-transition>
+			<sourceLocation>
+				<file>plain.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="26">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="27">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="28">
+		<variable-left-scope>
+			<name>fmt</name>
+			<address>0x7ffd0d3eb718</address>
+		</variable-left-scope>
+	</event>
+	<event id="29">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="30">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="31">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>fmt</name>
+			<type>char *</type>
+			<address>0x7ffd0d3eb718</address>
+		</variable-enter-scope>
+	</event>
+	<event id="32">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="33">
+		<block-transition>
+			<sourceLocation>
+				<file>plain.c</file>
+				<line>48</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="34">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="35">
+		<block-transition>
+			<sourceLocation>
+				<file>plain.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="36">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="37">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="38">
+		<variable-left-scope>
+			<name>fmt</name>
+			<address>0x7ffd0d3eb718</address>
+		</variable-left-scope>
+	</event>
+	<event id="39">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>51</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="40">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="41">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb828</address>
+		</variable-enter-scope>
+	</event>
+	<event id="42">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb830</address>
+		</variable-enter-scope>
+	</event>
+	<event id="43">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb838</address>
+		</variable-enter-scope>
+	</event>
+	<event id="44">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="45">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb828</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577250</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="46">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="47">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="48">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb7b8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="49">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb7c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="50">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb7c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="51">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="52">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7b8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577270</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="53">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="54">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="55">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="56">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb750</address>
+		</variable-enter-scope>
+	</event>
+	<event id="57">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb758</address>
+		</variable-enter-scope>
+	</event>
+	<event id="58">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="59">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577290</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="60">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="61">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="62">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="63">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="64">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="65">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="66">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772b0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="67">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="68">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="69">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="70">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="71">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="72">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="73">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="74">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="75">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="76">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="77">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="78">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="79">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="80">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="81">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="82">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="83">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="84">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="85">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="86">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="87">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="88">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="89">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25772b0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25772b8</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="90">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25772b0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25772c0</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="91">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="92">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="93">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="94">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb758</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772b0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="95">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="96">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="97">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="98">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="99">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="100">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="101">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="102">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="103">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="104">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772d0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="105">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="106">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="107">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="108">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="109">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="110">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="111">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="112">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="113">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="114">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="115">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="116">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="117">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="118">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="119">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="120">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="121">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="122">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="123">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="124">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="125">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="126">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="127">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25772d0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25772d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="128">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25772d0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25772e0</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="129">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="130">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="131">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="132">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb750</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772d0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="133">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="134">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="135">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="136">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577290</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577298</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772b0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="137">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577290</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25772a0</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772d0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="138">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="139">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="140">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="141">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7c8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577290</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="142">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="143">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb750</address>
+		</variable-left-scope>
+	</event>
+	<event id="144">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb758</address>
+		</variable-left-scope>
+	</event>
+	<event id="145">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="146">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="147">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="148">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb750</address>
+		</variable-enter-scope>
+	</event>
+	<event id="149">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb758</address>
+		</variable-enter-scope>
+	</event>
+	<event id="150">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="151">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772f0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="152">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="153">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="154">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="155">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="156">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="157">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="158">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577310</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="159">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="160">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="161">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="162">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="163">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="164">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="165">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="166">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="167">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="168">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="169">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="170">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="171">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="172">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="173">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="174">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="175">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="176">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="177">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="178">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="179">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="180">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="181">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577310</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577318</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="182">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577310</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577320</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="183">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="184">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="185">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="186">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb758</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577310</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="187">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="188">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="189">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="190">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="191">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="192">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="193">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="194">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="195">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="196">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577330</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="197">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="198">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="199">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="200">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="201">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="202">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="203">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="204">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="205">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="206">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="207">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="208">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="209">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="210">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="211">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="212">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="213">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="214">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="215">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="216">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="217">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="218">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="219">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577330</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577338</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="220">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577330</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577340</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="221">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="222">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="223">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="224">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb750</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577330</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="225">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="226">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="227">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="228">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25772f0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25772f8</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577310</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="229">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25772f0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577300</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577330</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="230">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="231">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="232">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="233">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7c0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772f0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="234">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="235">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb750</address>
+		</variable-left-scope>
+	</event>
+	<event id="236">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb758</address>
+		</variable-left-scope>
+	</event>
+	<event id="237">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577270</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577278</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577290</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="238">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577270</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577280</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772f0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="239">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="240">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="241">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="242">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb838</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577270</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="243">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb7b8</address>
+		</variable-left-scope>
+	</event>
+	<event id="244">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb7c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="245">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb7c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="246">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="247">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="248">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb7b8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="249">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb7c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="250">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb7c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="251">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="252">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7b8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577350</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="253">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="254">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="255">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="256">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb750</address>
+		</variable-enter-scope>
+	</event>
+	<event id="257">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb758</address>
+		</variable-enter-scope>
+	</event>
+	<event id="258">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="259">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577370</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="260">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="261">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="262">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="263">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="264">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="265">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="266">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577390</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="267">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="268">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="269">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="270">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="271">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="272">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="273">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="274">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="275">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="276">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="277">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="278">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="279">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="280">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="281">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="282">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="283">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="284">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="285">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="286">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="287">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="288">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="289">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577390</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577398</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="290">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577390</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25773a0</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="291">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="292">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="293">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="294">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb758</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577390</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="295">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="296">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="297">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="298">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="299">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="300">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="301">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="302">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="303">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="304">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773b0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="305">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="306">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="307">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="308">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="309">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="310">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="311">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="312">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="313">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="314">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="315">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="316">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="317">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="318">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="319">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="320">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="321">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="322">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="323">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="324">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="325">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="326">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="327">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25773b0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25773b8</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="328">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25773b0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25773c0</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="329">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="330">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="331">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="332">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb750</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773b0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="333">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="334">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="335">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="336">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577370</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577378</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577390</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="337">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577370</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577380</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773b0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="338">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="339">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="340">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="341">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7c8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577370</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="342">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="343">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb750</address>
+		</variable-left-scope>
+	</event>
+	<event id="344">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb758</address>
+		</variable-left-scope>
+	</event>
+	<event id="345">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="346">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="347">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="348">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb750</address>
+		</variable-enter-scope>
+	</event>
+	<event id="349">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb758</address>
+		</variable-enter-scope>
+	</event>
+	<event id="350">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="351">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773d0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="352">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="353">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="354">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="355">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="356">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="357">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="358">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773f0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="359">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="360">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="361">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="362">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="363">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="364">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="365">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="366">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="367">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="368">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="369">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="370">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="371">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="372">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="373">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="374">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="375">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="376">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="377">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="378">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="379">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="380">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="381">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25773f0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25773f8</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="382">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25773f0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577400</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="383">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="384">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="385">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="386">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb758</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773f0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="387">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="388">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="389">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="390">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="391">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="392">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="393">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="394">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="395">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="396">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577410</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>(struct tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="397">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="398">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="399">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="400">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="401">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="402">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="403">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="404">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e8</address>
+				<type>struct tree *</type>
+				<codeFragment>left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="405">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="406">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="407">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="408">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="409">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="410">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>new</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb668</address>
+		</variable-enter-scope>
+	</event>
+	<event id="411">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>right</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="412">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>left</name>
+			<type>struct tree *</type>
+			<address>0x7ffd0d3eb678</address>
+		</variable-enter-scope>
+	</event>
+	<event id="413">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="414">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="415">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb6e0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="416">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb668</address>
+		</variable-left-scope>
+	</event>
+	<event id="417">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb670</address>
+		</variable-left-scope>
+	</event>
+	<event id="418">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb678</address>
+		</variable-left-scope>
+	</event>
+	<event id="419">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577410</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577418</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="420">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577410</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577420</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="421">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="422">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="423">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="424">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb750</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577410</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="425">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="426">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb6e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="427">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb6e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="428">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25773d0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25773d8</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773f0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="429">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25773d0</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x25773e0</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577410</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="430">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="431">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="432">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="433">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7c0</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773d0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="434">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="435">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb750</address>
+		</variable-left-scope>
+	</event>
+	<event id="436">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb758</address>
+		</variable-left-scope>
+	</event>
+	<event id="437">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577350</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577358</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577370</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="438">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577350</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577360</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773d0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="439">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="440">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="441">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="442">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb830</address>
+				<type>struct tree *</type>
+				<codeFragment>right</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577350</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="443">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb7b8</address>
+		</variable-left-scope>
+	</event>
+	<event id="444">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb7c0</address>
+		</variable-left-scope>
+	</event>
+	<event id="445">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb7c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="446">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577250</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577258</address>
+				<type>struct tree *</type>
+				<codeFragment>new->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577270</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="447">
+		<memory-write>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x2577250</address>
+				<type>struct tree</type>
+				<codeFragment>*new</codeFragment>
+			</context>
+			<lval>
+				<address>0x2577260</address>
+				<type>struct tree *</type>
+				<codeFragment>new->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577350</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="448">
+		<block-transition>
+			<sourceLocation>
+				<file>par-alloc.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="449">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="450">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>51</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="451">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>51</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb888</address>
+				<type>struct tree *</type>
+				<codeFragment>root</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577250</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>TreeAlloc</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="452">
+		<variable-left-scope>
+			<name>new</name>
+			<address>0x7ffd0d3eb828</address>
+		</variable-left-scope>
+	</event>
+	<event id="453">
+		<variable-left-scope>
+			<name>right</name>
+			<address>0x7ffd0d3eb830</address>
+		</variable-left-scope>
+	</event>
+	<event id="454">
+		<variable-left-scope>
+			<name>left</name>
+			<address>0x7ffd0d3eb838</address>
+		</variable-left-scope>
+	</event>
+	<event id="455">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>56</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="456">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="457">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>fmt</name>
+			<type>char *</type>
+			<address>0x7ffd0d3eb718</address>
+		</variable-enter-scope>
+	</event>
+	<event id="458">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="459">
+		<block-transition>
+			<sourceLocation>
+				<file>plain.c</file>
+				<line>48</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="460">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="461">
+		<block-transition>
+			<sourceLocation>
+				<file>plain.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="462">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="463">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="464">
+		<variable-left-scope>
+			<name>fmt</name>
+			<address>0x7ffd0d3eb718</address>
+		</variable-left-scope>
+	</event>
+	<event id="465">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>59</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="466">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="467">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb818</address>
+		</variable-enter-scope>
+	</event>
+	<event id="468">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb830</address>
+		</variable-enter-scope>
+	</event>
+	<event id="469">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb838</address>
+		</variable-enter-scope>
+	</event>
+	<event id="470">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="471">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb830</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577270</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="472">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="473">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="474">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb7c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="475">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb7e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="476">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb7e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="477">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="478">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7e0</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577290</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="479">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="480">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="481">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb778</address>
+		</variable-enter-scope>
+	</event>
+	<event id="482">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb790</address>
+		</variable-enter-scope>
+	</event>
+	<event id="483">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb798</address>
+		</variable-enter-scope>
+	</event>
+	<event id="484">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="485">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb790</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772b0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="486">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="487">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="488">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb728</address>
+		</variable-enter-scope>
+	</event>
+	<event id="489">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb740</address>
+		</variable-enter-scope>
+	</event>
+	<event id="490">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="491">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="492">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb740</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="493">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="494">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="495">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="496">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="497">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="498">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="499">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="500">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="501">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="502">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="503">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="504">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="505">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="506">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="507">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="508">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="509">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="510">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="511">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="512">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="513">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="514">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="515">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="516">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="517">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb728</address>
+		</variable-left-scope>
+	</event>
+	<event id="518">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb740</address>
+		</variable-left-scope>
+	</event>
+	<event id="519">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="520">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb798</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772d0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="521">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="522">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="523">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb728</address>
+		</variable-enter-scope>
+	</event>
+	<event id="524">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb740</address>
+		</variable-enter-scope>
+	</event>
+	<event id="525">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="526">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="527">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb740</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="528">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="529">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="530">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="531">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="532">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="533">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="534">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="535">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="536">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="537">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="538">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="539">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="540">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="541">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="542">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="543">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="544">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="545">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="546">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="547">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="548">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="549">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="550">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="551">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="552">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb728</address>
+		</variable-left-scope>
+	</event>
+	<event id="553">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb740</address>
+		</variable-left-scope>
+	</event>
+	<event id="554">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="555">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="556">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="557">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="558">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb778</address>
+		</variable-left-scope>
+	</event>
+	<event id="559">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb790</address>
+		</variable-left-scope>
+	</event>
+	<event id="560">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb798</address>
+		</variable-left-scope>
+	</event>
+	<event id="561">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7e8</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>0x25772f0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="562">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="563">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="564">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb778</address>
+		</variable-enter-scope>
+	</event>
+	<event id="565">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb790</address>
+		</variable-enter-scope>
+	</event>
+	<event id="566">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb798</address>
+		</variable-enter-scope>
+	</event>
+	<event id="567">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="568">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb790</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577310</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="569">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="570">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="571">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb728</address>
+		</variable-enter-scope>
+	</event>
+	<event id="572">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb740</address>
+		</variable-enter-scope>
+	</event>
+	<event id="573">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="574">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="575">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb740</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="576">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="577">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="578">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="579">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="580">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="581">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="582">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="583">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="584">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="585">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="586">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="587">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="588">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="589">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="590">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="591">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="592">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="593">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="594">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="595">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="596">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="597">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="598">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="599">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="600">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb728</address>
+		</variable-left-scope>
+	</event>
+	<event id="601">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb740</address>
+		</variable-left-scope>
+	</event>
+	<event id="602">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="603">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb798</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577330</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="604">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="605">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="606">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb728</address>
+		</variable-enter-scope>
+	</event>
+	<event id="607">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb740</address>
+		</variable-enter-scope>
+	</event>
+	<event id="608">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="609">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="610">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb740</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="611">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="612">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="613">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="614">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="615">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="616">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="617">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="618">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="619">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="620">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="621">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="622">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="623">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="624">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="625">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="626">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="627">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="628">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="629">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="630">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="631">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="632">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="633">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="634">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="635">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb728</address>
+		</variable-left-scope>
+	</event>
+	<event id="636">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb740</address>
+		</variable-left-scope>
+	</event>
+	<event id="637">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="638">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="639">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="640">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="641">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb778</address>
+		</variable-left-scope>
+	</event>
+	<event id="642">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb790</address>
+		</variable-left-scope>
+	</event>
+	<event id="643">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb798</address>
+		</variable-left-scope>
+	</event>
+	<event id="644">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="645">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="646">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="647">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb7c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="648">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb7e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="649">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb7e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="650">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb838</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577350</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="651">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="652">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="653">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb7c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="654">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb7e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="655">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb7e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="656">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="657">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7e0</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577370</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="658">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="659">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="660">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb778</address>
+		</variable-enter-scope>
+	</event>
+	<event id="661">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb790</address>
+		</variable-enter-scope>
+	</event>
+	<event id="662">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb798</address>
+		</variable-enter-scope>
+	</event>
+	<event id="663">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="664">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb790</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577390</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="665">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="666">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="667">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb728</address>
+		</variable-enter-scope>
+	</event>
+	<event id="668">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb740</address>
+		</variable-enter-scope>
+	</event>
+	<event id="669">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="670">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="671">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb740</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="672">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="673">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="674">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="675">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="676">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="677">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="678">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="679">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="680">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="681">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="682">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="683">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="684">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="685">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="686">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="687">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="688">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="689">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="690">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="691">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="692">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="693">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="694">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="695">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="696">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb728</address>
+		</variable-left-scope>
+	</event>
+	<event id="697">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb740</address>
+		</variable-left-scope>
+	</event>
+	<event id="698">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="699">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb798</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773b0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="700">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="701">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="702">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb728</address>
+		</variable-enter-scope>
+	</event>
+	<event id="703">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb740</address>
+		</variable-enter-scope>
+	</event>
+	<event id="704">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="705">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="706">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb740</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="707">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="708">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="709">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="710">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="711">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="712">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="713">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="714">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="715">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="716">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="717">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="718">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="719">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="720">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="721">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="722">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="723">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="724">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="725">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="726">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="727">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="728">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="729">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="730">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="731">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb728</address>
+		</variable-left-scope>
+	</event>
+	<event id="732">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb740</address>
+		</variable-left-scope>
+	</event>
+	<event id="733">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="734">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="735">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="736">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="737">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb778</address>
+		</variable-left-scope>
+	</event>
+	<event id="738">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb790</address>
+		</variable-left-scope>
+	</event>
+	<event id="739">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb798</address>
+		</variable-left-scope>
+	</event>
+	<event id="740">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb7e8</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773d0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="741">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="742">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="743">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb778</address>
+		</variable-enter-scope>
+	</event>
+	<event id="744">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb790</address>
+		</variable-enter-scope>
+	</event>
+	<event id="745">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb798</address>
+		</variable-enter-scope>
+	</event>
+	<event id="746">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="747">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb790</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>0x25773f0</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="748">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="749">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="750">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb728</address>
+		</variable-enter-scope>
+	</event>
+	<event id="751">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb740</address>
+		</variable-enter-scope>
+	</event>
+	<event id="752">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="753">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="754">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb740</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="755">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="756">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="757">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="758">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="759">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="760">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="761">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="762">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="763">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="764">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="765">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="766">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="767">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="768">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="769">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="770">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="771">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="772">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="773">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="774">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="775">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="776">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="777">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="778">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="779">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb728</address>
+		</variable-left-scope>
+	</event>
+	<event id="780">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb740</address>
+		</variable-left-scope>
+	</event>
+	<event id="781">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="782">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb798</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>0x2577410</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="783">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="784">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="785">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb728</address>
+		</variable-enter-scope>
+	</event>
+	<event id="786">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb740</address>
+		</variable-enter-scope>
+	</event>
+	<event id="787">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb748</address>
+		</variable-enter-scope>
+	</event>
+	<event id="788">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="789">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>104</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb740</address>
+				<type>struct tree *</type>
+				<codeFragment>tleft</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->left</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="790">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>105</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="791">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="792">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="793">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="794">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="795">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="796">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="797">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="798">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="799">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="800">
+		<memory-write>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>106</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd0d3eb748</address>
+				<type>struct tree *</type>
+				<codeFragment>tright</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct tree</lvalDerefType>
+				<rhsCodeFragment>t->right</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="801">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>107</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="802">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="803">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>t</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="804">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tleft</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="805">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tright</name>
+			<type>tree_t *</type>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="806">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="807">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="808">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb6d8</address>
+		</variable-left-scope>
+	</event>
+	<event id="809">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb6f0</address>
+		</variable-left-scope>
+	</event>
+	<event id="810">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb6f8</address>
+		</variable-left-scope>
+	</event>
+	<event id="811">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="812">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="813">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="814">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb728</address>
+		</variable-left-scope>
+	</event>
+	<event id="815">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb740</address>
+		</variable-left-scope>
+	</event>
+	<event id="816">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb748</address>
+		</variable-left-scope>
+	</event>
+	<event id="817">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="818">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="819">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="820">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb778</address>
+		</variable-left-scope>
+	</event>
+	<event id="821">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb790</address>
+		</variable-left-scope>
+	</event>
+	<event id="822">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb798</address>
+		</variable-left-scope>
+	</event>
+	<event id="823">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="824">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="825">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="826">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb7c8</address>
+		</variable-left-scope>
+	</event>
+	<event id="827">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb7e0</address>
+		</variable-left-scope>
+	</event>
+	<event id="828">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb7e8</address>
+		</variable-left-scope>
+	</event>
+	<event id="829">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>109</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="830">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="831">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="832">
+		<variable-left-scope>
+			<name>t</name>
+			<address>0x7ffd0d3eb818</address>
+		</variable-left-scope>
+	</event>
+	<event id="833">
+		<variable-left-scope>
+			<name>tleft</name>
+			<address>0x7ffd0d3eb830</address>
+		</variable-left-scope>
+	</event>
+	<event id="834">
+		<variable-left-scope>
+			<name>tright</name>
+			<address>0x7ffd0d3eb838</address>
+		</variable-left-scope>
+	</event>
+	<event id="835">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>61</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="836">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="837">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>fmt</name>
+			<type>char *</type>
+			<address>0x7ffd0d3eb718</address>
+		</variable-enter-scope>
+	</event>
+	<event id="838">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="839">
+		<block-transition>
+			<sourceLocation>
+				<file>plain.c</file>
+				<line>48</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="840">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="841">
+		<block-transition>
+			<sourceLocation>
+				<file>plain.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="842">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="843">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="844">
+		<variable-left-scope>
+			<name>fmt</name>
+			<address>0x7ffd0d3eb718</address>
+		</variable-left-scope>
+	</event>
+	<event id="845">
+		<block-transition>
+			<sourceLocation>
+				<file>node.c</file>
+				<line>68</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+</events>

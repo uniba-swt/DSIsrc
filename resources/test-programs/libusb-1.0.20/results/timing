@@ -1,0 +1,28 @@
+Timing for running libusb with 3 conexts (trace-multi-context-3.xml): 
+libusb-1.0.20/results/graph_cleaned_244201731234_00000400_agg_event_id_400_ep_vertex_18.dot
+
+milli seconds obtained from System.currentTimeMillis:
+start time: 1492933126 
+end time: 1492996389
+
+Duration in seconds
+duration: 63263 (17,573h)
+=> 5 hours were spent on just printing intermediate results:
+(Starting with first graph of SG (mbg))
+thomas@rupprechtnb:mbg$ ls -lh graph*_id_1.dot
+-rw-rw-r-- 1 thomas thomas 13 Apr 23 22:08 graph_234201722831_149297811163900000001_mbg_event_id_1.dot
+
+(Ending with last graph of FSG (mmbg))
+thomas@rupprechtnb:mmbg$ ls -lh graph*_id_32861.dot
+-rw-rw-r-- 1 thomas thomas 5,2K Apr 24 03:08 graph_24420173845_00032861_mmbg_event_id_32861.dot
+
+=> 5 minutes where spent on printing all ep graphs
+
+thomas@rupprechtnb:agg$ ls -l  graph_*_id_1_*
+-rw-rw-r-- 1 thomas thomas 23321 Apr 24 03:08 graph_24420173846_00000001_agg_event_id_1_ep_vertex_864.dot
+-rw-rw-r-- 1 thomas thomas 12444 Apr 24 03:08 graph_cleaned_24420173846_00000001_agg_event_id_1_ep_vertex_864.dot
+
+thomas@rupprechtnb:agg$ ls -lt | head
+total 15968
+-rw-rw-r-- 1 thomas thomas 28516 Apr 24 03:13 graph_24420173139_00000475_agg_event_id_475_ep_vertex_296.dot
+-rw-rw-r-- 1 thomas thomas 16561 Apr 24 03:13 graph_cleaned_24420173139_00000475_agg_event_id_475_ep_vertex_296.dot

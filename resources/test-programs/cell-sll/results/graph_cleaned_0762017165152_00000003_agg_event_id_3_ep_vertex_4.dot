@@ -1,0 +1,8 @@
+digraph G {
+	"dsnaming.DsOliMetaBoxGraphVertexEP@106c0cdd" -> "dsnaming.DsOliMetaBoxGraphVertexBoxes@61a600a8" [color = "#CC9900", label = <<TABLE BORDER="0" ALIGN="left" COLOR="black" CELLBORDER="0"  CELLPADDING="0" CELLSPACING="0"><TR><TD COLSPAN="2">t: 4 tag: ptr off: 0:8</TD></TR><TR><TD ALIGN="left" BGCOLOR="#CC9900">ccNoClassification</TD><TD ALIGN="left" BGCOLOR="#CC9900">0 (4)</TD></TR></TABLE>>]
+	subgraph connected_vertices {
+		rankdir = LR
+		"dsnaming.DsOliMetaBoxGraphVertexEP@106c0cdd"  [label = <<TABLE><TR><TD COLSPAN="2">dsnaming.DsOliMetaBoxGraphVertexEP@106c0cdd</TD></TR><TR><TD COLSPAN="2">ep: 4 start: 4 end: 10 aggCnt: 4</TD></TR></TABLE>>, shape = none]
+		"dsnaming.DsOliMetaBoxGraphVertexBoxes@61a600a8"  [label = <<TABLE><TR><TD COLSPAN="2">dsnaming.DsOliMetaBoxGraphVertexBoxes@61a600a8</TD></TR><TR><TD COLSPAN="2">struct Linkage_Struct: field(@0): Next: Set(2, 4, 6)  maxStrandLength: 4</TD></TR></TABLE>>, shape = none]
+	}
+}

@@ -1,0 +1,4220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>argv</name>
+			<type>char **</type>
+			<address>0x7fffc0c38b00</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38b28</address>
+		</variable-enter-scope>
+	</event>
+	<event id="4">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>elem_tmp</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38b30</address>
+		</variable-enter-scope>
+	</event>
+	<event id="5">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7fffc0c38b38</address>
+		</variable-enter-scope>
+	</event>
+	<event id="6">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___0</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38b40</address>
+		</variable-enter-scope>
+	</event>
+	<event id="7">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___1</name>
+			<type>void *</type>
+			<address>0x7fffc0c38b48</address>
+		</variable-enter-scope>
+	</event>
+	<event id="8">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>42</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="9">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>48</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b38</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*root)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="10">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>48</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b28</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b250</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="11">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b40</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>tmp___0</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="12">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b250</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b260</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->right</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>tmp___0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="13">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b250</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b258</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->left</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>tmp___0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="14">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="15">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="16">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="17">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="18">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b270</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="19">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="20">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="21">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="22">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="23">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="24">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b250</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b258</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b270</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="25">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="26">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="27">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="28">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="29">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="30">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="31">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="32">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="33">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="34">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="35">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b290</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="36">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="37">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="38">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="39">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="40">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="41">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="42">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="43">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="44">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b270</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b278</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b290</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="45">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="46">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="47">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="48">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="49">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="50">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="51">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="52">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="53">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="54">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="55">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="56">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="57">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="58">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="59">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="60">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2b0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="61">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="62">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="63">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="64">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="65">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="66">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="67">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="68">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="69">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="70">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="71">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="72">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b290</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b298</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2b0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="73">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="74">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="75">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="76">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a18</address>
+		</variable-left-scope>
+	</event>
+	<event id="77">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a10</address>
+		</variable-left-scope>
+	</event>
+	<event id="78">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="79">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="80">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="81">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="82">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="83">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="84">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="85">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="86">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="87">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="88">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="89">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="90">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="91">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="92">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="93">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2d0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="94">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="95">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="96">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="97">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="98">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="99">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="100">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="101">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="102">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="103">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="104">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="105">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b290</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b2a0</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2d0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="106">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="107">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="108">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="109">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a18</address>
+		</variable-left-scope>
+	</event>
+	<event id="110">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a10</address>
+		</variable-left-scope>
+	</event>
+	<event id="111">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="112">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="113">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="114">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="115">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="116">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="117">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="118">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="119">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="120">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="121">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="122">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="123">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="124">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="125">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="126">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2f0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="127">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="128">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="129">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="130">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="131">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="132">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="133">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="134">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="135">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b270</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b280</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b2f0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="136">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="137">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="138">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="139">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="140">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="141">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="142">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="143">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="144">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="145">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="146">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="147">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="148">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="149">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="150">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b310</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="151">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b310</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="152">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="153">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="154">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="155">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="156">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="157">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="158">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="159">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="160">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="161">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="162">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="163">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b2f0</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b2f8</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b310</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="164">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="165">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="166">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="167">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a18</address>
+		</variable-left-scope>
+	</event>
+	<event id="168">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a10</address>
+		</variable-left-scope>
+	</event>
+	<event id="169">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="170">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="171">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="172">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="173">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="174">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="175">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="176">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="177">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="178">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="179">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="180">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="181">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="182">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="183">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b330</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="184">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b330</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="185">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="186">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="187">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="188">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="189">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="190">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="191">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="192">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="193">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="194">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="195">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="196">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b2f0</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b300</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b330</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="197">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="198">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="199">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="200">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a18</address>
+		</variable-left-scope>
+	</event>
+	<event id="201">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a10</address>
+		</variable-left-scope>
+	</event>
+	<event id="202">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="203">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="204">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="205">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="206">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="207">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="208">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="209">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="210">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="211">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="212">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="213">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="214">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="215">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="216">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b350</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="217">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b350</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="218">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="219">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="220">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="221">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="222">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="223">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b250</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b260</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b350</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="224">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="225">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="226">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="227">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="228">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="229">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="230">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="231">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="232">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="233">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b370</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="234">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b370</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="235">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="236">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="237">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="238">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="239">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="240">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="241">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="242">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="243">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b350</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b358</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b370</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="244">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="245">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="246">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="247">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="248">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="249">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="250">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="251">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="252">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="253">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="254">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="255">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="256">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="257">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="258">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b390</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="259">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b390</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="260">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="261">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="262">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="263">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="264">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="265">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="266">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="267">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="268">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="269">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="270">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="271">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b370</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b378</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b390</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="272">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="273">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="274">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="275">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a18</address>
+		</variable-left-scope>
+	</event>
+	<event id="276">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a10</address>
+		</variable-left-scope>
+	</event>
+	<event id="277">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="278">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="279">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="280">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="281">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="282">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="283">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="284">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="285">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="286">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="287">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="288">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="289">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="290">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="291">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="292">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3b0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="293">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="294">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="295">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="296">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="297">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="298">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="299">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="300">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="301">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="302">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="303">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="304">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b370</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b380</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3b0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="305">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="306">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="307">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="308">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a18</address>
+		</variable-left-scope>
+	</event>
+	<event id="309">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a10</address>
+		</variable-left-scope>
+	</event>
+	<event id="310">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="311">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="312">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="313">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="314">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="315">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="316">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="317">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="318">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="319">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="320">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="321">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="322">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="323">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="324">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="325">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3d0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="326">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="327">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="328">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="329">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="330">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="331">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="332">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="333">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="334">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b350</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b360</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3d0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="335">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="336">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="337">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="338">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="339">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="340">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="341">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="342">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="343">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="344">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="345">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="346">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="347">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="348">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="349">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="350">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3f0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="351">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="352">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="353">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="354">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="355">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="356">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="357">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="358">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="359">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="360">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="361">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="362">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b3d0</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b3d8</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->left</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b3f0</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="363">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>17</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="364">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="365">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="366">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a18</address>
+		</variable-left-scope>
+	</event>
+	<event id="367">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a10</address>
+		</variable-left-scope>
+	</event>
+	<event id="368">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="369">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="370">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="371">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="372">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="373">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="374">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="375">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="376">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="377">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="378">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="379">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="380">
+		<comment>Loop-iteration-start_binary-tree.c_52</comment>
+	</event>
+	<event id="381">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="382">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b48</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b410</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*elem_tmp)</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="383">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>53</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffc0c38b30</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>elem_tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b410</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>(struct binary_tree *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="384">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>55</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="385">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="386">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="387">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="388">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="389">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="390">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="391">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="392">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="393">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>element</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="394">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="395">
+		<memory-write>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x143b3d0</address>
+				<type>struct binary_tree</type>
+				<codeFragment>*root</codeFragment>
+			</context>
+			<lval>
+				<address>0x143b3e0</address>
+				<type>struct binary_tree *</type>
+				<codeFragment>root->right</codeFragment>
+			</lval>
+			<content>
+				<content>0x143b410</content>
+				<lvalDerefType>struct binary_tree</lvalDerefType>
+				<rhsCodeFragment>element</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="396">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>23</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="397">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="398">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="399">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a18</address>
+		</variable-left-scope>
+	</event>
+	<event id="400">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a10</address>
+		</variable-left-scope>
+	</event>
+	<event id="401">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="402">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="403">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="404">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a68</address>
+		</variable-left-scope>
+	</event>
+	<event id="405">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38a60</address>
+		</variable-left-scope>
+	</event>
+	<event id="406">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="407">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="408">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="409">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="410">
+		<variable-left-scope>
+			<name>element</name>
+			<address>0x7fffc0c38ab0</address>
+		</variable-left-scope>
+	</event>
+	<event id="411">
+		<block-transition>
+			<sourceLocation>
+				<file>binary-tree.c</file>
+				<line>52</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="412">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="413">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="414">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38ab8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="415">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="416">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a98</address>
+		</variable-enter-scope>
+	</event>
+	<event id="417">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="418">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a78</address>
+		</variable-enter-scope>
+	</event>
+	<event id="419">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="420">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="421">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="422">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="423">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a58</address>
+		</variable-left-scope>
+	</event>
+	<event id="424">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="425">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="426">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="427">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="428">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="429">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a58</address>
+		</variable-left-scope>
+	</event>
+	<event id="430">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="431">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="432">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="433">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a78</address>
+		</variable-left-scope>
+	</event>
+	<event id="434">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="435">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="436">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a78</address>
+		</variable-enter-scope>
+	</event>
+	<event id="437">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="438">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="439">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="440">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="441">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a58</address>
+		</variable-left-scope>
+	</event>
+	<event id="442">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="443">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="444">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="445">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="446">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="447">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a58</address>
+		</variable-left-scope>
+	</event>
+	<event id="448">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="449">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="450">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="451">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a78</address>
+		</variable-left-scope>
+	</event>
+	<event id="452">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="453">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="454">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="455">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a98</address>
+		</variable-left-scope>
+	</event>
+	<event id="456">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="457">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="458">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a98</address>
+		</variable-enter-scope>
+	</event>
+	<event id="459">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="460">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a78</address>
+		</variable-enter-scope>
+	</event>
+	<event id="461">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="462">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="463">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="464">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="465">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a58</address>
+		</variable-left-scope>
+	</event>
+	<event id="466">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="467">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="468">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="469">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="470">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="471">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a58</address>
+		</variable-left-scope>
+	</event>
+	<event id="472">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="473">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="474">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="475">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a78</address>
+		</variable-left-scope>
+	</event>
+	<event id="476">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="477">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="478">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a78</address>
+		</variable-enter-scope>
+	</event>
+	<event id="479">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="480">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="481">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="482">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="483">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a58</address>
+		</variable-left-scope>
+	</event>
+	<event id="484">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="485">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="486">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>root</name>
+			<type>struct binary_tree *</type>
+			<address>0x7fffc0c38a58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="487">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="488">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="489">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a58</address>
+		</variable-left-scope>
+	</event>
+	<event id="490">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="491">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="492">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="493">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a78</address>
+		</variable-left-scope>
+	</event>
+	<event id="494">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="495">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="496">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="497">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38a98</address>
+		</variable-left-scope>
+	</event>
+	<event id="498">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="499">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="500">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="501">
+		<variable-left-scope>
+			<name>root</name>
+			<address>0x7fffc0c38ab8</address>
+		</variable-left-scope>
+	</event>
+	<event id="502">
+		<block-transition>
+			<sourceLocation>
+				<file></file>
+				<line>-1</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="503">
+		<comment>Function Exited</comment>
+	</event>
+</events>

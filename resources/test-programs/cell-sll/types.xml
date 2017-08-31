@@ -1,0 +1,88 @@
+<types arch="64">
+	<alias>
+		<sugaredType>ElementType</sugaredType>
+		<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+		<location file="cell-sll.c" line="12" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>LinkPtr</sugaredType>
+		<desugaredType>struct Linkage_Struct *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="cell-sll.c" line="13" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>Linkage_Struct</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="cell-sll.c" line="14" col="0"/>
+		<fields>
+			<field index="0">
+				<name>Next</name>
+				<sugaredType>LinkPtr</sugaredType>
+				<desugaredType>struct Linkage_Struct *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="cell-sll.c" line="15" col="0"/>
+			</field>
+			<field index="1">
+				<name>Load</name>
+				<sugaredType>ElementType</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="cell-sll.c" line="16" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>Link</sugaredType>
+		<desugaredType>struct Linkage_Struct</desugaredType>
+				<sizeInBits>128</sizeInBits>
+		<location file="cell-sll.c" line="18" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>Weiss_SLL_Node</tagName>
+		<sizeInBytes>48</sizeInBytes>
+		<location file="cell-sll.c" line="19" col="0"/>
+		<fields>
+			<field index="0">
+				<name>Load01</name>
+				<sugaredType>ElementType</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="cell-sll.c" line="20" col="0"/>
+			</field>
+			<field index="1">
+				<name>Link01</name>
+				<sugaredType>Link</sugaredType>
+				<desugaredType>struct Linkage_Struct</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="cell-sll.c" line="21" col="0"/>
+			</field>
+			<field index="2">
+				<name>Load02</name>
+				<sugaredType>ElementType</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="cell-sll.c" line="22" col="0"/>
+			</field>
+			<field index="3">
+				<name>Link02</name>
+				<sugaredType>Link</sugaredType>
+				<desugaredType>struct Linkage_Struct</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>32</offsetInBytes>
+				<location file="cell-sll.c" line="23" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>Node</sugaredType>
+		<desugaredType>struct Weiss_SLL_Node</desugaredType>
+				<sizeInBits>384</sizeInBits>
+		<location file="cell-sll.c" line="25" col="0"/>
+	</alias>
+</types>

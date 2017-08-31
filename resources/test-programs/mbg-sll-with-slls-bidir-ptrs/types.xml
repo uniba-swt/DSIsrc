@@ -1,0 +1,62 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>Child_SLL</tagName>
+		<sizeInBytes>24</sizeInBytes>
+		<location file="mbg-sll-with-slls-bidir-ptrs.c" line="13" col="0"/>
+		<fields>
+			<field index="0">
+				<name>payload</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="mbg-sll-with-slls-bidir-ptrs.c" line="14" col="0"/>
+			</field>
+			<field index="1">
+				<name>next</name>
+				<sugaredType>struct Child_SLL *</sugaredType>
+				<desugaredType>struct Child_SLL *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="mbg-sll-with-slls-bidir-ptrs.c" line="15" col="0"/>
+			</field>
+			<field index="2">
+				<name>parent</name>
+				<sugaredType>struct SLL *</sugaredType>
+				<desugaredType>struct SLL *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="mbg-sll-with-slls-bidir-ptrs.c" line="16" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>SLL</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="mbg-sll-with-slls-bidir-ptrs.c" line="19" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct SLL *</sugaredType>
+				<desugaredType>struct SLL *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="mbg-sll-with-slls-bidir-ptrs.c" line="20" col="0"/>
+			</field>
+			<field index="1">
+				<name>child</name>
+				<sugaredType>struct Child_SLL *</sugaredType>
+				<desugaredType>struct Child_SLL *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="mbg-sll-with-slls-bidir-ptrs.c" line="21" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

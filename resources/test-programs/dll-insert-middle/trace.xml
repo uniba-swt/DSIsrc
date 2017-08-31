@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="1">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="2">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>argv</name>
+      <type>char **</type>
+      <address>0x7fffee71ef90</address>
+    </variable-enter-scope>
+  </event>
+  <event id="3">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>head</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71efb0</address>
+    </variable-enter-scope>
+  </event>
+  <event id="4">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>iter</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71efb8</address>
+    </variable-enter-scope>
+  </event>
+  <event id="5">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>new</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71efc0</address>
+    </variable-enter-scope>
+  </event>
+  <event id="6">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp</name>
+      <type>void *</type>
+      <address>0x7fffee71efc8</address>
+    </variable-enter-scope>
+  </event>
+  <event id="7">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp___0</name>
+      <type>void *</type>
+      <address>0x7fffee71efd0</address>
+    </variable-enter-scope>
+  </event>
+  <event id="8">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp___1</name>
+      <type>void *</type>
+      <address>0x7fffee71efd8</address>
+    </variable-enter-scope>
+  </event>
+  <event id="9">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>40</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="10">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>43</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efc8</address>
+        <type>void *</type>
+        <codeFragment>tmp</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597250</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*head)</argCodeFragment>
+          <argValue>16</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="11">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>43</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb0</address>
+        <type>struct DLL *</type>
+        <codeFragment>head</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597250</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="12">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597250</address>
+        <type>struct DLL</type>
+        <codeFragment>*head</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597250</address>
+        <type>struct DLL *</type>
+        <codeFragment>head-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="13">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597250</address>
+        <type>struct DLL</type>
+        <codeFragment>*head</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597258</address>
+        <type>struct DLL *</type>
+        <codeFragment>head-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="14">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>48</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb8</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597250</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>head</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="15">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>49</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="16">
+    <comment>Loop-iteration-start_dll-insert-middle.c_49</comment>
+  </event>
+  <event id="17">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="18">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efd0</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597270</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*new)</argCodeFragment>
+          <argValue>16</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="19">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efc0</address>
+        <type>struct DLL *</type>
+        <codeFragment>new</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597270</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="20">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="21">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="22">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>prev</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef48</address>
+    </variable-enter-scope>
+  </event>
+  <event id="23">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>cur</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef40</address>
+    </variable-enter-scope>
+  </event>
+  <event id="24">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>next</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef38</address>
+    </variable-enter-scope>
+  </event>
+  <event id="25">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="26">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597250</address>
+        <type>struct DLL</type>
+        <codeFragment>*prev</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597250</address>
+        <type>struct DLL *</type>
+        <codeFragment>prev-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597270</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>cur</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="27">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="28">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="29">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597270</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597278</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597250</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>prev</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="30">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597270</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597270</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="31">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="32">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="33">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="34">
+    <variable-left-scope>
+      <name>prev</name>
+      <address>0x7fffee71ef48</address>
+    </variable-left-scope>
+  </event>
+  <event id="35">
+    <variable-left-scope>
+      <name>cur</name>
+      <address>0x7fffee71ef40</address>
+    </variable-left-scope>
+  </event>
+  <event id="36">
+    <variable-left-scope>
+      <name>next</name>
+      <address>0x7fffee71ef38</address>
+    </variable-left-scope>
+  </event>
+  <event id="37">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>56</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb8</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597270</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>new</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="38">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>49</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="39">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="40">
+    <comment>Loop-iteration-start_dll-insert-middle.c_49</comment>
+  </event>
+  <event id="41">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="42">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efd0</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597290</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*new)</argCodeFragment>
+          <argValue>16</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="43">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efc0</address>
+        <type>struct DLL *</type>
+        <codeFragment>new</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597290</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="44">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="45">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="46">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>prev</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef48</address>
+    </variable-enter-scope>
+  </event>
+  <event id="47">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>cur</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef40</address>
+    </variable-enter-scope>
+  </event>
+  <event id="48">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>next</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef38</address>
+    </variable-enter-scope>
+  </event>
+  <event id="49">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="50">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597270</address>
+        <type>struct DLL</type>
+        <codeFragment>*prev</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597270</address>
+        <type>struct DLL *</type>
+        <codeFragment>prev-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597290</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>cur</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="51">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="52">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="53">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597290</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597298</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597270</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>prev</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="54">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597290</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597290</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="55">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="56">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="57">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="58">
+    <variable-left-scope>
+      <name>prev</name>
+      <address>0x7fffee71ef48</address>
+    </variable-left-scope>
+  </event>
+  <event id="59">
+    <variable-left-scope>
+      <name>cur</name>
+      <address>0x7fffee71ef40</address>
+    </variable-left-scope>
+  </event>
+  <event id="60">
+    <variable-left-scope>
+      <name>next</name>
+      <address>0x7fffee71ef38</address>
+    </variable-left-scope>
+  </event>
+  <event id="61">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>56</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb8</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597290</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>new</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="62">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>49</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="63">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="64">
+    <comment>Loop-iteration-start_dll-insert-middle.c_49</comment>
+  </event>
+  <event id="65">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="66">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efd0</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972b0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*new)</argCodeFragment>
+          <argValue>16</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="67">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efc0</address>
+        <type>struct DLL *</type>
+        <codeFragment>new</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972b0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="68">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="69">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="70">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>prev</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef48</address>
+    </variable-enter-scope>
+  </event>
+  <event id="71">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>cur</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef40</address>
+    </variable-enter-scope>
+  </event>
+  <event id="72">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>next</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef38</address>
+    </variable-enter-scope>
+  </event>
+  <event id="73">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="74">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597290</address>
+        <type>struct DLL</type>
+        <codeFragment>*prev</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597290</address>
+        <type>struct DLL *</type>
+        <codeFragment>prev-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972b0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>cur</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="75">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="76">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="77">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x25972b0</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x25972b8</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597290</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>prev</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="78">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x25972b0</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x25972b0</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="79">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="80">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="81">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="82">
+    <variable-left-scope>
+      <name>prev</name>
+      <address>0x7fffee71ef48</address>
+    </variable-left-scope>
+  </event>
+  <event id="83">
+    <variable-left-scope>
+      <name>cur</name>
+      <address>0x7fffee71ef40</address>
+    </variable-left-scope>
+  </event>
+  <event id="84">
+    <variable-left-scope>
+      <name>next</name>
+      <address>0x7fffee71ef38</address>
+    </variable-left-scope>
+  </event>
+  <event id="85">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>56</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb8</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972b0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>new</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="86">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>49</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="87">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="88">
+    <comment>Loop-iteration-start_dll-insert-middle.c_49</comment>
+  </event>
+  <event id="89">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="90">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efd0</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972d0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*new)</argCodeFragment>
+          <argValue>16</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="91">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efc0</address>
+        <type>struct DLL *</type>
+        <codeFragment>new</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972d0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="92">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>50</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="93">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="94">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>prev</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef48</address>
+    </variable-enter-scope>
+  </event>
+  <event id="95">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>cur</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef40</address>
+    </variable-enter-scope>
+  </event>
+  <event id="96">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>next</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef38</address>
+    </variable-enter-scope>
+  </event>
+  <event id="97">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="98">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x25972b0</address>
+        <type>struct DLL</type>
+        <codeFragment>*prev</codeFragment>
+      </context>
+      <lval>
+        <address>0x25972b0</address>
+        <type>struct DLL *</type>
+        <codeFragment>prev-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972d0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>cur</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="99">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="100">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="101">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x25972d0</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x25972d8</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972b0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>prev</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="102">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x25972d0</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x25972d0</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="103">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="104">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="105">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="106">
+    <variable-left-scope>
+      <name>prev</name>
+      <address>0x7fffee71ef48</address>
+    </variable-left-scope>
+  </event>
+  <event id="107">
+    <variable-left-scope>
+      <name>cur</name>
+      <address>0x7fffee71ef40</address>
+    </variable-left-scope>
+  </event>
+  <event id="108">
+    <variable-left-scope>
+      <name>next</name>
+      <address>0x7fffee71ef38</address>
+    </variable-left-scope>
+  </event>
+  <event id="109">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>56</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb8</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972d0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>new</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="110">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>49</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="111">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="112">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>60</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="113">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>60</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb8</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597250</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>head</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="114">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>62</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="115">
+    <comment>Loop-iteration-start_dll-insert-middle.c_62</comment>
+  </event>
+  <event id="116">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>63</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="117">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>63</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb8</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597270</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="118">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>62</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="119">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="120">
+    <comment>Loop-iteration-start_dll-insert-middle.c_62</comment>
+  </event>
+  <event id="121">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>63</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="122">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>63</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efb8</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597290</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="123">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>62</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="124">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="125">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>66</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="126">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>66</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efd8</address>
+        <type>void *</type>
+        <codeFragment>tmp___1</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972f0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*new)</argCodeFragment>
+          <argValue>16</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="127">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>66</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7fffee71efc0</address>
+        <type>struct DLL *</type>
+        <codeFragment>new</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972f0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp___1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="128">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>67</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="129">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="130">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>prev</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef48</address>
+    </variable-enter-scope>
+  </event>
+  <event id="131">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>cur</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef40</address>
+    </variable-enter-scope>
+  </event>
+  <event id="132">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>next</name>
+      <type>struct DLL *</type>
+      <address>0x7fffee71ef38</address>
+    </variable-enter-scope>
+  </event>
+  <event id="133">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="134">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597270</address>
+        <type>struct DLL</type>
+        <codeFragment>*prev</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597270</address>
+        <type>struct DLL *</type>
+        <codeFragment>prev-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972f0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>cur</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="135">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>23</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="136">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>25</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="137">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>25</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x2597290</address>
+        <type>struct DLL</type>
+        <codeFragment>*next</codeFragment>
+      </context>
+      <lval>
+        <address>0x2597298</address>
+        <type>struct DLL *</type>
+        <codeFragment>next-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x25972f0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>cur</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="138">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>25</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="139">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="140">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x25972f0</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x25972f8</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597270</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>prev</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="141">
+    <memory-write>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x25972f0</address>
+        <type>struct DLL</type>
+        <codeFragment>*cur</codeFragment>
+      </context>
+      <lval>
+        <address>0x25972f0</address>
+        <type>struct DLL *</type>
+        <codeFragment>cur-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x2597290</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="142">
+    <block-transition>
+      <sourceLocation>
+        <file>dll-insert-middle.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="143">
+    <comment>Function Exited</comment>
+  </event>
+  <event id="144">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="145">
+    <variable-left-scope>
+      <name>prev</name>
+      <address>0x7fffee71ef48</address>
+    </variable-left-scope>
+  </event>
+  <event id="146">
+    <variable-left-scope>
+      <name>cur</name>
+      <address>0x7fffee71ef40</address>
+    </variable-left-scope>
+  </event>
+  <event id="147">
+    <variable-left-scope>
+      <name>next</name>
+      <address>0x7fffee71ef38</address>
+    </variable-left-scope>
+  </event>
+  <event id="148">
+    <block-transition>
+      <sourceLocation>
+        <file/>
+        <line>-1</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="149">
+    <comment>Function Exited</comment>
+  </event>
+</events>

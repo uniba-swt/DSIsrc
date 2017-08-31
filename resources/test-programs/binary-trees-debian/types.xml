@@ -1,0 +1,45 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>tn</tagName>
+		<sizeInBytes>24</sizeInBytes>
+		<location file="binary-trees-debian.c" line="17" col="0"/>
+		<fields>
+			<field index="0">
+				<name>left</name>
+				<sugaredType>struct tn *</sugaredType>
+				<desugaredType>struct tn *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="binary-trees-debian.c" line="18" col="0"/>
+			</field>
+			<field index="1">
+				<name>right</name>
+				<sugaredType>struct tn *</sugaredType>
+				<desugaredType>struct tn *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="binary-trees-debian.c" line="19" col="0"/>
+			</field>
+			<field index="2">
+				<name>item</name>
+				<sugaredType>long</sugaredType>
+				<desugaredType>long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="binary-trees-debian.c" line="20" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>treeNode</sugaredType>
+		<desugaredType>struct tn</desugaredType>
+				<sizeInBits>192</sizeInBits>
+		<location file="binary-trees-debian.c" line="17" col="0"/>
+	</alias>
+</types>

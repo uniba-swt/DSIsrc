@@ -1,0 +1,95 @@
+<types arch="64">
+	<compound mode="struct">
+		<tagName>child</tagName>
+		<sizeInBytes>8</sizeInBytes>
+		<location file="big-mem-chunk.c" line="6" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct child *</sugaredType>
+				<desugaredType>struct child *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="big-mem-chunk.c" line="7" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>sll</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="big-mem-chunk.c" line="10" col="0"/>
+		<fields>
+			<field index="0">
+				<name>next</name>
+				<sugaredType>struct sll *</sugaredType>
+				<desugaredType>struct sll *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="big-mem-chunk.c" line="11" col="0"/>
+			</field>
+			<field index="1">
+				<name>child</name>
+				<sugaredType>struct child *</sugaredType>
+				<desugaredType>struct child *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="big-mem-chunk.c" line="12" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<compound mode="struct">
+		<tagName>big_mem_chunk</tagName>
+		<sizeInBytes>64</sizeInBytes>
+		<location file="big-mem-chunk.c" line="15" col="0"/>
+		<fields>
+			<field index="0">
+				<name>sll_elem_01</name>
+				<sugaredType>struct sll</sugaredType>
+				<desugaredType>struct sll</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="big-mem-chunk.c" line="16" col="0"/>
+			</field>
+			<field index="1">
+				<name>first_child_01</name>
+				<sugaredType>struct child</sugaredType>
+				<desugaredType>struct child</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="big-mem-chunk.c" line="17" col="0"/>
+			</field>
+			<field index="2">
+				<name>first_child_02</name>
+				<sugaredType>struct child</sugaredType>
+				<desugaredType>struct child</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="big-mem-chunk.c" line="18" col="0"/>
+			</field>
+			<field index="3">
+				<name>sll_elem_02</name>
+				<sugaredType>struct sll</sugaredType>
+				<desugaredType>struct sll</desugaredType>
+				<sizeInBits>128</sizeInBits>
+				<offsetInBytes>32</offsetInBytes>
+				<location file="big-mem-chunk.c" line="19" col="0"/>
+			</field>
+			<field index="4">
+				<name>second_child_01</name>
+				<sugaredType>struct child</sugaredType>
+				<desugaredType>struct child</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>48</offsetInBytes>
+				<location file="big-mem-chunk.c" line="20" col="0"/>
+			</field>
+			<field index="5">
+				<name>second_child_02</name>
+				<sugaredType>struct child</sugaredType>
+				<desugaredType>struct child</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>56</offsetInBytes>
+				<location file="big-mem-chunk.c" line="21" col="0"/>
+			</field>
+		</fields>
+	</compound>
+</types>

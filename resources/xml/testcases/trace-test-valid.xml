@@ -1,0 +1,76 @@
+<events>
+
+	<event id="01">
+		<operation-transition>
+			<entry>
+				<id>001</id>
+				<name>Some entry text</name>
+				<arguments>Arguments</arguments>
+				<comment>Comments</comment>
+			</entry>
+		</operation-transition>
+	</event>
+	<event id="02">
+		<operation-transition>
+			<exit />
+		</operation-transition>
+	</event>
+
+	<event id="03">
+		<block-transition>
+			<sourceLocation>
+				<sourceFile>/path/source.c</sourceFile>
+				<sourceLine>13</sourceLine>
+				<sourceLineColumn>37</sourceLineColumn>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	
+	<event id="04">
+		<memory-write>
+			<sourceLocation>
+				<sourceFile>/path/source.c</sourceFile>
+				<sourceLine>13</sourceLine>
+				<sourceLineColumn>37</sourceLineColumn>
+			</sourceLocation>
+			<lvalue-list>
+				<lvalue rank="1">
+					<address>01</address>
+					<type>structA*</type>
+					<codeFragment>a</codeFragment>
+				</lvalue>
+			</lvalue-list>
+			<rvalue>
+				<content>08</content>
+				<codeFragment>(structA*)malloc(sizeof(structA))</codeFragment>
+			</rvalue>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(structA)</argCodeFragment>
+					<argValue>11</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	
+	<event id="05">
+		<variable-left-scope>
+			<name>aVar</name>
+			<address>02</address>
+		</variable-left-scope>
+	</event>
+	
+	<event id="06">
+		<free>
+			<sourceLocation>
+				<sourceFile>/path/source.c</sourceFile>
+				<sourceLine>13</sourceLine>
+				<sourceLineColumn>37</sourceLineColumn>
+			</sourceLocation>
+			<argCodeFragment>a</argCodeFragment>
+			<argValue>11</argValue>
+		</free>
+	</event>
+
+</events>

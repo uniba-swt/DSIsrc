@@ -1,0 +1,963 @@
+<?xml version="1.0"?>
+<strand-conns>
+  <strand-conn id="1">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="48" time-ceased="48">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>I1i</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="2">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="49" time-ceased="49">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>I1i</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="3">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="50" time-ceased="50">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="4">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="51" time-ceased="51">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>I1i</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="5">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="52" time-ceased="52">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="6">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="53" time-ceased="53">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>I1i</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="7">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="54" time-ceased="54">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="8">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="55" time-ceased="55">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="9">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="56" time-ceased="56">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>I1i</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="10">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="57" time-ceased="57">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="11">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="58" time-ceased="58">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="12">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="58" time-ceased="58">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="13">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="59" time-ceased="59">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="14">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="59" time-ceased="59">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="15">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="60" time-ceased="60">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="16">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="60" time-ceased="60">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="17">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="61" time-ceased="61">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="18">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="61" time-ceased="61">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="19">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="62" time-ceased="62">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="20">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="62" time-ceased="62">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="21">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="63" time-ceased="63">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="22">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="63" time-ceased="63">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="23">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="64" time-ceased="64">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="24">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="64" time-ceased="64">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="25">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="65" time-ceased="65">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="26">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="65" time-ceased="65">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="27">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="66" time-ceased="66">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="28">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="66" time-ceased="66">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="29">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="67" time-ceased="67">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="30">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="67" time-ceased="67">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="31">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="68" time-ceased="68">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="32">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="68" time-ceased="68">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="33">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>15</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="68" time-ceased="68">
+        <cell-pair>
+          <cell-id-left>4</cell-id-left>
+          <cell-id-right>11</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="34">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="69" time-ceased="69">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="35">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="69" time-ceased="69">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="36">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>15</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="69" time-ceased="69">
+        <cell-pair>
+          <cell-id-left>4</cell-id-left>
+          <cell-id-right>11</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="37">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="70" time-ceased="70">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="38">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="70" time-ceased="70">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="39">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>15</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="70" time-ceased="70">
+        <cell-pair>
+          <cell-id-left>4</cell-id-left>
+          <cell-id-right>11</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="40">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="71" time-ceased="71">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="41">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="71" time-ceased="71">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="42">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>15</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="71" time-ceased="71">
+        <cell-pair>
+          <cell-id-left>4</cell-id-left>
+          <cell-id-right>11</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="43">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="72" time-ceased="72">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="44">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="72" time-ceased="72">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="45">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>15</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="72" time-ceased="72">
+        <cell-pair>
+          <cell-id-left>4</cell-id-left>
+          <cell-id-right>11</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="46">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>9</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="73" time-ceased="73">
+        <cell-pair>
+          <cell-id-left>1</cell-id-left>
+          <cell-id-right>7</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="47">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>12</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="73" time-ceased="73">
+        <cell-pair>
+          <cell-id-left>2</cell-id-left>
+          <cell-id-right>9</cell-id-right>
+          <cur-label>Ni</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+  <strand-conn id="48">
+    <type>
+      <indirect/>
+    </type>
+    <label>
+      <nesting>
+        <parent>6</parent>
+        <child>15</child>
+      </nesting>
+    </label>
+    <epochs>
+      <epoch time-begin="73" time-ceased="73">
+        <cell-pair>
+          <cell-id-left>4</cell-id-left>
+          <cell-id-right>11</cell-id-right>
+          <cur-label>ccNoClassification</cur-label>
+        </cell-pair>
+      </epoch>
+    </epochs>
+  </strand-conn>
+</strand-conns>

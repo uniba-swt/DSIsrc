@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="1">
+    <comment>Function Entered</comment>
+  </event>
+  <event id="2">
+    <variable-enter-scope>
+      <kind>formal</kind>
+      <name>argv</name>
+      <type>char **</type>
+      <address>0x7ffcf0601820</address>
+    </variable-enter-scope>
+  </event>
+  <event id="3">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>head</name>
+      <type>struct DLL *</type>
+      <address>0x7ffcf0601840</address>
+    </variable-enter-scope>
+  </event>
+  <event id="4">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>iter</name>
+      <type>struct DLL *</type>
+      <address>0x7ffcf0601848</address>
+    </variable-enter-scope>
+  </event>
+  <event id="5">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp</name>
+      <type>void *</type>
+      <address>0x7ffcf0601850</address>
+    </variable-enter-scope>
+  </event>
+  <event id="6">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp___0</name>
+      <type>void *</type>
+      <address>0x7ffcf0601858</address>
+    </variable-enter-scope>
+  </event>
+  <event id="7">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp___1</name>
+      <type>void *</type>
+      <address>0x7ffcf0601860</address>
+    </variable-enter-scope>
+  </event>
+  <event id="8">
+    <variable-enter-scope>
+      <kind>local</kind>
+      <name>tmp___2</name>
+      <type>void *</type>
+      <address>0x7ffcf0601868</address>
+    </variable-enter-scope>
+  </event>
+  <event id="9">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="10">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601850</address>
+        <type>void *</type>
+        <codeFragment>tmp</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c250</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*head)</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="11">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>29</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601840</address>
+        <type>struct DLL *</type>
+        <codeFragment>head</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c250</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="12">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>30</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c250</address>
+        <type>struct DLL</type>
+        <codeFragment>*head</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c250</address>
+        <type>struct DLL *</type>
+        <codeFragment>head-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="13">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>31</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c250</address>
+        <type>struct DLL</type>
+        <codeFragment>*head</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c258</address>
+        <type>struct DLL *</type>
+        <codeFragment>head-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="14">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>33</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601848</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c250</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>head</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="15">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="16">
+    <comment>Loop-iteration-start_mbg-dll-with-dll-children.c_34</comment>
+  </event>
+  <event id="17">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="18">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601858</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c280</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*iter)</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="19">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c250</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c250</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c280</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="20">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c280</address>
+        <type>struct DLL</type>
+        <codeFragment>*(iter-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c288</address>
+        <type>struct DLL *</type>
+        <codeFragment>(iter-&gt;next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c250</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="21">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601848</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c280</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="22">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c280</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c280</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="23">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="24">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="25">
+    <comment>Loop-iteration-start_mbg-dll-with-dll-children.c_34</comment>
+  </event>
+  <event id="26">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="27">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601858</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2b0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*iter)</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="28">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c280</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c280</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2b0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="29">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c2b0</address>
+        <type>struct DLL</type>
+        <codeFragment>*(iter-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c2b8</address>
+        <type>struct DLL *</type>
+        <codeFragment>(iter-&gt;next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c280</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="30">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601848</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2b0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="31">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c2b0</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c2b0</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="32">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="33">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="34">
+    <comment>Loop-iteration-start_mbg-dll-with-dll-children.c_34</comment>
+  </event>
+  <event id="35">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="36">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601858</address>
+        <type>void *</type>
+        <codeFragment>tmp___0</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2e0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(*iter)</argCodeFragment>
+          <argValue>40</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="37">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>35</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c2b0</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c2b0</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2e0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)tmp___0</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="38">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>36</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c2e0</address>
+        <type>struct DLL</type>
+        <codeFragment>*(iter-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c2e8</address>
+        <type>struct DLL *</type>
+        <codeFragment>(iter-&gt;next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2b0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="39">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>37</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601848</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2e0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="40">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>38</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c2e0</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c2e0</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>(struct DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="41">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>34</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="42">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="43">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="44">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601848</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c250</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>head</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="45">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="46">
+    <comment>Loop-iteration-start_mbg-dll-with-dll-children.c_41</comment>
+  </event>
+  <event id="47">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="48">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601860</address>
+        <type>void *</type>
+        <codeFragment>tmp___1</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c310</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(iter-&gt;child)</argCodeFragment>
+          <argValue>24</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="49">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c250</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c268</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>iter-&gt;child.next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c310</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)tmp___1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="50">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>43</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c310</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*(iter-&gt;child.next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c320</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>(iter-&gt;child.next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c260</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>&amp; iter-&gt;child</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="51">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601868</address>
+        <type>void *</type>
+        <codeFragment>tmp___2</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c330</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(iter-&gt;child)</argCodeFragment>
+          <argValue>24</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="52">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c310</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*(iter-&gt;child.next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c318</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>(iter-&gt;child.next)-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c330</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)tmp___2</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="53">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c330</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*((iter-&gt;child.next)-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c340</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>((iter-&gt;child.next)-&gt;next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c310</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;child.next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="54">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c330</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*((iter-&gt;child.next)-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c338</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>((iter-&gt;child.next)-&gt;next)-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="55">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601848</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c280</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="56">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="57">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="58">
+    <comment>Loop-iteration-start_mbg-dll-with-dll-children.c_41</comment>
+  </event>
+  <event id="59">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="60">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601860</address>
+        <type>void *</type>
+        <codeFragment>tmp___1</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c350</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(iter-&gt;child)</argCodeFragment>
+          <argValue>24</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="61">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c280</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c298</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>iter-&gt;child.next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c350</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)tmp___1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="62">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>43</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c350</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*(iter-&gt;child.next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c360</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>(iter-&gt;child.next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c290</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>&amp; iter-&gt;child</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="63">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601868</address>
+        <type>void *</type>
+        <codeFragment>tmp___2</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c370</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(iter-&gt;child)</argCodeFragment>
+          <argValue>24</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="64">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c350</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*(iter-&gt;child.next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c358</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>(iter-&gt;child.next)-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c370</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)tmp___2</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="65">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c370</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*((iter-&gt;child.next)-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c380</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>((iter-&gt;child.next)-&gt;next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c350</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;child.next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="66">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c370</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*((iter-&gt;child.next)-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c378</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>((iter-&gt;child.next)-&gt;next)-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="67">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601848</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2b0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="68">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="69">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="70">
+    <comment>Loop-iteration-start_mbg-dll-with-dll-children.c_41</comment>
+  </event>
+  <event id="71">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>entry</kind>
+    </block-transition>
+  </event>
+  <event id="72">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601860</address>
+        <type>void *</type>
+        <codeFragment>tmp___1</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c390</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(iter-&gt;child)</argCodeFragment>
+          <argValue>24</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="73">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>42</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c2b0</address>
+        <type>struct DLL</type>
+        <codeFragment>*iter</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c2c8</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>iter-&gt;child.next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c390</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)tmp___1</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="74">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>43</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c390</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*(iter-&gt;child.next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c3a0</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>(iter-&gt;child.next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2c0</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>&amp; iter-&gt;child</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="75">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601868</address>
+        <type>void *</type>
+        <codeFragment>tmp___2</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c3b0</content>
+        <lvalDerefType>void</lvalDerefType>
+        <rhsCodeFragment>malloc</rhsCodeFragment>
+      </content>
+      <memory-allocation>
+        <malloc>
+          <argCodeFragment>sizeof(iter-&gt;child)</argCodeFragment>
+          <argValue>24</argValue>
+        </malloc>
+      </memory-allocation>
+    </memory-write>
+  </event>
+  <event id="76">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>44</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c390</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*(iter-&gt;child.next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c398</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>(iter-&gt;child.next)-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c3b0</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)tmp___2</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="77">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>45</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c3b0</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*((iter-&gt;child.next)-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c3c0</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>((iter-&gt;child.next)-&gt;next)-&gt;prev</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c390</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;child.next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="78">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>46</line>
+        <column>0</column>
+      </sourceLocation>
+      <context>
+        <address>0x162c3b0</address>
+        <type>struct Child_DLL</type>
+        <codeFragment>*((iter-&gt;child.next)-&gt;next)</codeFragment>
+      </context>
+      <lval>
+        <address>0x162c3b8</address>
+        <type>struct Child_DLL *</type>
+        <codeFragment>((iter-&gt;child.next)-&gt;next)-&gt;next</codeFragment>
+      </lval>
+      <content>
+        <content>(nil)</content>
+        <lvalDerefType>struct Child_DLL</lvalDerefType>
+        <rhsCodeFragment>(struct Child_DLL *)((void *)0)</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="79">
+    <memory-write>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <lval>
+        <address>0x7ffcf0601848</address>
+        <type>struct DLL *</type>
+        <codeFragment>iter</codeFragment>
+      </lval>
+      <content>
+        <content>0x162c2e0</content>
+        <lvalDerefType>struct DLL</lvalDerefType>
+        <rhsCodeFragment>iter-&gt;next</rhsCodeFragment>
+      </content>
+    </memory-write>
+  </event>
+  <event id="80">
+    <block-transition>
+      <sourceLocation>
+        <file>mbg-dll-with-dll-children.c</file>
+        <line>41</line>
+        <column>0</column>
+      </sourceLocation>
+      <kind>exit</kind>
+    </block-transition>
+  </event>
+  <event id="81">
+    <comment>Loop-iteration-end</comment>
+  </event>
+  <event id="82">
+    <comment>Function Exited</comment>
+  </event>
+</events>

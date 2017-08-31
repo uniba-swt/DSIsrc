@@ -1,0 +1,5832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>argv</name>
+			<type>char **</type>
+			<address>0x7ffe2c74fde0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>head</name>
+			<type>struct type_1</type>
+			<address>0x7ffe2c74fe00</address>
+		</variable-enter-scope>
+	</event>
+	<event id="4">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>last_elem</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe08</address>
+		</variable-enter-scope>
+	</event>
+	<event id="5">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first</name>
+			<type>struct type_1 *</type>
+			<address>0x7ffe2c74fe10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="6">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="7">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second</name>
+			<type>struct type_1 *</type>
+			<address>0x7ffe2c74fe20</address>
+		</variable-enter-scope>
+	</event>
+	<event id="8">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___0</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe28</address>
+		</variable-enter-scope>
+	</event>
+	<event id="9">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___0</name>
+			<type>struct type_2 *</type>
+			<address>0x7ffe2c74fe30</address>
+		</variable-enter-scope>
+	</event>
+	<event id="10">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___1</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe38</address>
+		</variable-enter-scope>
+	</event>
+	<event id="11">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___0</name>
+			<type>struct type_2 *</type>
+			<address>0x7ffe2c74fe40</address>
+		</variable-enter-scope>
+	</event>
+	<event id="12">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___2</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe48</address>
+		</variable-enter-scope>
+	</event>
+	<event id="13">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___1</name>
+			<type>struct type_3 *</type>
+			<address>0x7ffe2c74fe50</address>
+		</variable-enter-scope>
+	</event>
+	<event id="14">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___3</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="15">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___1</name>
+			<type>struct type_3 *</type>
+			<address>0x7ffe2c74fe60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="16">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___4</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="17">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___2</name>
+			<type>struct type_4 *</type>
+			<address>0x7ffe2c74fe70</address>
+		</variable-enter-scope>
+	</event>
+	<event id="18">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___5</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe78</address>
+		</variable-enter-scope>
+	</event>
+	<event id="19">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___2</name>
+			<type>struct type_4 *</type>
+			<address>0x7ffe2c74fe80</address>
+		</variable-enter-scope>
+	</event>
+	<event id="20">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___6</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe88</address>
+		</variable-enter-scope>
+	</event>
+	<event id="21">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___3</name>
+			<type>struct type_5 *</type>
+			<address>0x7ffe2c74fe90</address>
+		</variable-enter-scope>
+	</event>
+	<event id="22">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___7</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fe98</address>
+		</variable-enter-scope>
+	</event>
+	<event id="23">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___3</name>
+			<type>struct type_5 *</type>
+			<address>0x7ffe2c74fea0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="24">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___8</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fea8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="25">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___4</name>
+			<type>struct type_6 *</type>
+			<address>0x7ffe2c74feb0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="26">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___9</name>
+			<type>void *</type>
+			<address>0x7ffe2c74feb8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="27">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___4</name>
+			<type>struct type_6 *</type>
+			<address>0x7ffe2c74fec0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="28">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___10</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fec8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="29">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___5</name>
+			<type>struct type_7 *</type>
+			<address>0x7ffe2c74fed0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="30">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___11</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fed8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="31">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___5</name>
+			<type>struct type_7 *</type>
+			<address>0x7ffe2c74fee0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="32">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___12</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fee8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="33">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___6</name>
+			<type>struct type_8 *</type>
+			<address>0x7ffe2c74fef0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="34">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___13</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fef8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="35">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___6</name>
+			<type>struct type_8 *</type>
+			<address>0x7ffe2c74ff00</address>
+		</variable-enter-scope>
+	</event>
+	<event id="36">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___14</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff08</address>
+		</variable-enter-scope>
+	</event>
+	<event id="37">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___7</name>
+			<type>struct type_9 *</type>
+			<address>0x7ffe2c74ff10</address>
+		</variable-enter-scope>
+	</event>
+	<event id="38">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___15</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff18</address>
+		</variable-enter-scope>
+	</event>
+	<event id="39">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___7</name>
+			<type>struct type_9 *</type>
+			<address>0x7ffe2c74ff20</address>
+		</variable-enter-scope>
+	</event>
+	<event id="40">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___16</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff28</address>
+		</variable-enter-scope>
+	</event>
+	<event id="41">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___8</name>
+			<type>struct type_10 *</type>
+			<address>0x7ffe2c74ff30</address>
+		</variable-enter-scope>
+	</event>
+	<event id="42">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___17</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff38</address>
+		</variable-enter-scope>
+	</event>
+	<event id="43">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___8</name>
+			<type>struct type_10 *</type>
+			<address>0x7ffe2c74ff40</address>
+		</variable-enter-scope>
+	</event>
+	<event id="44">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___18</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff48</address>
+		</variable-enter-scope>
+	</event>
+	<event id="45">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___9</name>
+			<type>struct type_11 *</type>
+			<address>0x7ffe2c74ff50</address>
+		</variable-enter-scope>
+	</event>
+	<event id="46">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___19</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff58</address>
+		</variable-enter-scope>
+	</event>
+	<event id="47">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___9</name>
+			<type>struct type_11 *</type>
+			<address>0x7ffe2c74ff60</address>
+		</variable-enter-scope>
+	</event>
+	<event id="48">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___20</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff68</address>
+		</variable-enter-scope>
+	</event>
+	<event id="49">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___10</name>
+			<type>struct type_12 *</type>
+			<address>0x7ffe2c74ff70</address>
+		</variable-enter-scope>
+	</event>
+	<event id="50">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___21</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff78</address>
+		</variable-enter-scope>
+	</event>
+	<event id="51">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___10</name>
+			<type>struct type_12 *</type>
+			<address>0x7ffe2c74ff80</address>
+		</variable-enter-scope>
+	</event>
+	<event id="52">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___22</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff88</address>
+		</variable-enter-scope>
+	</event>
+	<event id="53">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___11</name>
+			<type>struct type_13 *</type>
+			<address>0x7ffe2c74ff90</address>
+		</variable-enter-scope>
+	</event>
+	<event id="54">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___23</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ff98</address>
+		</variable-enter-scope>
+	</event>
+	<event id="55">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___11</name>
+			<type>struct type_13 *</type>
+			<address>0x7ffe2c74ffa0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="56">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___24</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ffa8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="57">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___12</name>
+			<type>struct type_14 *</type>
+			<address>0x7ffe2c74ffb0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="58">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___25</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ffb8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="59">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___12</name>
+			<type>struct type_14 *</type>
+			<address>0x7ffe2c74ffc0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="60">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___26</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ffc8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="61">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___13</name>
+			<type>struct type_15 *</type>
+			<address>0x7ffe2c74ffd0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="62">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___27</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ffd8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="63">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___13</name>
+			<type>struct type_15 *</type>
+			<address>0x7ffe2c74ffe0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="64">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___28</name>
+			<type>void *</type>
+			<address>0x7ffe2c74ffe8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="65">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___14</name>
+			<type>struct type_16 *</type>
+			<address>0x7ffe2c74fff0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="66">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___29</name>
+			<type>void *</type>
+			<address>0x7ffe2c74fff8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="67">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___14</name>
+			<type>struct type_16 *</type>
+			<address>0x7ffe2c750000</address>
+		</variable-enter-scope>
+	</event>
+	<event id="68">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___30</name>
+			<type>void *</type>
+			<address>0x7ffe2c750008</address>
+		</variable-enter-scope>
+	</event>
+	<event id="69">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___15</name>
+			<type>struct type_17 *</type>
+			<address>0x7ffe2c750010</address>
+		</variable-enter-scope>
+	</event>
+	<event id="70">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___31</name>
+			<type>void *</type>
+			<address>0x7ffe2c750018</address>
+		</variable-enter-scope>
+	</event>
+	<event id="71">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___15</name>
+			<type>struct type_17 *</type>
+			<address>0x7ffe2c750020</address>
+		</variable-enter-scope>
+	</event>
+	<event id="72">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___32</name>
+			<type>void *</type>
+			<address>0x7ffe2c750028</address>
+		</variable-enter-scope>
+	</event>
+	<event id="73">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___16</name>
+			<type>struct type_18 *</type>
+			<address>0x7ffe2c750030</address>
+		</variable-enter-scope>
+	</event>
+	<event id="74">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___33</name>
+			<type>void *</type>
+			<address>0x7ffe2c750038</address>
+		</variable-enter-scope>
+	</event>
+	<event id="75">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___16</name>
+			<type>struct type_18 *</type>
+			<address>0x7ffe2c750040</address>
+		</variable-enter-scope>
+	</event>
+	<event id="76">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___34</name>
+			<type>void *</type>
+			<address>0x7ffe2c750048</address>
+		</variable-enter-scope>
+	</event>
+	<event id="77">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___17</name>
+			<type>struct type_19 *</type>
+			<address>0x7ffe2c750050</address>
+		</variable-enter-scope>
+	</event>
+	<event id="78">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___35</name>
+			<type>void *</type>
+			<address>0x7ffe2c750058</address>
+		</variable-enter-scope>
+	</event>
+	<event id="79">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___17</name>
+			<type>struct type_19 *</type>
+			<address>0x7ffe2c750060</address>
+		</variable-enter-scope>
+	</event>
+	<event id="80">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___36</name>
+			<type>void *</type>
+			<address>0x7ffe2c750068</address>
+		</variable-enter-scope>
+	</event>
+	<event id="81">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___18</name>
+			<type>struct type_20 *</type>
+			<address>0x7ffe2c750070</address>
+		</variable-enter-scope>
+	</event>
+	<event id="82">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___37</name>
+			<type>void *</type>
+			<address>0x7ffe2c750078</address>
+		</variable-enter-scope>
+	</event>
+	<event id="83">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___18</name>
+			<type>struct type_20 *</type>
+			<address>0x7ffe2c750080</address>
+		</variable-enter-scope>
+	</event>
+	<event id="84">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___38</name>
+			<type>void *</type>
+			<address>0x7ffe2c750088</address>
+		</variable-enter-scope>
+	</event>
+	<event id="85">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___19</name>
+			<type>struct type_21 *</type>
+			<address>0x7ffe2c750090</address>
+		</variable-enter-scope>
+	</event>
+	<event id="86">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___39</name>
+			<type>void *</type>
+			<address>0x7ffe2c750098</address>
+		</variable-enter-scope>
+	</event>
+	<event id="87">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___19</name>
+			<type>struct type_21 *</type>
+			<address>0x7ffe2c7500a0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="88">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___40</name>
+			<type>void *</type>
+			<address>0x7ffe2c7500a8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="89">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___20</name>
+			<type>struct type_22 *</type>
+			<address>0x7ffe2c7500b0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="90">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___41</name>
+			<type>void *</type>
+			<address>0x7ffe2c7500b8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="91">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___20</name>
+			<type>struct type_22 *</type>
+			<address>0x7ffe2c7500c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="92">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___42</name>
+			<type>void *</type>
+			<address>0x7ffe2c7500c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="93">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___21</name>
+			<type>struct type_23 *</type>
+			<address>0x7ffe2c7500d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="94">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___43</name>
+			<type>void *</type>
+			<address>0x7ffe2c7500d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="95">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___21</name>
+			<type>struct type_23 *</type>
+			<address>0x7ffe2c7500e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="96">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___44</name>
+			<type>void *</type>
+			<address>0x7ffe2c7500e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="97">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___22</name>
+			<type>struct type_24 *</type>
+			<address>0x7ffe2c7500f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="98">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___45</name>
+			<type>void *</type>
+			<address>0x7ffe2c7500f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="99">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___22</name>
+			<type>struct type_24 *</type>
+			<address>0x7ffe2c750100</address>
+		</variable-enter-scope>
+	</event>
+	<event id="100">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___46</name>
+			<type>void *</type>
+			<address>0x7ffe2c750108</address>
+		</variable-enter-scope>
+	</event>
+	<event id="101">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___23</name>
+			<type>struct type_25 *</type>
+			<address>0x7ffe2c750110</address>
+		</variable-enter-scope>
+	</event>
+	<event id="102">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___47</name>
+			<type>void *</type>
+			<address>0x7ffe2c750118</address>
+		</variable-enter-scope>
+	</event>
+	<event id="103">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___23</name>
+			<type>struct type_25 *</type>
+			<address>0x7ffe2c750120</address>
+		</variable-enter-scope>
+	</event>
+	<event id="104">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___48</name>
+			<type>void *</type>
+			<address>0x7ffe2c750128</address>
+		</variable-enter-scope>
+	</event>
+	<event id="105">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___24</name>
+			<type>struct type_26 *</type>
+			<address>0x7ffe2c750130</address>
+		</variable-enter-scope>
+	</event>
+	<event id="106">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___49</name>
+			<type>void *</type>
+			<address>0x7ffe2c750138</address>
+		</variable-enter-scope>
+	</event>
+	<event id="107">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___24</name>
+			<type>struct type_26 *</type>
+			<address>0x7ffe2c750140</address>
+		</variable-enter-scope>
+	</event>
+	<event id="108">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___50</name>
+			<type>void *</type>
+			<address>0x7ffe2c750148</address>
+		</variable-enter-scope>
+	</event>
+	<event id="109">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___25</name>
+			<type>struct type_27 *</type>
+			<address>0x7ffe2c750150</address>
+		</variable-enter-scope>
+	</event>
+	<event id="110">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___51</name>
+			<type>void *</type>
+			<address>0x7ffe2c750158</address>
+		</variable-enter-scope>
+	</event>
+	<event id="111">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___25</name>
+			<type>struct type_27 *</type>
+			<address>0x7ffe2c750160</address>
+		</variable-enter-scope>
+	</event>
+	<event id="112">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___52</name>
+			<type>void *</type>
+			<address>0x7ffe2c750168</address>
+		</variable-enter-scope>
+	</event>
+	<event id="113">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___26</name>
+			<type>struct type_28 *</type>
+			<address>0x7ffe2c750170</address>
+		</variable-enter-scope>
+	</event>
+	<event id="114">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___53</name>
+			<type>void *</type>
+			<address>0x7ffe2c750178</address>
+		</variable-enter-scope>
+	</event>
+	<event id="115">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___26</name>
+			<type>struct type_28 *</type>
+			<address>0x7ffe2c750180</address>
+		</variable-enter-scope>
+	</event>
+	<event id="116">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___54</name>
+			<type>void *</type>
+			<address>0x7ffe2c750188</address>
+		</variable-enter-scope>
+	</event>
+	<event id="117">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___27</name>
+			<type>struct type_29 *</type>
+			<address>0x7ffe2c750190</address>
+		</variable-enter-scope>
+	</event>
+	<event id="118">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___55</name>
+			<type>void *</type>
+			<address>0x7ffe2c750198</address>
+		</variable-enter-scope>
+	</event>
+	<event id="119">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___27</name>
+			<type>struct type_29 *</type>
+			<address>0x7ffe2c7501a0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="120">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___56</name>
+			<type>void *</type>
+			<address>0x7ffe2c7501a8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="121">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___28</name>
+			<type>struct type_30 *</type>
+			<address>0x7ffe2c7501b0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="122">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___57</name>
+			<type>void *</type>
+			<address>0x7ffe2c7501b8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="123">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___28</name>
+			<type>struct type_30 *</type>
+			<address>0x7ffe2c7501c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="124">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___58</name>
+			<type>void *</type>
+			<address>0x7ffe2c7501c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="125">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___29</name>
+			<type>struct type_31 *</type>
+			<address>0x7ffe2c7501d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="126">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___59</name>
+			<type>void *</type>
+			<address>0x7ffe2c7501d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="127">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___29</name>
+			<type>struct type_31 *</type>
+			<address>0x7ffe2c7501e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="128">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___60</name>
+			<type>void *</type>
+			<address>0x7ffe2c7501e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="129">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___30</name>
+			<type>struct type_32 *</type>
+			<address>0x7ffe2c7501f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="130">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___61</name>
+			<type>void *</type>
+			<address>0x7ffe2c7501f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="131">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___30</name>
+			<type>struct type_32 *</type>
+			<address>0x7ffe2c750200</address>
+		</variable-enter-scope>
+	</event>
+	<event id="132">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___62</name>
+			<type>void *</type>
+			<address>0x7ffe2c750208</address>
+		</variable-enter-scope>
+	</event>
+	<event id="133">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___31</name>
+			<type>struct type_33 *</type>
+			<address>0x7ffe2c750210</address>
+		</variable-enter-scope>
+	</event>
+	<event id="134">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___63</name>
+			<type>void *</type>
+			<address>0x7ffe2c750218</address>
+		</variable-enter-scope>
+	</event>
+	<event id="135">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___31</name>
+			<type>struct type_33 *</type>
+			<address>0x7ffe2c750220</address>
+		</variable-enter-scope>
+	</event>
+	<event id="136">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___64</name>
+			<type>void *</type>
+			<address>0x7ffe2c750228</address>
+		</variable-enter-scope>
+	</event>
+	<event id="137">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___32</name>
+			<type>struct type_34 *</type>
+			<address>0x7ffe2c750230</address>
+		</variable-enter-scope>
+	</event>
+	<event id="138">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___65</name>
+			<type>void *</type>
+			<address>0x7ffe2c750238</address>
+		</variable-enter-scope>
+	</event>
+	<event id="139">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___32</name>
+			<type>struct type_34 *</type>
+			<address>0x7ffe2c750240</address>
+		</variable-enter-scope>
+	</event>
+	<event id="140">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___66</name>
+			<type>void *</type>
+			<address>0x7ffe2c750248</address>
+		</variable-enter-scope>
+	</event>
+	<event id="141">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___33</name>
+			<type>struct type_35 *</type>
+			<address>0x7ffe2c750250</address>
+		</variable-enter-scope>
+	</event>
+	<event id="142">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___67</name>
+			<type>void *</type>
+			<address>0x7ffe2c750258</address>
+		</variable-enter-scope>
+	</event>
+	<event id="143">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___33</name>
+			<type>struct type_35 *</type>
+			<address>0x7ffe2c750260</address>
+		</variable-enter-scope>
+	</event>
+	<event id="144">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___68</name>
+			<type>void *</type>
+			<address>0x7ffe2c750268</address>
+		</variable-enter-scope>
+	</event>
+	<event id="145">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___34</name>
+			<type>struct type_36 *</type>
+			<address>0x7ffe2c750270</address>
+		</variable-enter-scope>
+	</event>
+	<event id="146">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___69</name>
+			<type>void *</type>
+			<address>0x7ffe2c750278</address>
+		</variable-enter-scope>
+	</event>
+	<event id="147">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___34</name>
+			<type>struct type_36 *</type>
+			<address>0x7ffe2c750280</address>
+		</variable-enter-scope>
+	</event>
+	<event id="148">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___70</name>
+			<type>void *</type>
+			<address>0x7ffe2c750288</address>
+		</variable-enter-scope>
+	</event>
+	<event id="149">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___35</name>
+			<type>struct type_37 *</type>
+			<address>0x7ffe2c750290</address>
+		</variable-enter-scope>
+	</event>
+	<event id="150">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___71</name>
+			<type>void *</type>
+			<address>0x7ffe2c750298</address>
+		</variable-enter-scope>
+	</event>
+	<event id="151">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___35</name>
+			<type>struct type_37 *</type>
+			<address>0x7ffe2c7502a0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="152">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___72</name>
+			<type>void *</type>
+			<address>0x7ffe2c7502a8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="153">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___36</name>
+			<type>struct type_38 *</type>
+			<address>0x7ffe2c7502b0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="154">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___73</name>
+			<type>void *</type>
+			<address>0x7ffe2c7502b8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="155">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___36</name>
+			<type>struct type_38 *</type>
+			<address>0x7ffe2c7502c0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="156">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___74</name>
+			<type>void *</type>
+			<address>0x7ffe2c7502c8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="157">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___37</name>
+			<type>struct type_39 *</type>
+			<address>0x7ffe2c7502d0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="158">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___75</name>
+			<type>void *</type>
+			<address>0x7ffe2c7502d8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="159">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___37</name>
+			<type>struct type_39 *</type>
+			<address>0x7ffe2c7502e0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="160">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___76</name>
+			<type>void *</type>
+			<address>0x7ffe2c7502e8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="161">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>first___38</name>
+			<type>struct type_40 *</type>
+			<address>0x7ffe2c7502f0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="162">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___77</name>
+			<type>void *</type>
+			<address>0x7ffe2c7502f8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="163">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>second___38</name>
+			<type>struct type_40 *</type>
+			<address>0x7ffe2c750300</address>
+		</variable-enter-scope>
+	</event>
+	<event id="164">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___78</name>
+			<type>void *</type>
+			<address>0x7ffe2c750308</address>
+		</variable-enter-scope>
+	</event>
+	<event id="165">
+		<block-transition>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>136</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="166">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>136</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe08</address>
+				<type>void *</type>
+				<codeFragment>last_elem</codeFragment>
+			</lval>
+			<content>
+				<content>0x7ffe2c74fe00</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)(&amp; head)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="167">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>138</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe18</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_1 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="168">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>138</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe10</address>
+				<type>struct type_1 *</type>
+				<codeFragment>first</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef250</content>
+				<lvalDerefType>struct type_1</lvalDerefType>
+				<rhsCodeFragment>(struct type_1 *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="169">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>138</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe28</address>
+				<type>void *</type>
+				<codeFragment>tmp___0</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_1 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="170">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>138</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe20</address>
+				<type>struct type_1 *</type>
+				<codeFragment>second</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef270</content>
+				<lvalDerefType>struct type_1</lvalDerefType>
+				<rhsCodeFragment>(struct type_1 *)tmp___0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="171">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>138</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef250</address>
+				<type>struct type_1</type>
+				<codeFragment>*first</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef250</address>
+				<type>void *</type>
+				<codeFragment>first->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="172">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>139</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe38</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_2 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="173">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>139</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe30</address>
+				<type>struct type_2 *</type>
+				<codeFragment>first___0</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef290</content>
+				<lvalDerefType>struct type_2</lvalDerefType>
+				<rhsCodeFragment>(struct type_2 *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="174">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>139</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe48</address>
+				<type>void *</type>
+				<codeFragment>tmp___2</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef2b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_2 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="175">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>139</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe40</address>
+				<type>struct type_2 *</type>
+				<codeFragment>second___0</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef2b0</content>
+				<lvalDerefType>struct type_2</lvalDerefType>
+				<rhsCodeFragment>(struct type_2 *)tmp___2</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="176">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>139</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef290</address>
+				<type>struct type_2</type>
+				<codeFragment>*first___0</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef290</address>
+				<type>void *</type>
+				<codeFragment>first___0->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef2b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="177">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe58</address>
+				<type>void *</type>
+				<codeFragment>tmp___3</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef2d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_3 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="178">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe50</address>
+				<type>struct type_3 *</type>
+				<codeFragment>first___1</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef2d0</content>
+				<lvalDerefType>struct type_3</lvalDerefType>
+				<rhsCodeFragment>(struct type_3 *)tmp___3</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="179">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe68</address>
+				<type>void *</type>
+				<codeFragment>tmp___4</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef2f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_3 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="180">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe60</address>
+				<type>struct type_3 *</type>
+				<codeFragment>second___1</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef2f0</content>
+				<lvalDerefType>struct type_3</lvalDerefType>
+				<rhsCodeFragment>(struct type_3 *)tmp___4</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="181">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>140</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef2d0</address>
+				<type>struct type_3</type>
+				<codeFragment>*first___1</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef2d0</address>
+				<type>void *</type>
+				<codeFragment>first___1->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef2f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="182">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe78</address>
+				<type>void *</type>
+				<codeFragment>tmp___5</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef310</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_4 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="183">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe70</address>
+				<type>struct type_4 *</type>
+				<codeFragment>first___2</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef310</content>
+				<lvalDerefType>struct type_4</lvalDerefType>
+				<rhsCodeFragment>(struct type_4 *)tmp___5</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="184">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe88</address>
+				<type>void *</type>
+				<codeFragment>tmp___6</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef330</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_4 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="185">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe80</address>
+				<type>struct type_4 *</type>
+				<codeFragment>second___2</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef330</content>
+				<lvalDerefType>struct type_4</lvalDerefType>
+				<rhsCodeFragment>(struct type_4 *)tmp___6</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="186">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>141</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef310</address>
+				<type>struct type_4</type>
+				<codeFragment>*first___2</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef310</address>
+				<type>void *</type>
+				<codeFragment>first___2->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef330</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___2</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="187">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe98</address>
+				<type>void *</type>
+				<codeFragment>tmp___7</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef350</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_5 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="188">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fe90</address>
+				<type>struct type_5 *</type>
+				<codeFragment>first___3</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef350</content>
+				<lvalDerefType>struct type_5</lvalDerefType>
+				<rhsCodeFragment>(struct type_5 *)tmp___7</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="189">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fea8</address>
+				<type>void *</type>
+				<codeFragment>tmp___8</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef370</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_5 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="190">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fea0</address>
+				<type>struct type_5 *</type>
+				<codeFragment>second___3</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef370</content>
+				<lvalDerefType>struct type_5</lvalDerefType>
+				<rhsCodeFragment>(struct type_5 *)tmp___8</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="191">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>142</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef350</address>
+				<type>struct type_5</type>
+				<codeFragment>*first___3</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef350</address>
+				<type>void *</type>
+				<codeFragment>first___3->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef370</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___3</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="192">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>143</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74feb8</address>
+				<type>void *</type>
+				<codeFragment>tmp___9</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef390</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_6 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="193">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>143</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74feb0</address>
+				<type>struct type_6 *</type>
+				<codeFragment>first___4</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef390</content>
+				<lvalDerefType>struct type_6</lvalDerefType>
+				<rhsCodeFragment>(struct type_6 *)tmp___9</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="194">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>143</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fec8</address>
+				<type>void *</type>
+				<codeFragment>tmp___10</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef3b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_6 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="195">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>143</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fec0</address>
+				<type>struct type_6 *</type>
+				<codeFragment>second___4</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef3b0</content>
+				<lvalDerefType>struct type_6</lvalDerefType>
+				<rhsCodeFragment>(struct type_6 *)tmp___10</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="196">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>143</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef390</address>
+				<type>struct type_6</type>
+				<codeFragment>*first___4</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef390</address>
+				<type>void *</type>
+				<codeFragment>first___4->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef3b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___4</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="197">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>144</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fed8</address>
+				<type>void *</type>
+				<codeFragment>tmp___11</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef3d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_7 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="198">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>144</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fed0</address>
+				<type>struct type_7 *</type>
+				<codeFragment>first___5</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef3d0</content>
+				<lvalDerefType>struct type_7</lvalDerefType>
+				<rhsCodeFragment>(struct type_7 *)tmp___11</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="199">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>144</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fee8</address>
+				<type>void *</type>
+				<codeFragment>tmp___12</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef3f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_7 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="200">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>144</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fee0</address>
+				<type>struct type_7 *</type>
+				<codeFragment>second___5</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef3f0</content>
+				<lvalDerefType>struct type_7</lvalDerefType>
+				<rhsCodeFragment>(struct type_7 *)tmp___12</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="201">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>144</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef3d0</address>
+				<type>struct type_7</type>
+				<codeFragment>*first___5</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef3d0</address>
+				<type>void *</type>
+				<codeFragment>first___5->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef3f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___5</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="202">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>145</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fef8</address>
+				<type>void *</type>
+				<codeFragment>tmp___13</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef410</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_8 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="203">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>145</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fef0</address>
+				<type>struct type_8 *</type>
+				<codeFragment>first___6</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef410</content>
+				<lvalDerefType>struct type_8</lvalDerefType>
+				<rhsCodeFragment>(struct type_8 *)tmp___13</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="204">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>145</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff08</address>
+				<type>void *</type>
+				<codeFragment>tmp___14</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef430</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_8 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="205">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>145</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff00</address>
+				<type>struct type_8 *</type>
+				<codeFragment>second___6</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef430</content>
+				<lvalDerefType>struct type_8</lvalDerefType>
+				<rhsCodeFragment>(struct type_8 *)tmp___14</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="206">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>145</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef410</address>
+				<type>struct type_8</type>
+				<codeFragment>*first___6</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef410</address>
+				<type>void *</type>
+				<codeFragment>first___6->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef430</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___6</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="207">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>146</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff18</address>
+				<type>void *</type>
+				<codeFragment>tmp___15</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef450</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_9 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="208">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>146</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff10</address>
+				<type>struct type_9 *</type>
+				<codeFragment>first___7</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef450</content>
+				<lvalDerefType>struct type_9</lvalDerefType>
+				<rhsCodeFragment>(struct type_9 *)tmp___15</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="209">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>146</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff28</address>
+				<type>void *</type>
+				<codeFragment>tmp___16</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef470</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_9 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="210">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>146</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff20</address>
+				<type>struct type_9 *</type>
+				<codeFragment>second___7</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef470</content>
+				<lvalDerefType>struct type_9</lvalDerefType>
+				<rhsCodeFragment>(struct type_9 *)tmp___16</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="211">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>146</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef450</address>
+				<type>struct type_9</type>
+				<codeFragment>*first___7</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef450</address>
+				<type>void *</type>
+				<codeFragment>first___7->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef470</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___7</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="212">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>147</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff38</address>
+				<type>void *</type>
+				<codeFragment>tmp___17</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef490</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_10 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="213">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>147</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff30</address>
+				<type>struct type_10 *</type>
+				<codeFragment>first___8</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef490</content>
+				<lvalDerefType>struct type_10</lvalDerefType>
+				<rhsCodeFragment>(struct type_10 *)tmp___17</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="214">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>147</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff48</address>
+				<type>void *</type>
+				<codeFragment>tmp___18</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef4b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_10 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="215">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>147</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff40</address>
+				<type>struct type_10 *</type>
+				<codeFragment>second___8</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef4b0</content>
+				<lvalDerefType>struct type_10</lvalDerefType>
+				<rhsCodeFragment>(struct type_10 *)tmp___18</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="216">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>147</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef490</address>
+				<type>struct type_10</type>
+				<codeFragment>*first___8</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef490</address>
+				<type>void *</type>
+				<codeFragment>first___8->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef4b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___8</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="217">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>148</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff58</address>
+				<type>void *</type>
+				<codeFragment>tmp___19</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef4d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_11 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="218">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>148</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff50</address>
+				<type>struct type_11 *</type>
+				<codeFragment>first___9</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef4d0</content>
+				<lvalDerefType>struct type_11</lvalDerefType>
+				<rhsCodeFragment>(struct type_11 *)tmp___19</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="219">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>148</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff68</address>
+				<type>void *</type>
+				<codeFragment>tmp___20</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef4f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_11 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="220">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>148</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff60</address>
+				<type>struct type_11 *</type>
+				<codeFragment>second___9</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef4f0</content>
+				<lvalDerefType>struct type_11</lvalDerefType>
+				<rhsCodeFragment>(struct type_11 *)tmp___20</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="221">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>148</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef4d0</address>
+				<type>struct type_11</type>
+				<codeFragment>*first___9</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef4d0</address>
+				<type>void *</type>
+				<codeFragment>first___9->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef4f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___9</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="222">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>149</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff78</address>
+				<type>void *</type>
+				<codeFragment>tmp___21</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef510</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_12 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="223">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>149</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff70</address>
+				<type>struct type_12 *</type>
+				<codeFragment>first___10</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef510</content>
+				<lvalDerefType>struct type_12</lvalDerefType>
+				<rhsCodeFragment>(struct type_12 *)tmp___21</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="224">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>149</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff88</address>
+				<type>void *</type>
+				<codeFragment>tmp___22</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef530</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_12 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="225">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>149</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff80</address>
+				<type>struct type_12 *</type>
+				<codeFragment>second___10</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef530</content>
+				<lvalDerefType>struct type_12</lvalDerefType>
+				<rhsCodeFragment>(struct type_12 *)tmp___22</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="226">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>149</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef510</address>
+				<type>struct type_12</type>
+				<codeFragment>*first___10</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef510</address>
+				<type>void *</type>
+				<codeFragment>first___10->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef530</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___10</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="227">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>150</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff98</address>
+				<type>void *</type>
+				<codeFragment>tmp___23</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef550</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_13 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="228">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>150</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ff90</address>
+				<type>struct type_13 *</type>
+				<codeFragment>first___11</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef550</content>
+				<lvalDerefType>struct type_13</lvalDerefType>
+				<rhsCodeFragment>(struct type_13 *)tmp___23</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="229">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>150</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffa8</address>
+				<type>void *</type>
+				<codeFragment>tmp___24</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef570</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_13 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="230">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>150</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffa0</address>
+				<type>struct type_13 *</type>
+				<codeFragment>second___11</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef570</content>
+				<lvalDerefType>struct type_13</lvalDerefType>
+				<rhsCodeFragment>(struct type_13 *)tmp___24</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="231">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>150</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef550</address>
+				<type>struct type_13</type>
+				<codeFragment>*first___11</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef550</address>
+				<type>void *</type>
+				<codeFragment>first___11->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef570</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___11</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="232">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>151</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffb8</address>
+				<type>void *</type>
+				<codeFragment>tmp___25</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef590</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_14 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="233">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>151</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffb0</address>
+				<type>struct type_14 *</type>
+				<codeFragment>first___12</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef590</content>
+				<lvalDerefType>struct type_14</lvalDerefType>
+				<rhsCodeFragment>(struct type_14 *)tmp___25</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="234">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>151</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffc8</address>
+				<type>void *</type>
+				<codeFragment>tmp___26</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef5b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_14 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="235">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>151</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffc0</address>
+				<type>struct type_14 *</type>
+				<codeFragment>second___12</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef5b0</content>
+				<lvalDerefType>struct type_14</lvalDerefType>
+				<rhsCodeFragment>(struct type_14 *)tmp___26</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="236">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>151</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef590</address>
+				<type>struct type_14</type>
+				<codeFragment>*first___12</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef590</address>
+				<type>void *</type>
+				<codeFragment>first___12->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef5b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___12</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="237">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>152</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffd8</address>
+				<type>void *</type>
+				<codeFragment>tmp___27</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef5d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_15 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="238">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>152</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffd0</address>
+				<type>struct type_15 *</type>
+				<codeFragment>first___13</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef5d0</content>
+				<lvalDerefType>struct type_15</lvalDerefType>
+				<rhsCodeFragment>(struct type_15 *)tmp___27</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="239">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>152</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffe8</address>
+				<type>void *</type>
+				<codeFragment>tmp___28</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef5f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_15 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="240">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>152</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74ffe0</address>
+				<type>struct type_15 *</type>
+				<codeFragment>second___13</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef5f0</content>
+				<lvalDerefType>struct type_15</lvalDerefType>
+				<rhsCodeFragment>(struct type_15 *)tmp___28</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="241">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>152</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef5d0</address>
+				<type>struct type_15</type>
+				<codeFragment>*first___13</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef5d0</address>
+				<type>void *</type>
+				<codeFragment>first___13->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef5f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___13</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="242">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>153</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fff8</address>
+				<type>void *</type>
+				<codeFragment>tmp___29</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef610</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_16 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="243">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>153</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c74fff0</address>
+				<type>struct type_16 *</type>
+				<codeFragment>first___14</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef610</content>
+				<lvalDerefType>struct type_16</lvalDerefType>
+				<rhsCodeFragment>(struct type_16 *)tmp___29</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="244">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>153</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750008</address>
+				<type>void *</type>
+				<codeFragment>tmp___30</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef630</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_16 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="245">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>153</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750000</address>
+				<type>struct type_16 *</type>
+				<codeFragment>second___14</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef630</content>
+				<lvalDerefType>struct type_16</lvalDerefType>
+				<rhsCodeFragment>(struct type_16 *)tmp___30</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="246">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>153</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef610</address>
+				<type>struct type_16</type>
+				<codeFragment>*first___14</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef610</address>
+				<type>void *</type>
+				<codeFragment>first___14->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef630</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___14</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="247">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>154</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750018</address>
+				<type>void *</type>
+				<codeFragment>tmp___31</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef650</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_17 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="248">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>154</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750010</address>
+				<type>struct type_17 *</type>
+				<codeFragment>first___15</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef650</content>
+				<lvalDerefType>struct type_17</lvalDerefType>
+				<rhsCodeFragment>(struct type_17 *)tmp___31</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="249">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>154</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750028</address>
+				<type>void *</type>
+				<codeFragment>tmp___32</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef670</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_17 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="250">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>154</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750020</address>
+				<type>struct type_17 *</type>
+				<codeFragment>second___15</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef670</content>
+				<lvalDerefType>struct type_17</lvalDerefType>
+				<rhsCodeFragment>(struct type_17 *)tmp___32</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="251">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>154</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef650</address>
+				<type>struct type_17</type>
+				<codeFragment>*first___15</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef650</address>
+				<type>void *</type>
+				<codeFragment>first___15->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef670</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___15</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="252">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>155</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750038</address>
+				<type>void *</type>
+				<codeFragment>tmp___33</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef690</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_18 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="253">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>155</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750030</address>
+				<type>struct type_18 *</type>
+				<codeFragment>first___16</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef690</content>
+				<lvalDerefType>struct type_18</lvalDerefType>
+				<rhsCodeFragment>(struct type_18 *)tmp___33</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="254">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>155</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750048</address>
+				<type>void *</type>
+				<codeFragment>tmp___34</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef6b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_18 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="255">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>155</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750040</address>
+				<type>struct type_18 *</type>
+				<codeFragment>second___16</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef6b0</content>
+				<lvalDerefType>struct type_18</lvalDerefType>
+				<rhsCodeFragment>(struct type_18 *)tmp___34</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="256">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>155</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef690</address>
+				<type>struct type_18</type>
+				<codeFragment>*first___16</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef690</address>
+				<type>void *</type>
+				<codeFragment>first___16->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef6b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___16</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="257">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>156</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750058</address>
+				<type>void *</type>
+				<codeFragment>tmp___35</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef6d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_19 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="258">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>156</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750050</address>
+				<type>struct type_19 *</type>
+				<codeFragment>first___17</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef6d0</content>
+				<lvalDerefType>struct type_19</lvalDerefType>
+				<rhsCodeFragment>(struct type_19 *)tmp___35</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="259">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>156</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750068</address>
+				<type>void *</type>
+				<codeFragment>tmp___36</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef6f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_19 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="260">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>156</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750060</address>
+				<type>struct type_19 *</type>
+				<codeFragment>second___17</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef6f0</content>
+				<lvalDerefType>struct type_19</lvalDerefType>
+				<rhsCodeFragment>(struct type_19 *)tmp___36</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="261">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>156</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef6d0</address>
+				<type>struct type_19</type>
+				<codeFragment>*first___17</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef6d0</address>
+				<type>void *</type>
+				<codeFragment>first___17->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef6f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___17</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="262">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>157</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750078</address>
+				<type>void *</type>
+				<codeFragment>tmp___37</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef710</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_20 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="263">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>157</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750070</address>
+				<type>struct type_20 *</type>
+				<codeFragment>first___18</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef710</content>
+				<lvalDerefType>struct type_20</lvalDerefType>
+				<rhsCodeFragment>(struct type_20 *)tmp___37</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="264">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>157</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750088</address>
+				<type>void *</type>
+				<codeFragment>tmp___38</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef730</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_20 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="265">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>157</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750080</address>
+				<type>struct type_20 *</type>
+				<codeFragment>second___18</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef730</content>
+				<lvalDerefType>struct type_20</lvalDerefType>
+				<rhsCodeFragment>(struct type_20 *)tmp___38</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="266">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>157</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef710</address>
+				<type>struct type_20</type>
+				<codeFragment>*first___18</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef710</address>
+				<type>void *</type>
+				<codeFragment>first___18->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef730</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___18</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="267">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>158</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750098</address>
+				<type>void *</type>
+				<codeFragment>tmp___39</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef750</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_21 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="268">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>158</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750090</address>
+				<type>struct type_21 *</type>
+				<codeFragment>first___19</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef750</content>
+				<lvalDerefType>struct type_21</lvalDerefType>
+				<rhsCodeFragment>(struct type_21 *)tmp___39</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="269">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>158</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500a8</address>
+				<type>void *</type>
+				<codeFragment>tmp___40</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef770</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_21 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="270">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>158</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500a0</address>
+				<type>struct type_21 *</type>
+				<codeFragment>second___19</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef770</content>
+				<lvalDerefType>struct type_21</lvalDerefType>
+				<rhsCodeFragment>(struct type_21 *)tmp___40</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="271">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>158</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef750</address>
+				<type>struct type_21</type>
+				<codeFragment>*first___19</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef750</address>
+				<type>void *</type>
+				<codeFragment>first___19->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef770</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___19</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="272">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>159</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500b8</address>
+				<type>void *</type>
+				<codeFragment>tmp___41</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef790</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_22 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="273">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>159</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500b0</address>
+				<type>struct type_22 *</type>
+				<codeFragment>first___20</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef790</content>
+				<lvalDerefType>struct type_22</lvalDerefType>
+				<rhsCodeFragment>(struct type_22 *)tmp___41</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="274">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>159</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500c8</address>
+				<type>void *</type>
+				<codeFragment>tmp___42</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef7b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_22 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="275">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>159</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500c0</address>
+				<type>struct type_22 *</type>
+				<codeFragment>second___20</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef7b0</content>
+				<lvalDerefType>struct type_22</lvalDerefType>
+				<rhsCodeFragment>(struct type_22 *)tmp___42</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="276">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>159</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef790</address>
+				<type>struct type_22</type>
+				<codeFragment>*first___20</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef790</address>
+				<type>void *</type>
+				<codeFragment>first___20->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef7b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___20</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="277">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>160</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500d8</address>
+				<type>void *</type>
+				<codeFragment>tmp___43</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef7d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_23 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="278">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>160</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500d0</address>
+				<type>struct type_23 *</type>
+				<codeFragment>first___21</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef7d0</content>
+				<lvalDerefType>struct type_23</lvalDerefType>
+				<rhsCodeFragment>(struct type_23 *)tmp___43</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="279">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>160</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500e8</address>
+				<type>void *</type>
+				<codeFragment>tmp___44</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef7f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_23 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="280">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>160</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500e0</address>
+				<type>struct type_23 *</type>
+				<codeFragment>second___21</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef7f0</content>
+				<lvalDerefType>struct type_23</lvalDerefType>
+				<rhsCodeFragment>(struct type_23 *)tmp___44</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="281">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>160</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef7d0</address>
+				<type>struct type_23</type>
+				<codeFragment>*first___21</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef7d0</address>
+				<type>void *</type>
+				<codeFragment>first___21->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef7f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___21</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="282">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>161</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500f8</address>
+				<type>void *</type>
+				<codeFragment>tmp___45</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef810</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_24 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="283">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>161</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7500f0</address>
+				<type>struct type_24 *</type>
+				<codeFragment>first___22</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef810</content>
+				<lvalDerefType>struct type_24</lvalDerefType>
+				<rhsCodeFragment>(struct type_24 *)tmp___45</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="284">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>161</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750108</address>
+				<type>void *</type>
+				<codeFragment>tmp___46</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef830</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_24 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="285">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>161</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750100</address>
+				<type>struct type_24 *</type>
+				<codeFragment>second___22</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef830</content>
+				<lvalDerefType>struct type_24</lvalDerefType>
+				<rhsCodeFragment>(struct type_24 *)tmp___46</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="286">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>161</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef810</address>
+				<type>struct type_24</type>
+				<codeFragment>*first___22</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef810</address>
+				<type>void *</type>
+				<codeFragment>first___22->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef830</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___22</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="287">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>162</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750118</address>
+				<type>void *</type>
+				<codeFragment>tmp___47</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef850</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_25 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="288">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>162</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750110</address>
+				<type>struct type_25 *</type>
+				<codeFragment>first___23</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef850</content>
+				<lvalDerefType>struct type_25</lvalDerefType>
+				<rhsCodeFragment>(struct type_25 *)tmp___47</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="289">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>162</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750128</address>
+				<type>void *</type>
+				<codeFragment>tmp___48</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef870</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_25 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="290">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>162</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750120</address>
+				<type>struct type_25 *</type>
+				<codeFragment>second___23</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef870</content>
+				<lvalDerefType>struct type_25</lvalDerefType>
+				<rhsCodeFragment>(struct type_25 *)tmp___48</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="291">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>162</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef850</address>
+				<type>struct type_25</type>
+				<codeFragment>*first___23</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef850</address>
+				<type>void *</type>
+				<codeFragment>first___23->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef870</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___23</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="292">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>163</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750138</address>
+				<type>void *</type>
+				<codeFragment>tmp___49</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef890</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_26 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="293">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>163</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750130</address>
+				<type>struct type_26 *</type>
+				<codeFragment>first___24</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef890</content>
+				<lvalDerefType>struct type_26</lvalDerefType>
+				<rhsCodeFragment>(struct type_26 *)tmp___49</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="294">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>163</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750148</address>
+				<type>void *</type>
+				<codeFragment>tmp___50</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef8b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_26 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="295">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>163</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750140</address>
+				<type>struct type_26 *</type>
+				<codeFragment>second___24</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef8b0</content>
+				<lvalDerefType>struct type_26</lvalDerefType>
+				<rhsCodeFragment>(struct type_26 *)tmp___50</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="296">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>163</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef890</address>
+				<type>struct type_26</type>
+				<codeFragment>*first___24</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef890</address>
+				<type>void *</type>
+				<codeFragment>first___24->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef8b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___24</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="297">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>164</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750158</address>
+				<type>void *</type>
+				<codeFragment>tmp___51</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef8d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_27 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="298">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>164</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750150</address>
+				<type>struct type_27 *</type>
+				<codeFragment>first___25</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef8d0</content>
+				<lvalDerefType>struct type_27</lvalDerefType>
+				<rhsCodeFragment>(struct type_27 *)tmp___51</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="299">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>164</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750168</address>
+				<type>void *</type>
+				<codeFragment>tmp___52</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef8f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_27 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="300">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>164</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750160</address>
+				<type>struct type_27 *</type>
+				<codeFragment>second___25</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef8f0</content>
+				<lvalDerefType>struct type_27</lvalDerefType>
+				<rhsCodeFragment>(struct type_27 *)tmp___52</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="301">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>164</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef8d0</address>
+				<type>struct type_27</type>
+				<codeFragment>*first___25</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef8d0</address>
+				<type>void *</type>
+				<codeFragment>first___25->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef8f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___25</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="302">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>165</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750178</address>
+				<type>void *</type>
+				<codeFragment>tmp___53</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef910</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_28 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="303">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>165</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750170</address>
+				<type>struct type_28 *</type>
+				<codeFragment>first___26</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef910</content>
+				<lvalDerefType>struct type_28</lvalDerefType>
+				<rhsCodeFragment>(struct type_28 *)tmp___53</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="304">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>165</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750188</address>
+				<type>void *</type>
+				<codeFragment>tmp___54</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef930</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_28 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="305">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>165</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750180</address>
+				<type>struct type_28 *</type>
+				<codeFragment>second___26</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef930</content>
+				<lvalDerefType>struct type_28</lvalDerefType>
+				<rhsCodeFragment>(struct type_28 *)tmp___54</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="306">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>165</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef910</address>
+				<type>struct type_28</type>
+				<codeFragment>*first___26</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef910</address>
+				<type>void *</type>
+				<codeFragment>first___26->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef930</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___26</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="307">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>166</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750198</address>
+				<type>void *</type>
+				<codeFragment>tmp___55</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef950</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_29 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="308">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>166</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750190</address>
+				<type>struct type_29 *</type>
+				<codeFragment>first___27</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef950</content>
+				<lvalDerefType>struct type_29</lvalDerefType>
+				<rhsCodeFragment>(struct type_29 *)tmp___55</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="309">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>166</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501a8</address>
+				<type>void *</type>
+				<codeFragment>tmp___56</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef970</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_29 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="310">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>166</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501a0</address>
+				<type>struct type_29 *</type>
+				<codeFragment>second___27</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef970</content>
+				<lvalDerefType>struct type_29</lvalDerefType>
+				<rhsCodeFragment>(struct type_29 *)tmp___56</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="311">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>166</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef950</address>
+				<type>struct type_29</type>
+				<codeFragment>*first___27</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef950</address>
+				<type>void *</type>
+				<codeFragment>first___27->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef970</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___27</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="312">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>167</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501b8</address>
+				<type>void *</type>
+				<codeFragment>tmp___57</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef990</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_30 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="313">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>167</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501b0</address>
+				<type>struct type_30 *</type>
+				<codeFragment>first___28</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef990</content>
+				<lvalDerefType>struct type_30</lvalDerefType>
+				<rhsCodeFragment>(struct type_30 *)tmp___57</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="314">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>167</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501c8</address>
+				<type>void *</type>
+				<codeFragment>tmp___58</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef9b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_30 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="315">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>167</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501c0</address>
+				<type>struct type_30 *</type>
+				<codeFragment>second___28</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef9b0</content>
+				<lvalDerefType>struct type_30</lvalDerefType>
+				<rhsCodeFragment>(struct type_30 *)tmp___58</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="316">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>167</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef990</address>
+				<type>struct type_30</type>
+				<codeFragment>*first___28</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef990</address>
+				<type>void *</type>
+				<codeFragment>first___28->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef9b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___28</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="317">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>168</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501d8</address>
+				<type>void *</type>
+				<codeFragment>tmp___59</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef9d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_31 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="318">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>168</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501d0</address>
+				<type>struct type_31 *</type>
+				<codeFragment>first___29</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef9d0</content>
+				<lvalDerefType>struct type_31</lvalDerefType>
+				<rhsCodeFragment>(struct type_31 *)tmp___59</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="319">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>168</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501e8</address>
+				<type>void *</type>
+				<codeFragment>tmp___60</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef9f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_31 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="320">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>168</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501e0</address>
+				<type>struct type_31 *</type>
+				<codeFragment>second___29</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef9f0</content>
+				<lvalDerefType>struct type_31</lvalDerefType>
+				<rhsCodeFragment>(struct type_31 *)tmp___60</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="321">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>168</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdef9d0</address>
+				<type>struct type_31</type>
+				<codeFragment>*first___29</codeFragment>
+			</context>
+			<lval>
+				<address>0xdef9d0</address>
+				<type>void *</type>
+				<codeFragment>first___29->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdef9f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___29</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="322">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>169</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501f8</address>
+				<type>void *</type>
+				<codeFragment>tmp___61</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa10</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_32 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="323">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>169</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7501f0</address>
+				<type>struct type_32 *</type>
+				<codeFragment>first___30</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa10</content>
+				<lvalDerefType>struct type_32</lvalDerefType>
+				<rhsCodeFragment>(struct type_32 *)tmp___61</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="324">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>169</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750208</address>
+				<type>void *</type>
+				<codeFragment>tmp___62</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa30</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_32 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="325">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>169</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750200</address>
+				<type>struct type_32 *</type>
+				<codeFragment>second___30</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa30</content>
+				<lvalDerefType>struct type_32</lvalDerefType>
+				<rhsCodeFragment>(struct type_32 *)tmp___62</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="326">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>169</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefa10</address>
+				<type>struct type_32</type>
+				<codeFragment>*first___30</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefa10</address>
+				<type>void *</type>
+				<codeFragment>first___30->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa30</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___30</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="327">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>170</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750218</address>
+				<type>void *</type>
+				<codeFragment>tmp___63</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa50</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_33 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="328">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>170</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750210</address>
+				<type>struct type_33 *</type>
+				<codeFragment>first___31</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa50</content>
+				<lvalDerefType>struct type_33</lvalDerefType>
+				<rhsCodeFragment>(struct type_33 *)tmp___63</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="329">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>170</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750228</address>
+				<type>void *</type>
+				<codeFragment>tmp___64</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa70</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_33 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="330">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>170</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750220</address>
+				<type>struct type_33 *</type>
+				<codeFragment>second___31</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa70</content>
+				<lvalDerefType>struct type_33</lvalDerefType>
+				<rhsCodeFragment>(struct type_33 *)tmp___64</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="331">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>170</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefa50</address>
+				<type>struct type_33</type>
+				<codeFragment>*first___31</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefa50</address>
+				<type>void *</type>
+				<codeFragment>first___31->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa70</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___31</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="332">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>171</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750238</address>
+				<type>void *</type>
+				<codeFragment>tmp___65</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa90</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_34 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="333">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>171</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750230</address>
+				<type>struct type_34 *</type>
+				<codeFragment>first___32</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefa90</content>
+				<lvalDerefType>struct type_34</lvalDerefType>
+				<rhsCodeFragment>(struct type_34 *)tmp___65</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="334">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>171</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750248</address>
+				<type>void *</type>
+				<codeFragment>tmp___66</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefab0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_34 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="335">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>171</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750240</address>
+				<type>struct type_34 *</type>
+				<codeFragment>second___32</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefab0</content>
+				<lvalDerefType>struct type_34</lvalDerefType>
+				<rhsCodeFragment>(struct type_34 *)tmp___66</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="336">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>171</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefa90</address>
+				<type>struct type_34</type>
+				<codeFragment>*first___32</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefa90</address>
+				<type>void *</type>
+				<codeFragment>first___32->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefab0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___32</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="337">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>172</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750258</address>
+				<type>void *</type>
+				<codeFragment>tmp___67</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefad0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_35 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="338">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>172</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750250</address>
+				<type>struct type_35 *</type>
+				<codeFragment>first___33</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefad0</content>
+				<lvalDerefType>struct type_35</lvalDerefType>
+				<rhsCodeFragment>(struct type_35 *)tmp___67</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="339">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>172</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750268</address>
+				<type>void *</type>
+				<codeFragment>tmp___68</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefaf0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_35 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="340">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>172</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750260</address>
+				<type>struct type_35 *</type>
+				<codeFragment>second___33</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefaf0</content>
+				<lvalDerefType>struct type_35</lvalDerefType>
+				<rhsCodeFragment>(struct type_35 *)tmp___68</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="341">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>172</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefad0</address>
+				<type>struct type_35</type>
+				<codeFragment>*first___33</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefad0</address>
+				<type>void *</type>
+				<codeFragment>first___33->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefaf0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___33</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="342">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>173</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750278</address>
+				<type>void *</type>
+				<codeFragment>tmp___69</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb10</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_36 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="343">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>173</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750270</address>
+				<type>struct type_36 *</type>
+				<codeFragment>first___34</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb10</content>
+				<lvalDerefType>struct type_36</lvalDerefType>
+				<rhsCodeFragment>(struct type_36 *)tmp___69</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="344">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>173</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750288</address>
+				<type>void *</type>
+				<codeFragment>tmp___70</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb30</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_36 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="345">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>173</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750280</address>
+				<type>struct type_36 *</type>
+				<codeFragment>second___34</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb30</content>
+				<lvalDerefType>struct type_36</lvalDerefType>
+				<rhsCodeFragment>(struct type_36 *)tmp___70</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="346">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>173</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefb10</address>
+				<type>struct type_36</type>
+				<codeFragment>*first___34</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefb10</address>
+				<type>void *</type>
+				<codeFragment>first___34->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb30</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___34</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="347">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>174</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750298</address>
+				<type>void *</type>
+				<codeFragment>tmp___71</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb50</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_37 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="348">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>174</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750290</address>
+				<type>struct type_37 *</type>
+				<codeFragment>first___35</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb50</content>
+				<lvalDerefType>struct type_37</lvalDerefType>
+				<rhsCodeFragment>(struct type_37 *)tmp___71</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="349">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>174</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502a8</address>
+				<type>void *</type>
+				<codeFragment>tmp___72</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb70</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_37 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="350">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>174</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502a0</address>
+				<type>struct type_37 *</type>
+				<codeFragment>second___35</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb70</content>
+				<lvalDerefType>struct type_37</lvalDerefType>
+				<rhsCodeFragment>(struct type_37 *)tmp___72</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="351">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>174</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefb50</address>
+				<type>struct type_37</type>
+				<codeFragment>*first___35</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefb50</address>
+				<type>void *</type>
+				<codeFragment>first___35->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb70</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___35</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="352">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>175</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502b8</address>
+				<type>void *</type>
+				<codeFragment>tmp___73</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb90</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_38 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="353">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>175</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502b0</address>
+				<type>struct type_38 *</type>
+				<codeFragment>first___36</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefb90</content>
+				<lvalDerefType>struct type_38</lvalDerefType>
+				<rhsCodeFragment>(struct type_38 *)tmp___73</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="354">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>175</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502c8</address>
+				<type>void *</type>
+				<codeFragment>tmp___74</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefbb0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_38 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="355">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>175</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502c0</address>
+				<type>struct type_38 *</type>
+				<codeFragment>second___36</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefbb0</content>
+				<lvalDerefType>struct type_38</lvalDerefType>
+				<rhsCodeFragment>(struct type_38 *)tmp___74</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="356">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>175</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefb90</address>
+				<type>struct type_38</type>
+				<codeFragment>*first___36</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefb90</address>
+				<type>void *</type>
+				<codeFragment>first___36->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefbb0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___36</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="357">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>176</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502d8</address>
+				<type>void *</type>
+				<codeFragment>tmp___75</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefbd0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_39 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="358">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>176</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502d0</address>
+				<type>struct type_39 *</type>
+				<codeFragment>first___37</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefbd0</content>
+				<lvalDerefType>struct type_39</lvalDerefType>
+				<rhsCodeFragment>(struct type_39 *)tmp___75</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="359">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>176</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502e8</address>
+				<type>void *</type>
+				<codeFragment>tmp___76</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefbf0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_39 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="360">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>176</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502e0</address>
+				<type>struct type_39 *</type>
+				<codeFragment>second___37</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefbf0</content>
+				<lvalDerefType>struct type_39</lvalDerefType>
+				<rhsCodeFragment>(struct type_39 *)tmp___76</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="361">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>176</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefbd0</address>
+				<type>struct type_39</type>
+				<codeFragment>*first___37</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefbd0</address>
+				<type>void *</type>
+				<codeFragment>first___37->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefbf0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___37</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="362">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>177</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502f8</address>
+				<type>void *</type>
+				<codeFragment>tmp___77</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefc10</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_40 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="363">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>177</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c7502f0</address>
+				<type>struct type_40 *</type>
+				<codeFragment>first___38</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefc10</content>
+				<lvalDerefType>struct type_40</lvalDerefType>
+				<rhsCodeFragment>(struct type_40 *)tmp___77</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="364">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>177</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750308</address>
+				<type>void *</type>
+				<codeFragment>tmp___78</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefc30</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct type_40 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="365">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>177</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffe2c750300</address>
+				<type>struct type_40 *</type>
+				<codeFragment>second___38</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefc30</content>
+				<lvalDerefType>struct type_40</lvalDerefType>
+				<rhsCodeFragment>(struct type_40 *)tmp___78</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="366">
+		<memory-write>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>177</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0xdefc10</address>
+				<type>struct type_40</type>
+				<codeFragment>*first___38</codeFragment>
+			</context>
+			<lval>
+				<address>0xdefc10</address>
+				<type>void *</type>
+				<codeFragment>first___38->next</codeFragment>
+			</lval>
+			<content>
+				<content>0xdefc30</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)second___38</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="367">
+		<block-transition>
+			<sourceLocation>
+				<file>heterogeneous-sg.c</file>
+				<line>177</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="368">
+		<comment>Function Exited</comment>
+	</event>
+</events>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<block-transition>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>32</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="3">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fff8a2fadf0</address>
+				<type>struct list_element</type>
+				<codeFragment>elem01</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fff8a2fae00</address>
+				<type>void *</type>
+				<codeFragment>elem01.voidlinkage.next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7fff8a2fae28</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)(&amp; elem02.voidlinkage)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="4">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>36</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fff8a2fadf0</address>
+				<type>struct list_element</type>
+				<codeFragment>elem01</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fff8a2fae00</address>
+				<type>void *</type>
+				<codeFragment>elem01.voidlinkage.next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="5">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>38</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fff8a2fadf0</address>
+				<type>struct list_element</type>
+				<codeFragment>elem01</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fff8a2fae00</address>
+				<type>void *</type>
+				<codeFragment>elem01.voidlinkage.next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7fff8a2fae20</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)(&amp; elem02)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="6">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fff8a2fadf0</address>
+				<type>struct list_element</type>
+				<codeFragment>elem01</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fff8a2fae10</address>
+				<type>struct link *</type>
+				<codeFragment>elem01.linkage.next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7fff8a2fae38</content>
+				<lvalDerefType>struct link</lvalDerefType>
+				<rhsCodeFragment>&amp; elem02.linkage</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="7">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>42</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fff8a2fadf0</address>
+				<type>struct list_element</type>
+				<codeFragment>elem01</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fff8a2fae10</address>
+				<type>struct link *</type>
+				<codeFragment>elem01.linkage.next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct link</lvalDerefType>
+				<rhsCodeFragment>(struct link *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="8">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>44</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff8a2faeb0</address>
+				<type>struct voidlink *</type>
+				<codeFragment>elem04linkageptr</codeFragment>
+			</lval>
+			<content>
+				<content>0x7fff8a2fae88</content>
+				<lvalDerefType>struct voidlink</lvalDerefType>
+				<rhsCodeFragment>&amp; elem04.voidlinkage</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="9">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fff8a2fae50</address>
+				<type>struct list_element</type>
+				<codeFragment>elem03</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fff8a2fae60</address>
+				<type>void *</type>
+				<codeFragment>elem03.voidlinkage.next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7fff8a2fae88</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)elem04linkageptr</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="10">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>46</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fff8a2faeb8</address>
+				<type>struct list_element *</type>
+				<codeFragment>elem04ptr</codeFragment>
+			</lval>
+			<content>
+				<content>0x7fff8a2fae80</content>
+				<lvalDerefType>struct list_element</lvalDerefType>
+				<rhsCodeFragment>&amp; elem04</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="11">
+		<memory-write>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>47</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fff8a2fae50</address>
+				<type>struct list_element</type>
+				<codeFragment>elem03</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fff8a2fae60</address>
+				<type>void *</type>
+				<codeFragment>elem03.voidlinkage.next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7fff8a2fae80</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)elem04ptr</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="12">
+		<block-transition>
+			<sourceLocation>
+				<file>cell-resize.c</file>
+				<line>47</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="13">
+		<variable-left-scope>
+			<name>argv</name>
+			<address>0x7fff8a2fade0</address>
+		</variable-left-scope>
+	</event>
+	<event id="14">
+		<variable-left-scope>
+			<name>elem01</name>
+			<address>0x7fff8a2fadf0</address>
+		</variable-left-scope>
+	</event>
+	<event id="15">
+		<variable-left-scope>
+			<name>elem02</name>
+			<address>0x7fff8a2fae20</address>
+		</variable-left-scope>
+	</event>
+	<event id="16">
+		<variable-left-scope>
+			<name>elem03</name>
+			<address>0x7fff8a2fae50</address>
+		</variable-left-scope>
+	</event>
+	<event id="17">
+		<variable-left-scope>
+			<name>elem04</name>
+			<address>0x7fff8a2fae80</address>
+		</variable-left-scope>
+	</event>
+	<event id="18">
+		<variable-left-scope>
+			<name>elem04linkageptr</name>
+			<address>0x7fff8a2faeb0</address>
+		</variable-left-scope>
+	</event>
+	<event id="19">
+		<variable-left-scope>
+			<name>elem04ptr</name>
+			<address>0x7fff8a2faeb8</address>
+		</variable-left-scope>
+	</event>
+	<event id="20">
+		<comment>Function Exited</comment>
+	</event>
+</events>

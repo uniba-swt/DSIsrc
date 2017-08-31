@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<variable-enter-scope>
+			<kind>formal</kind>
+			<name>argv</name>
+			<type>char **</type>
+			<address>0x7ffd1314c670</address>
+		</variable-enter-scope>
+	</event>
+	<event id="3">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>head</name>
+			<type>struct SLL *</type>
+			<address>0x7ffd1314c690</address>
+		</variable-enter-scope>
+	</event>
+	<event id="4">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>iter</name>
+			<type>struct SLL *</type>
+			<address>0x7ffd1314c698</address>
+		</variable-enter-scope>
+	</event>
+	<event id="5">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp</name>
+			<type>void *</type>
+			<address>0x7ffd1314c6a0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="6">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___0</name>
+			<type>void *</type>
+			<address>0x7ffd1314c6a8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="7">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___1</name>
+			<type>void *</type>
+			<address>0x7ffd1314c6b0</address>
+		</variable-enter-scope>
+	</event>
+	<event id="8">
+		<variable-enter-scope>
+			<kind>local</kind>
+			<name>tmp___2</name>
+			<type>void *</type>
+			<address>0x7ffd1314c6b8</address>
+		</variable-enter-scope>
+	</event>
+	<event id="9">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>29</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="10">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>29</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6a0</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x731250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*head)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="11">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>29</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c690</address>
+				<type>struct SLL *</type>
+				<codeFragment>head</codeFragment>
+			</lval>
+			<content>
+				<content>0x731250</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>(struct SLL *)tmp</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="12">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>30</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731250</address>
+				<type>struct SLL</type>
+				<codeFragment>*head</codeFragment>
+			</context>
+			<lval>
+				<address>0x731250</address>
+				<type>struct SLL *</type>
+				<codeFragment>head->next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>(struct SLL *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="13">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>32</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x731250</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>head</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="14">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>34</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="15">
+		<comment>Loop-iteration-start_mbg-sll-with-slls-bidir-ptrs.c_34</comment>
+	</event>
+	<event id="16">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="17">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6a8</address>
+				<type>void *</type>
+				<codeFragment>tmp___0</codeFragment>
+			</lval>
+			<content>
+				<content>0x731270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*iter)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="18">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731250</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x731250</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter->next</codeFragment>
+			</lval>
+			<content>
+				<content>0x731270</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>(struct SLL *)tmp___0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="19">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>36</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x731270</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter->next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="20">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>37</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731270</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x731270</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter->next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>(struct SLL *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="21">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>34</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="22">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="23">
+		<comment>Loop-iteration-start_mbg-sll-with-slls-bidir-ptrs.c_34</comment>
+	</event>
+	<event id="24">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="25">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6a8</address>
+				<type>void *</type>
+				<codeFragment>tmp___0</codeFragment>
+			</lval>
+			<content>
+				<content>0x731290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*iter)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="26">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731270</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x731270</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter->next</codeFragment>
+			</lval>
+			<content>
+				<content>0x731290</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>(struct SLL *)tmp___0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="27">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>36</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x731290</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter->next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="28">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>37</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731290</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x731290</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter->next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>(struct SLL *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="29">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>34</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="30">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="31">
+		<comment>Loop-iteration-start_mbg-sll-with-slls-bidir-ptrs.c_34</comment>
+	</event>
+	<event id="32">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="33">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6a8</address>
+				<type>void *</type>
+				<codeFragment>tmp___0</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*iter)</argCodeFragment>
+					<argValue>16</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="34">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731290</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x731290</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter->next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312b0</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>(struct SLL *)tmp___0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="35">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>36</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312b0</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter->next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="36">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>37</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7312b0</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x7312b0</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter->next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>(struct SLL *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="37">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>34</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="38">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="39">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="40">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x731250</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>head</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="41">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="42">
+		<comment>Loop-iteration-start_mbg-sll-with-slls-bidir-ptrs.c_41</comment>
+	</event>
+	<event id="43">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="44">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6b0</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312d0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*(iter->child))</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="45">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731250</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x731258</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>iter->child</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312d0</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="46">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6b8</address>
+				<type>void *</type>
+				<codeFragment>tmp___2</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312f0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*(iter->child))</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="47">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7312d0</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*(iter->child)</codeFragment>
+			</context>
+			<lval>
+				<address>0x7312d8</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>(iter->child)->next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312f0</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)tmp___2</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="48">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>47</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7312f0</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*((iter->child)->next)</codeFragment>
+			</context>
+			<lval>
+				<address>0x7312f8</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>((iter->child)->next)->next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="49">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7312d0</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*(iter->child)</codeFragment>
+			</context>
+			<lval>
+				<address>0x7312e0</address>
+				<type>struct SLL *</type>
+				<codeFragment>(iter->child)->parent</codeFragment>
+			</lval>
+			<content>
+				<content>0x731250</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="50">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x731270</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter->next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="51">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="52">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="53">
+		<comment>Loop-iteration-start_mbg-sll-with-slls-bidir-ptrs.c_41</comment>
+	</event>
+	<event id="54">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="55">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6b0</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x731310</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*(iter->child))</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="56">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731270</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x731278</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>iter->child</codeFragment>
+			</lval>
+			<content>
+				<content>0x731310</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="57">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6b8</address>
+				<type>void *</type>
+				<codeFragment>tmp___2</codeFragment>
+			</lval>
+			<content>
+				<content>0x731330</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*(iter->child))</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="58">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731310</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*(iter->child)</codeFragment>
+			</context>
+			<lval>
+				<address>0x731318</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>(iter->child)->next</codeFragment>
+			</lval>
+			<content>
+				<content>0x731330</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)tmp___2</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="59">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>47</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731330</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*((iter->child)->next)</codeFragment>
+			</context>
+			<lval>
+				<address>0x731338</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>((iter->child)->next)->next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="60">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731310</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*(iter->child)</codeFragment>
+			</context>
+			<lval>
+				<address>0x731320</address>
+				<type>struct SLL *</type>
+				<codeFragment>(iter->child)->parent</codeFragment>
+			</lval>
+			<content>
+				<content>0x731270</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="61">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x731290</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter->next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="62">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="63">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="64">
+		<comment>Loop-iteration-start_mbg-sll-with-slls-bidir-ptrs.c_41</comment>
+	</event>
+	<event id="65">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="66">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6b0</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x731350</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*(iter->child))</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="67">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731290</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x731298</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>iter->child</codeFragment>
+			</lval>
+			<content>
+				<content>0x731350</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="68">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6b8</address>
+				<type>void *</type>
+				<codeFragment>tmp___2</codeFragment>
+			</lval>
+			<content>
+				<content>0x731370</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*(iter->child))</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="69">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731350</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*(iter->child)</codeFragment>
+			</context>
+			<lval>
+				<address>0x731358</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>(iter->child)->next</codeFragment>
+			</lval>
+			<content>
+				<content>0x731370</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)tmp___2</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="70">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>47</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731370</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*((iter->child)->next)</codeFragment>
+			</context>
+			<lval>
+				<address>0x731378</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>((iter->child)->next)->next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="71">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731350</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*(iter->child)</codeFragment>
+			</context>
+			<lval>
+				<address>0x731360</address>
+				<type>struct SLL *</type>
+				<codeFragment>(iter->child)->parent</codeFragment>
+			</lval>
+			<content>
+				<content>0x731290</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="72">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312b0</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter->next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="73">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="74">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="75">
+		<comment>Loop-iteration-start_mbg-sll-with-slls-bidir-ptrs.c_41</comment>
+	</event>
+	<event id="76">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="77">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6b0</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x731390</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*(iter->child))</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="78">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>43</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7312b0</address>
+				<type>struct SLL</type>
+				<codeFragment>*iter</codeFragment>
+			</context>
+			<lval>
+				<address>0x7312b8</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>iter->child</codeFragment>
+			</lval>
+			<content>
+				<content>0x731390</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)tmp___1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="79">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c6b8</address>
+				<type>void *</type>
+				<codeFragment>tmp___2</codeFragment>
+			</lval>
+			<content>
+				<content>0x7313b0</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(*(iter->child))</argCodeFragment>
+					<argValue>24</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="80">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731390</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*(iter->child)</codeFragment>
+			</context>
+			<lval>
+				<address>0x731398</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>(iter->child)->next</codeFragment>
+			</lval>
+			<content>
+				<content>0x7313b0</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)tmp___2</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="81">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>47</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7313b0</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*((iter->child)->next)</codeFragment>
+			</context>
+			<lval>
+				<address>0x7313b8</address>
+				<type>struct Child_SLL *</type>
+				<codeFragment>((iter->child)->next)->next</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct Child_SLL</lvalDerefType>
+				<rhsCodeFragment>(struct Child_SLL *)((void *)0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="82">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>49</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x731390</address>
+				<type>struct Child_SLL</type>
+				<codeFragment>*(iter->child)</codeFragment>
+			</context>
+			<lval>
+				<address>0x7313a0</address>
+				<type>struct SLL *</type>
+				<codeFragment>(iter->child)->parent</codeFragment>
+			</lval>
+			<content>
+				<content>0x7312b0</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="83">
+		<memory-write>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7ffd1314c698</address>
+				<type>struct SLL *</type>
+				<codeFragment>iter</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>struct SLL</lvalDerefType>
+				<rhsCodeFragment>iter->next</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="84">
+		<block-transition>
+			<sourceLocation>
+				<file>mbg-sll-with-slls-bidir-ptrs.c</file>
+				<line>41</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="85">
+		<comment>Loop-iteration-end</comment>
+	</event>
+	<event id="86">
+		<comment>Function Exited</comment>
+	</event>
+</events>

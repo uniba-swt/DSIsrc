@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xs:element name="strand-conns">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="strand-conn" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="strand-conn">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="type" />
+				<xs:element ref="label" />
+				<xs:element ref="epochs" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="type">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="overlay" />
+				<xs:element ref="indirect" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="overlay">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="indirect">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="label">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="nesting" />
+				<xs:element ref="dll" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="nesting">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="parent" type="xs:int" />
+				<xs:element name="child" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="dll">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="fwd" type="xs:int" />
+				<xs:element name="rev" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:element name="epochs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="epoch" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="epoch">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cell-pair" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="time-begin" use="required" type="xs:int" />
+			<xs:attribute name="time-ceased" use="required" type="xs:int" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="cell-pair">
+		<xs:complexType>
+			<xs:sequence>
+				<!-- cell-id-left always refers to first element of label -->
+				<xs:element name="cell-id-left" type="xs:int" />
+				<xs:element name="cell-id-right" type="xs:int" />
+				<xs:element name="cur-label" type="xs:string" />
+					<!-- <xs:complexType>
+						<xs:choice>
+							<xs:element name="nestsing">
+								<xs:complexType></xs:complexType>
+							</xs:element>
+							<xs:element name="overlay">
+								<xs:complexType></xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:complexType> 
+				</xs:element> -->
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

@@ -1,0 +1,212 @@
+<types arch="64">
+	<alias>
+		<sugaredType>size_t</sugaredType>
+		<desugaredType>unsigned long</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>int8_t</sugaredType>
+		<desugaredType>signed char</desugaredType>
+				<sizeInBits>8</sizeInBits>
+		<location file="/usr/include/x86_64-linux-gnu/sys/types.h" line="194" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>rfbBool</sugaredType>
+		<desugaredType>signed char</desugaredType>
+				<sizeInBits>8</sizeInBits>
+		<location file="rfbproto.h" line="105" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>sraRegionPtr</sugaredType>
+		<desugaredType>struct sraRegion *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+		<location file="rfb.h" line="328" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>_rect</tagName>
+		<sizeInBytes>16</sizeInBytes>
+		<location file="rfbregion.h" line="11" col="0"/>
+		<fields>
+			<field index="0">
+				<name>x1</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="rfbregion.h" line="12" col="0"/>
+			</field>
+			<field index="1">
+				<name>y1</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>4</offsetInBytes>
+				<location file="rfbregion.h" line="13" col="0"/>
+			</field>
+			<field index="2">
+				<name>x2</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="rfbregion.h" line="14" col="0"/>
+			</field>
+			<field index="3">
+				<name>y2</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>12</offsetInBytes>
+				<location file="rfbregion.h" line="15" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>sraRect</sugaredType>
+		<desugaredType>struct _rect</desugaredType>
+				<sizeInBits>128</sizeInBits>
+		<location file="rfbregion.h" line="11" col="0"/>
+	</alias>
+	<alias>
+		<sugaredType>sraRegion</sugaredType>
+		<desugaredType>struct sraRegion</desugaredType>
+				<sizeInBits>512</sizeInBits>
+		<location file="rfbregion.h" line="18" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>sraRectangleIterator</tagName>
+		<sizeInBytes>24</sizeInBytes>
+		<location file="rfbregion.h" line="44" col="0"/>
+		<fields>
+			<field index="0">
+				<name>reverseX</name>
+				<sugaredType>rfbBool</sugaredType>
+				<desugaredType>signed char</desugaredType>
+				<sizeInBits>8</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="rfbregion.h" line="45" col="0"/>
+			</field>
+			<field index="1">
+				<name>reverseY</name>
+				<sugaredType>rfbBool</sugaredType>
+				<desugaredType>signed char</desugaredType>
+				<sizeInBits>8</sizeInBits>
+				<offsetInBytes>1</offsetInBytes>
+				<location file="rfbregion.h" line="45" col="0"/>
+			</field>
+			<field index="2">
+				<name>ptrSize</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>4</offsetInBytes>
+				<location file="rfbregion.h" line="46" col="0"/>
+			</field>
+			<field index="3">
+				<name>ptrPos</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="rfbregion.h" line="46" col="0"/>
+			</field>
+			<field index="4">
+				<name>sPtrs</name>
+				<sugaredType>struct sraSpan **</sugaredType>
+				<desugaredType>struct sraSpan **</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="rfbregion.h" line="47" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>sraRectangleIterator</sugaredType>
+		<desugaredType>struct sraRectangleIterator</desugaredType>
+				<sizeInBits>192</sizeInBits>
+		<location file="rfbregion.h" line="44" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>sraSpan</tagName>
+		<sizeInBytes>32</sizeInBytes>
+		<location file="vnc-rfbregion.c" line="17" col="0"/>
+		<fields>
+			<field index="0">
+				<name>_next</name>
+				<sugaredType>struct sraSpan *</sugaredType>
+				<desugaredType>struct sraSpan *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="vnc-rfbregion.c" line="18" col="0"/>
+			</field>
+			<field index="1">
+				<name>_prev</name>
+				<sugaredType>struct sraSpan *</sugaredType>
+				<desugaredType>struct sraSpan *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>8</offsetInBytes>
+				<location file="vnc-rfbregion.c" line="19" col="0"/>
+			</field>
+			<field index="2">
+				<name>start</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>16</offsetInBytes>
+				<location file="vnc-rfbregion.c" line="20" col="0"/>
+			</field>
+			<field index="3">
+				<name>end</name>
+				<sugaredType>int</sugaredType>
+				<desugaredType>int</desugaredType>
+				<sizeInBits>32</sizeInBits>
+				<offsetInBytes>20</offsetInBytes>
+				<location file="vnc-rfbregion.c" line="21" col="0"/>
+			</field>
+			<field index="4">
+				<name>subspan</name>
+				<sugaredType>struct sraRegion *</sugaredType>
+				<desugaredType>struct sraRegion *</desugaredType>
+				<sizeInBits>64</sizeInBits>
+				<offsetInBytes>24</offsetInBytes>
+				<location file="vnc-rfbregion.c" line="22" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>sraSpan</sugaredType>
+		<desugaredType>struct sraSpan</desugaredType>
+				<sizeInBits>256</sizeInBits>
+		<location file="vnc-rfbregion.c" line="17" col="0"/>
+	</alias>
+	<compound mode="struct">
+		<tagName>sraRegion</tagName>
+		<sizeInBytes>64</sizeInBytes>
+		<location file="vnc-rfbregion.c" line="25" col="0"/>
+		<fields>
+			<field index="0">
+				<name>front</name>
+				<sugaredType>sraSpan</sugaredType>
+				<desugaredType>struct sraSpan</desugaredType>
+				<sizeInBits>256</sizeInBits>
+				<offsetInBytes>0</offsetInBytes>
+				<location file="vnc-rfbregion.c" line="26" col="0"/>
+			</field>
+			<field index="1">
+				<name>back</name>
+				<sugaredType>sraSpan</sugaredType>
+				<desugaredType>struct sraSpan</desugaredType>
+				<sizeInBits>256</sizeInBits>
+				<offsetInBytes>32</offsetInBytes>
+				<location file="vnc-rfbregion.c" line="27" col="0"/>
+			</field>
+		</fields>
+	</compound>
+	<alias>
+		<sugaredType>sraSpanList</sugaredType>
+		<desugaredType>struct sraRegion</desugaredType>
+				<sizeInBits>512</sizeInBits>
+		<location file="vnc-rfbregion.c" line="25" col="0"/>
+	</alias>
+</types>

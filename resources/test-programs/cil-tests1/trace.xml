@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event id="1">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="2">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="3">
+		<block-transition>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>32</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="4">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>32</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffdc6b1738</address>
+				<type>void *</type>
+				<codeFragment>tmp</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct noise1 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="5">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>32</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffdc6b1730</address>
+				<type>struct noise2 *</type>
+				<codeFragment>s1</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8250</content>
+				<lvalDerefType>struct noise2</lvalDerefType>
+				<rhsCodeFragment>(struct noise2 *)((struct noise1 *)tmp)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="6">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>33</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffdc6b1748</address>
+				<type>void *</type>
+				<codeFragment>tmp___0</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct noise1 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="7">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>33</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffdc6b1740</address>
+				<type>struct noise2 *</type>
+				<codeFragment>s2</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8270</content>
+				<lvalDerefType>struct noise2</lvalDerefType>
+				<rhsCodeFragment>(struct noise2 *)((struct noise1 *)tmp___0)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="8">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>34</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffdc6b1758</address>
+				<type>void *</type>
+				<codeFragment>tmp___1</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>malloc</rhsCodeFragment>
+			</content>
+			<memory-allocation>
+				<malloc>
+					<argCodeFragment>sizeof(struct noise1 )</argCodeFragment>
+					<argValue>8</argValue>
+				</malloc>
+			</memory-allocation>
+		</memory-write>
+	</event>
+	<event id="9">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>34</line>
+				<column>0</column>
+			</sourceLocation>
+			<lval>
+				<address>0x7fffdc6b1750</address>
+				<type>struct noise2 *</type>
+				<codeFragment>s3</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8290</content>
+				<lvalDerefType>struct noise2</lvalDerefType>
+				<rhsCodeFragment>(struct noise2 *)((struct noise1 *)tmp___1)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="10">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>35</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25a8250</address>
+				<type>struct noise2</type>
+				<codeFragment>*s1</codeFragment>
+			</context>
+			<lval>
+				<address>0x25a8258</address>
+				<type>void *</type>
+				<codeFragment>s1->f2</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8270</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)s2</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="11">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>36</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25a8270</address>
+				<type>struct noise2</type>
+				<codeFragment>*s2</codeFragment>
+			</context>
+			<lval>
+				<address>0x25a8278</address>
+				<type>void *</type>
+				<codeFragment>s2->f2</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8290</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)s3</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="12">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>37</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x25a8290</address>
+				<type>struct noise2</type>
+				<codeFragment>*s3</codeFragment>
+			</context>
+			<lval>
+				<address>0x25a8298</address>
+				<type>void *</type>
+				<codeFragment>s3->f2</codeFragment>
+			</lval>
+			<content>
+				<content>0x25a8250</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)s1</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="13">
+		<free>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>38</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)s1</argCodeFragment>
+			<argValue>0x25a8250</argValue>
+		</free>
+	</event>
+	<event id="14">
+		<free>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>39</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)s2</argCodeFragment>
+			<argValue>0x25a8270</argValue>
+		</free>
+	</event>
+	<event id="15">
+		<free>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<argCodeFragment>(void *)s3</argCodeFragment>
+			<argValue>0x25a8290</argValue>
+		</free>
+	</event>
+	<event id="16">
+		<block-transition>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>40</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="17">
+		<variable-left-scope>
+			<name>s1</name>
+			<address>0x7fffdc6b1730</address>
+		</variable-left-scope>
+	</event>
+	<event id="18">
+		<variable-left-scope>
+			<name>tmp</name>
+			<address>0x7fffdc6b1738</address>
+		</variable-left-scope>
+	</event>
+	<event id="19">
+		<variable-left-scope>
+			<name>s2</name>
+			<address>0x7fffdc6b1740</address>
+		</variable-left-scope>
+	</event>
+	<event id="20">
+		<variable-left-scope>
+			<name>tmp___0</name>
+			<address>0x7fffdc6b1748</address>
+		</variable-left-scope>
+	</event>
+	<event id="21">
+		<variable-left-scope>
+			<name>s3</name>
+			<address>0x7fffdc6b1750</address>
+		</variable-left-scope>
+	</event>
+	<event id="22">
+		<variable-left-scope>
+			<name>tmp___1</name>
+			<address>0x7fffdc6b1758</address>
+		</variable-left-scope>
+	</event>
+	<event id="23">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="24">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="25">
+		<block-transition>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="26">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fffdc6b1750</address>
+				<type>struct noise1</type>
+				<codeFragment>s1</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fffdc6b1750</address>
+				<type>void *</type>
+				<codeFragment>s1.f1</codeFragment>
+			</lval>
+			<content>
+				<content>0x7fffdc6b1750</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)(&amp; s1)</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="27">
+		<block-transition>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>45</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="28">
+		<variable-left-scope>
+			<name>s1</name>
+			<address>0x7fffdc6b1750</address>
+		</variable-left-scope>
+	</event>
+	<event id="29">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="30">
+		<comment>Function Entered</comment>
+	</event>
+	<event id="31">
+		<block-transition>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>50</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>entry</kind>
+		</block-transition>
+	</event>
+	<event id="32">
+		<memory-write>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>50</line>
+				<column>0</column>
+			</sourceLocation>
+			<context>
+				<address>0x7fffdc6b1750</address>
+				<type>struct outer</type>
+				<codeFragment>s1</codeFragment>
+			</context>
+			<lval>
+				<address>0x7fffdc6b1758</address>
+				<type>void *</type>
+				<codeFragment>s1.x.p</codeFragment>
+			</lval>
+			<content>
+				<content>(nil)</content>
+				<lvalDerefType>void</lvalDerefType>
+				<rhsCodeFragment>(void *)0</rhsCodeFragment>
+			</content>
+		</memory-write>
+	</event>
+	<event id="33">
+		<block-transition>
+			<sourceLocation>
+				<file>cil-tests1.c</file>
+				<line>50</line>
+				<column>0</column>
+			</sourceLocation>
+			<kind>exit</kind>
+		</block-transition>
+	</event>
+	<event id="34">
+		<variable-left-scope>
+			<name>s1</name>
+			<address>0x7fffdc6b1750</address>
+		</variable-left-scope>
+	</event>
+	<event id="35">
+		<comment>Function Exited</comment>
+	</event>
+	<event id="36">
+		<variable-left-scope>
+			<name>argv</name>
+			<address>0x7fffdc6b1770</address>
+		</variable-left-scope>
+	</event>
+	<event id="37">
+		<comment>Function Exited</comment>
+	</event>
+</events>

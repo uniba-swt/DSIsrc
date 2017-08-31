@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<types arch="64">
+  <alias>
+    <sugaredType>size_t</sugaredType>
+    <desugaredType>unsigned long</desugaredType>
+    <sizeInBits>64</sizeInBits>
+    <location file="/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h" line="212" col="0"/>
+  </alias>
+  <compound mode="struct">
+    <tagName>T</tagName>
+    <sizeInBytes>40</sizeInBytes>
+    <location file="two-dlls-direct.c" line="15" col="0"/>
+    <fields>
+      <field index="0">
+        <name>next1</name>
+        <sugaredType>struct T *</sugaredType>
+        <desugaredType>struct T *</desugaredType>
+        <sizeInBits>64</sizeInBits>
+        <offsetInBytes>0</offsetInBytes>
+        <location file="two-dlls-direct.c" line="16" col="0"/>
+      </field>
+      <field index="1">
+        <name>next2</name>
+        <sugaredType>struct T *</sugaredType>
+        <desugaredType>struct T *</desugaredType>
+        <sizeInBits>64</sizeInBits>
+        <offsetInBytes>8</offsetInBytes>
+        <location file="two-dlls-direct.c" line="17" col="0"/>
+      </field>
+      <field index="2">
+        <name>prev1</name>
+        <sugaredType>struct T *</sugaredType>
+        <desugaredType>struct T *</desugaredType>
+        <sizeInBits>64</sizeInBits>
+        <offsetInBytes>16</offsetInBytes>
+        <location file="two-dlls-direct.c" line="18" col="0"/>
+      </field>
+      <field index="3">
+        <name>prev2</name>
+        <sugaredType>struct T *</sugaredType>
+        <desugaredType>struct T *</desugaredType>
+        <sizeInBits>64</sizeInBits>
+        <offsetInBytes>24</offsetInBytes>
+        <location file="two-dlls-direct.c" line="19" col="0"/>
+      </field>
+      <field index="4">
+        <name>data</name>
+        <sugaredType>int</sugaredType>
+        <desugaredType>int</desugaredType>
+        <sizeInBits>32</sizeInBits>
+        <offsetInBytes>32</offsetInBytes>
+        <location file="two-dlls-direct.c" line="20" col="0"/>
+      </field>
+    </fields>
+  </compound>
+</types>

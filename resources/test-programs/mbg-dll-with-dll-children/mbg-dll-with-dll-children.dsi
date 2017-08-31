@@ -1,0 +1,8 @@
+{
+	"dsi-root": "/usr/src/test-programs/mbg-dll-with-dll-children/",
+	"trace-xml": "trace.xml",
+	"c-sources": ["mbg-dll-with-dll-children.c"],
+	"dsi-output-xml": "dsi-mbg-dll-with-dll-children-artifacts.xml",
+	"dsi-db": "dsi-mbg-dll-with-dll-children-artifacts.sqlite3",
+	"regen-db": false
+}
