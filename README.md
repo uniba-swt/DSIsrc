@@ -1,6 +1,6 @@
 # DSIsrc
 
-This project contains the DSIsrc front-end component and its DSIcore algorithm implementation. The front end uses CIL [[1]] to instrument the source code by inserting instructions for recording pointer writes and memory (de-)allocations. A trace is generated upon executing the instrumented source file. This trace is then further evaluated by [DSIcore](TODO link issta paper) wrt. to the observed data structures and their relationships [[2]].
+This project contains the DSIsrc front-end component and its DSIcore algorithm implementation. The front end uses CIL [[1]] to instrument the source code by inserting instructions for recording pointer writes and memory (de-)allocations. A trace is generated upon executing the instrumented source file. This trace is then further evaluated by DSIcore [[2]] wrt. to the observed data structures and their relationships [[2]].
 
 
 ## Installation
