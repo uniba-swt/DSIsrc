@@ -33,7 +33,7 @@ The following installation procedure requires an installation of [Ubuntu 14.04.5
   Instrument.feature;
   ] 
   @ Feature_config.features 
-    ```
+   ```
   5. Configure and compile CIL by running the following commands within CIL's root directory:  
   `$ ./configure`  
   `$ make`  
