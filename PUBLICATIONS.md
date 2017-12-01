@@ -12,7 +12,7 @@
 
 ## Other Publications
 * T. Rupprecht, J. H. Boockmann, D. H. White, and G. Lüttgen. DSI: Automated Detection of Dynamic Data
-Structures in C Programs and Binary Code. In 19th Coll. on Programming Languages and Foundations of Programming (Kolloquium Programmiersprachen, KPS ’17), 2017. To appear online.
+Structures in C Programs and Binary Code. In 19th Coll. on Programming Languages and Foundations of Programming (Kolloquium Programmiersprachen, KPS ’17), 2017. Proceedings available online at http://www.kps2017.uni-jena.de/proceedings/kps2017.pdf.
 * D. H. White, T. Rupprecht, and G. Lüttgen. dsOli2: Discovery and comprehension of interconnected lists in C programs. In 18th Coll. on Programming Languages and Foundations of Programming (Kolloquium Programmiersprachen, KPS ’15), 2015. Proceedings available online at https://www.complang.tuwien.ac.at/kps2015/proceedings.
 
 
