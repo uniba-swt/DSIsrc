@@ -39,7 +39,7 @@ The following installation procedure requires an installation of [Ubuntu 14.04.5
   `$ make`  
   `$ make test`
   6. Export the path to the `cilly` script, which is located at `/path/to/CIL/bin/cilly`, under the environment name `CILLY_BIN`; this environment variable is used by the makefiles in the test program folder of DSIsrc:  
-  `CILLY_BIN: CILLY_BIN=/path/to/CIL/bin/cilly; export CILLY_BIN`
+  `CILLY_BIN=/path/to/CIL/bin/cilly; export CILLY_BIN`
 
 4. Create a new directory for the DSI toolchain and navigate inside:  
 `$ mkdir DSI-complete`  
