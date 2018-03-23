@@ -47,7 +47,7 @@ The following installation procedure requires an installation of [Ubuntu 14.04.5
 
 5. Clone the DSIsrc and DSI-logger GIT repositories:  
 `$ git clone https://github.com/uniba-swt/DSIsrc.git`  
-`$ git clone https://github.com/uniba-swt/DSI-logger.git`
+`$ git clone https://github.com/uniba-swt/DSIlogger.git`
 
 8. Download Eclipse for Scala (version 3.0.4):  
 `$ wget http://downloads.typesafe.com/scalaide-pack/3.0.4.vfinal-211-20140421/scala-SDK-3.0.4-2.11-2.11-linux.gtk.x86_64.tar.gz`
