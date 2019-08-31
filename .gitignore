@@ -19,7 +19,7 @@ log/
 # Eclipse
 .metadata/
 .classpath
-.project
+# .project
 .settings/
 .bin/
 
