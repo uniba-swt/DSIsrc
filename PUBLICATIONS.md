@@ -2,7 +2,7 @@
 # Project-Related Publications
 
 ## Peer-Reviewed Publications
-* T. Rupprecht, X. Chen, D. H. White, J. H. Boockmann, G. Lüttgen, and H. Bos. DSIbin: Identifying dynamic data structures in C/C++ binaries. In 32nd Intl. Conf. on Automated Software Engineering (ASE ’17). IEEE/ACM, 2017. Accepted for publication.
+* T. Rupprecht, X. Chen, D. H. White, J. H. Boockmann, G. Lüttgen, and H. Bos. DSIbin: Identifying dynamic data structures in C/C++ binaries. In 32nd Intl. Conf. on Automated Software Engineering (ASE ’17), pp. 331–341, IEEE/ACM, 2017. (DOI: [10.1109/ASE.2017.8115646](https://doi.org/10.1109/ASE.2017.8115646))
 * T. Rupprecht, X. Chen, D. H. White, J. T. Mühlberg, H. Bos and G. Lüttgen. POSTER: Identifying dynamic data structures in malware. In 23rd Intl. Conf. on Computer and Communications Security (CCS ’16), ACM, 2016. (DOI: [10.1145/2976749.2989041.](https://doi.org/10.1145/2976749.2989041))
 * D. H. White, T. Rupprecht, and G. Lüttgen. DSI: An evidence-based approach to identify dynamic data structures in C programs. In 25th Intl. Symp. on Software Testing and Analysis (ISSTA ’16), pp. 259–269, ACM, 2016. (DOI: [10.1145/2931037.2931071](https://doi.org/10.1145/2931037.2931071).)
 * J. T. Mühlberg, D. H. White, M. Dodds, G. Lüttgen and F. Piessens. Learning assertions to verify linked-list programs. In 13th Intl. Conf. on Software Engineering and Formal Methods (SEFM ’15), vol. 9276 of LNCS, pp. 37–52, Springer, 2015. (DOI: [10.1007/978-3-319-22969-0_3](http://dx.doi.org/10.1007/978-3-319-22969-0_3).)
